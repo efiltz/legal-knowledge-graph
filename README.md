@@ -3,7 +3,7 @@
 Please cite the following paper:
 ```
 @article{filtz2021,
-  title={Contextual String Embeddings for Sequence Labeling},
+  title={x},
   author={x},
   booktitle = {x},
   pages     = {x},
