@@ -1,0 +1,1479 @@
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_4051>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Eferding" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_105> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "4051" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7873115/> , <http://sws.geonames.org/7871991/> , <http://sws.geonames.org/7871990/> , <http://sws.geonames.org/7872032/> , <http://sws.geonames.org/7871988/> , <http://sws.geonames.org/7871987/> , <http://sws.geonames.org/7871992/> , <http://sws.geonames.org/7872028/> , <http://sws.geonames.org/7873145/> , <http://sws.geonames.org/7873117/> , <http://sws.geonames.org/7873114/> , <http://sws.geonames.org/7873142/> , <http://sws.geonames.org/7873120/> , <http://sws.geonames.org/7873147/> , <http://sws.geonames.org/7871989/> , <http://sws.geonames.org/7873116/> , <http://sws.geonames.org/7873118/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Eferding" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_900F>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Fünfhaus" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_13> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "900F" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/2779138/> , <http://sws.geonames.org/2769121/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Fünfhaus" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_6101>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Leibnitz" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_63> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "6101" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7873467/> , <http://sws.geonames.org/7872417/> , <http://sws.geonames.org/7873458/> , <http://sws.geonames.org/7873463/> , <http://sws.geonames.org/7872408/> , <http://sws.geonames.org/7873457/> , <http://sws.geonames.org/7873468/> , <http://sws.geonames.org/2776571/> , <http://sws.geonames.org/7872402/> , <http://sws.geonames.org/7872416/> , <http://sws.geonames.org/7873464/> , <http://sws.geonames.org/11592655/> , <http://sws.geonames.org/11592654/> , <http://sws.geonames.org/7873470/> , <http://sws.geonames.org/11592657/> , <http://sws.geonames.org/7873466/> , <http://sws.geonames.org/11592656/> , <http://sws.geonames.org/7872403/> , <http://sws.geonames.org/7872411/> , <http://sws.geonames.org/7872406/> , <http://sws.geonames.org/7872404/> , <http://sws.geonames.org/7872399/> , <http://sws.geonames.org/7873478/> , <http://sws.geonames.org/7873479/> , <http://sws.geonames.org/11592658/> , <http://sws.geonames.org/7873469/> , <http://sws.geonames.org/7872400/> , <http://sws.geonames.org/7872415/> , <http://sws.geonames.org/2763597/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Leibnitz" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_8041>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Feldkirch" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_78> , <https://data.wu.ac.at/legal/lkg/court#court_139> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "8041" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7873747/> , <http://sws.geonames.org/7873741/> , <http://sws.geonames.org/2772874/> , <http://sws.geonames.org/7873740/> , <http://sws.geonames.org/7872679/> , <http://sws.geonames.org/2760391/> , <http://sws.geonames.org/7872683/> , <http://sws.geonames.org/7873746/> , <http://sws.geonames.org/7872678/> , <http://sws.geonames.org/7873752/> , <http://sws.geonames.org/7872682/> , <http://sws.geonames.org/7873745/> , <http://sws.geonames.org/7873751/> , <http://sws.geonames.org/7872681/> , <http://sws.geonames.org/2780640/> , <http://sws.geonames.org/7872677/> , <http://sws.geonames.org/7873748/> , <http://sws.geonames.org/7872676/> , <http://sws.geonames.org/7873750/> , <http://sws.geonames.org/7872680/> , <http://sws.geonames.org/2779353/> , <http://sws.geonames.org/7873743/> , <http://sws.geonames.org/7872675/> , <http://sws.geonames.org/7873742/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Feldkirch" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_4092>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Kirchdorf an der Krems" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_101> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "4092" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7872046/> , <http://sws.geonames.org/2777442/> , <http://sws.geonames.org/7873156/> , <http://sws.geonames.org/7871036/> , <http://sws.geonames.org/7872043/> , <http://sws.geonames.org/7871037/> , <http://sws.geonames.org/7872041/> , <http://sws.geonames.org/7871047/> , <http://sws.geonames.org/7873160/> , <http://sws.geonames.org/7873155/> , <http://sws.geonames.org/7871034/> , <http://sws.geonames.org/7871041/> , <http://sws.geonames.org/7873158/> , <http://sws.geonames.org/7873159/> , <http://sws.geonames.org/7872040/> , <http://sws.geonames.org/7872045/> , <http://sws.geonames.org/7871044/> , <http://sws.geonames.org/7872042/> , <http://sws.geonames.org/7871033/> , <http://sws.geonames.org/7872047/> , <http://sws.geonames.org/7872044/> , <http://sws.geonames.org/7873157/> , <http://sws.geonames.org/7873154/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Kirchdorf an der Krems" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_3031>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Waidhofen an der Ybbs" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_179> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "3031" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7871695/> , <http://sws.geonames.org/7871699/> , <http://sws.geonames.org/7872823/> , <http://sws.geonames.org/7871694/> , <http://sws.geonames.org/7872831/> , <http://sws.geonames.org/7871689/> , <http://sws.geonames.org/7871490/> , <http://sws.geonames.org/7872819/> , <http://sws.geonames.org/7872814/> , <http://sws.geonames.org/7872824/> , <http://sws.geonames.org/7872826/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Waidhofen an der Ybbs" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_7021>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Imst" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_124> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "7021" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7873587/> , <http://sws.geonames.org/7872528/> , <http://sws.geonames.org/7873585/> , <http://sws.geonames.org/7873598/> , <http://sws.geonames.org/7873586/> , <http://sws.geonames.org/7873592/> , <http://sws.geonames.org/7873584/> , <http://sws.geonames.org/7873597/> , <http://sws.geonames.org/7872524/> , <http://sws.geonames.org/7873588/> , <http://sws.geonames.org/7873590/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Imst" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_2011>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Klagenfurt" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_77> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "2011" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7871639/> , <http://sws.geonames.org/7872763/> , <http://sws.geonames.org/7871633/> , <http://sws.geonames.org/7872766/> , <http://sws.geonames.org/7871635/> , <http://sws.geonames.org/7871527/> , <http://sws.geonames.org/7872765/> , <http://sws.geonames.org/7871634/> , <http://sws.geonames.org/7871632/> , <http://sws.geonames.org/7872760/> , <http://sws.geonames.org/7871497/> , <http://sws.geonames.org/7871530/> , <http://sws.geonames.org/7871637/> , <http://sws.geonames.org/7871636/> , <http://sws.geonames.org/7872764/> , <http://sws.geonames.org/7872762/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Klagenfurt" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_4102>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Traun" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_93> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "4102" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7872059/> , <http://sws.geonames.org/7873163/> , <http://sws.geonames.org/7873167/> , <http://sws.geonames.org/7873162/> , <http://sws.geonames.org/7872058/> , <http://sws.geonames.org/7872061/> , <http://sws.geonames.org/7872057/> , <http://sws.geonames.org/7872049/> , <http://sws.geonames.org/7872060/> , <http://sws.geonames.org/7873166/> , <http://sws.geonames.org/7872052/> , <http://sws.geonames.org/7872048/> , <http://sws.geonames.org/7872055/> , <http://sws.geonames.org/7873164/> , <http://sws.geonames.org/7873168/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Traun" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_6221>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Fürstenfeld" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_62> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "6221" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7872316/> , <http://sws.geonames.org/7873431/> , <http://sws.geonames.org/7872371/> , <http://sws.geonames.org/7872363/> , <http://sws.geonames.org/7872318/> , <http://sws.geonames.org/7873435/> , <http://sws.geonames.org/7872317/> , <http://sws.geonames.org/7872354/> , <http://sws.geonames.org/7872322/> , <http://sws.geonames.org/7872364/> , <http://sws.geonames.org/7872369/> , <http://sws.geonames.org/8989982/> , <http://sws.geonames.org/7873389/> , <http://sws.geonames.org/7873433/> , <http://sws.geonames.org/7873424/> , <http://sws.geonames.org/7873430/> , <http://sws.geonames.org/7873390/> , <http://sws.geonames.org/7873432/> , <http://sws.geonames.org/7872358/> , <http://sws.geonames.org/7873421/> , <http://sws.geonames.org/7872372/> , <http://sws.geonames.org/7873423/> , <http://sws.geonames.org/7872361/> , <http://sws.geonames.org/11592645/> , <http://sws.geonames.org/7872359/> , <http://sws.geonames.org/7873391/> , <http://sws.geonames.org/7872321/> , <http://sws.geonames.org/11592644/> , <http://sws.geonames.org/7873437/> , <http://sws.geonames.org/7873426/> , <http://sws.geonames.org/7873428/> , <http://sws.geonames.org/7873425/> , <http://sws.geonames.org/7872315/> , <http://sws.geonames.org/2761494/> , <http://sws.geonames.org/7872362/> , <http://sws.geonames.org/7873427/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Fürstenfeld" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_4143>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Schärding" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_99> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "4143" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7873211/> , <http://sws.geonames.org/7873212/> , <http://sws.geonames.org/7872134/> , <http://sws.geonames.org/7873219/> , <http://sws.geonames.org/7873214/> , <http://sws.geonames.org/7872126/> , <http://sws.geonames.org/7872136/> , <http://sws.geonames.org/7873210/> , <http://sws.geonames.org/7872129/> , <http://sws.geonames.org/7872132/> , <http://sws.geonames.org/7873216/> , <http://sws.geonames.org/7872131/> , <http://sws.geonames.org/7872138/> , <http://sws.geonames.org/7872122/> , <http://sws.geonames.org/7872123/> , <http://sws.geonames.org/7873217/> , <http://sws.geonames.org/7873209/> , <http://sws.geonames.org/7873221/> , <http://sws.geonames.org/7872125/> , <http://sws.geonames.org/7873213/> , <http://sws.geonames.org/7873220/> , <http://sws.geonames.org/7872135/> , <http://sws.geonames.org/7872127/> , <http://sws.geonames.org/7872130/> , <http://sws.geonames.org/7872128/> , <http://sws.geonames.org/7872137/> , <http://sws.geonames.org/7873215/> , <http://sws.geonames.org/7873218/> , <http://sws.geonames.org/7872133/> , <http://sws.geonames.org/7872124/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Schärding" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_5022>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Hallein" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_115> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "5022" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7872199/> , <http://sws.geonames.org/2766619/> , <http://sws.geonames.org/7872202/> , <http://sws.geonames.org/7872195/> , <http://sws.geonames.org/7872196/> , <http://sws.geonames.org/7873284/> , <http://sws.geonames.org/7873283/> , <http://sws.geonames.org/7873285/> , <http://sws.geonames.org/7872201/> , <http://sws.geonames.org/7873286/> , <http://sws.geonames.org/7872197/> , <http://sws.geonames.org/7872200/> , <http://sws.geonames.org/7872198/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Hallein" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_3192>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Neulengbach" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_23> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "3192" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7871886/> , <http://sws.geonames.org/7871883/> , <http://sws.geonames.org/7873009/> , <http://sws.geonames.org/7871890/> , <http://sws.geonames.org/7871884/> , <http://sws.geonames.org/2771627/> , <http://sws.geonames.org/7873010/> , <http://sws.geonames.org/7871889/> , <http://sws.geonames.org/7871896/> , <http://sws.geonames.org/7873016/> , <http://sws.geonames.org/7873008/> , <http://sws.geonames.org/7873006/> , <http://sws.geonames.org/7871894/> , <http://sws.geonames.org/7873007/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Neulengbach" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_5035>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Thalgau" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_114> , <https://data.wu.ac.at/legal/lkg/court#court_308> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "5035" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7872213/> , <http://sws.geonames.org/7873294/> , <http://sws.geonames.org/7873291/> , <http://sws.geonames.org/7872214/> , <http://sws.geonames.org/7872205/> , <http://sws.geonames.org/7872206/> , <http://sws.geonames.org/7872217/> , <http://sws.geonames.org/7873298/> , <http://sws.geonames.org/7872209/> , <http://sws.geonames.org/7872208/> , <http://sws.geonames.org/7873305/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Thalgau" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_4071>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Bad Ischl" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_107> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "4071" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7873133/> , <http://sws.geonames.org/7872018/> , <http://sws.geonames.org/7873134/> , <http://sws.geonames.org/7872010/> , <http://sws.geonames.org/7873136/> , <http://sws.geonames.org/7872008/> , <http://sws.geonames.org/7872012/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Bad Ischl" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_3051>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Amstetten" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_28> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "3051" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7872816/> , <http://sws.geonames.org/7871692/> , <http://sws.geonames.org/7871693/> , <http://sws.geonames.org/7871688/> , <http://sws.geonames.org/7872829/> , <http://sws.geonames.org/7871691/> , <http://sws.geonames.org/7872815/> , <http://sws.geonames.org/7872821/> , <http://sws.geonames.org/7872832/> , <http://sws.geonames.org/7872828/> , <http://sws.geonames.org/7871700/> , <http://sws.geonames.org/7871696/> , <http://sws.geonames.org/7872820/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Amstetten" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_2031>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Hermagor" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_79> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "2031" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7872757/> , <http://sws.geonames.org/7871628/> , <http://sws.geonames.org/7872756/> , <http://sws.geonames.org/7872759/> , <http://sws.geonames.org/7871630/> , <http://sws.geonames.org/7872758/> , <http://sws.geonames.org/7871629/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Hermagor" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_900K>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Donaustadt" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_17> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "900K" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/2780851/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Donaustadt" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_3243>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Schwechat" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_31> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "3243" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7871950/> , <http://sws.geonames.org/7873076/> , <http://sws.geonames.org/7871952/> , <http://sws.geonames.org/7871948/> , <http://sws.geonames.org/7871953/> , <http://sws.geonames.org/7871949/> , <http://sws.geonames.org/7873068/> , <http://sws.geonames.org/7871955/> , <http://sws.geonames.org/7871947/> , <http://sws.geonames.org/7871945/> , <http://sws.geonames.org/7873072/> , <http://sws.geonames.org/7873074/> , <http://sws.geonames.org/7873071/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Schwechat" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_1011>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Eisenstadt" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_49> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "1011" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7871533/> , <http://sws.geonames.org/7871542/> , <http://sws.geonames.org/7871500/> , <http://sws.geonames.org/7871543/> , <http://sws.geonames.org/7872687/> , <http://sws.geonames.org/2764492/> , <http://sws.geonames.org/7871534/> , <http://sws.geonames.org/7872685/> , <http://sws.geonames.org/7871539/> , <http://sws.geonames.org/7871537/> , <http://sws.geonames.org/7871532/> , <http://sws.geonames.org/7871540/> , <http://sws.geonames.org/7871546/> , <http://sws.geonames.org/7871541/> , <http://sws.geonames.org/7872690/> , <http://sws.geonames.org/7871547/> , <http://sws.geonames.org/7871538/> , <http://sws.geonames.org/7872689/> , <http://sws.geonames.org/7871535/> , <http://sws.geonames.org/7871536/> , <http://sws.geonames.org/7871544/> , <http://sws.geonames.org/7872688/> , <http://sws.geonames.org/7871545/> , <http://sws.geonames.org/7872686/> , <http://sws.geonames.org/7871494/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Eisenstadt" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_4122>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Ried im Innkreis" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_98> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "4122" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7872086/> , <http://sws.geonames.org/7872087/> , <http://sws.geonames.org/7872097/> , <http://sws.geonames.org/7872098/> , <http://sws.geonames.org/7872082/> , <http://sws.geonames.org/7872083/> , <http://sws.geonames.org/7872093/> , <http://sws.geonames.org/7872094/> , <http://sws.geonames.org/7872100/> , <http://sws.geonames.org/7873188/> , <http://sws.geonames.org/7873189/> , <http://sws.geonames.org/7873184/> , <http://sws.geonames.org/7873185/> , <http://sws.geonames.org/7873180/> , <http://sws.geonames.org/7872092/> , <http://sws.geonames.org/7872088/> , <http://sws.geonames.org/7872099/> , <http://sws.geonames.org/7872084/> , <http://sws.geonames.org/7872095/> , <http://sws.geonames.org/7872096/> , <http://sws.geonames.org/7872080/> , <http://sws.geonames.org/7872091/> , <http://sws.geonames.org/2780159/> , <http://sws.geonames.org/7873178/> , <http://sws.geonames.org/7873179/> , <http://sws.geonames.org/7872078/> , <http://sws.geonames.org/7872089/> , <http://sws.geonames.org/7872085/> , <http://sws.geonames.org/7872081/> , <http://sws.geonames.org/7873186/> , <http://sws.geonames.org/7873187/> , <http://sws.geonames.org/7873182/> , <http://sws.geonames.org/7873183/> , <http://sws.geonames.org/7872090/> , <http://sws.geonames.org/7873181/> , <http://sws.geonames.org/7872079/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Ried im Innkreis" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_3102>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Hollabrunn" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_33> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "3102" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7871769/> , <http://sws.geonames.org/7872884/> , <http://sws.geonames.org/7872892/> , <http://sws.geonames.org/7871767/> , <http://sws.geonames.org/7872886/> , <http://sws.geonames.org/7871772/> , <http://sws.geonames.org/7872893/> , <http://sws.geonames.org/7872882/> , <http://sws.geonames.org/2778367/> , <http://sws.geonames.org/7871764/> , <http://sws.geonames.org/7872888/> , <http://sws.geonames.org/7872883/> , <http://sws.geonames.org/7872891/> , <http://sws.geonames.org/7871766/> , <http://sws.geonames.org/7872885/> , <http://sws.geonames.org/7872881/> , <http://sws.geonames.org/7871768/> , <http://sws.geonames.org/7871763/> , <http://sws.geonames.org/7872887/> , <http://sws.geonames.org/7872890/> , <http://sws.geonames.org/7872889/> , <http://sws.geonames.org/7871770/> , <http://sws.geonames.org/7872894/> , <http://sws.geonames.org/7871765/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Hollabrunn" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_3171>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Mödling" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_45> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "3171" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7872984/> , <http://sws.geonames.org/7872976/> , <http://sws.geonames.org/7872980/> , <http://sws.geonames.org/7871855/> , <http://sws.geonames.org/7872981/> , <http://sws.geonames.org/7871856/> , <http://sws.geonames.org/7871851/> , <http://sws.geonames.org/7872983/> , <http://sws.geonames.org/7871853/> , <http://sws.geonames.org/7872979/> , <http://sws.geonames.org/7871849/> , <http://sws.geonames.org/2781464/> , <http://sws.geonames.org/7871854/> , <http://sws.geonames.org/7872975/> , <http://sws.geonames.org/7871850/> , <http://sws.geonames.org/7872977/> , <http://sws.geonames.org/7871852/> , <http://sws.geonames.org/7872978/> , <http://sws.geonames.org/7872982/> , <http://sws.geonames.org/7871857/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Mödling" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_900E>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Hietzing" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_12> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "900E" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/2776420/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Hietzing" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_6141>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Murau" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_73> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "6141" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/11592667/> , <http://sws.geonames.org/11592668/> , <http://sws.geonames.org/11592666/> , <http://sws.geonames.org/11592665/> , <http://sws.geonames.org/11592664/> , <http://sws.geonames.org/7872476/> , <http://sws.geonames.org/7872479/> , <http://sws.geonames.org/7873528/> , <http://sws.geonames.org/7873527/> , <http://sws.geonames.org/7873526/> , <http://sws.geonames.org/11592663/> , <http://sws.geonames.org/7872469/> , <http://sws.geonames.org/7873524/> , <http://sws.geonames.org/7873522/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Murau" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_3071>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Bruck an der Leitha" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_30> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "3071" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7872850/> , <http://sws.geonames.org/7872684/> , <http://sws.geonames.org/7872849/> , <http://sws.geonames.org/7871722/> , <http://sws.geonames.org/7871717/> , <http://sws.geonames.org/7872852/> , <http://sws.geonames.org/7871718/> , <http://sws.geonames.org/2781856/> , <http://sws.geonames.org/7871720/> , <http://sws.geonames.org/2775811/> , <http://sws.geonames.org/7872851/> , <http://sws.geonames.org/7872853/> , <http://sws.geonames.org/7872848/> , <http://sws.geonames.org/7871723/> , <http://sws.geonames.org/7871725/> , <http://sws.geonames.org/7871721/> , <http://sws.geonames.org/7871726/> , <http://sws.geonames.org/2778221/> , <http://sws.geonames.org/7871724/> , <http://sws.geonames.org/7871719/> , <http://sws.geonames.org/7872854/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Bruck an der Leitha" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_7061>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Landeck" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_129> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "7061" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7872584/> , <http://sws.geonames.org/7873667/> , <http://sws.geonames.org/7872582/> , <http://sws.geonames.org/7873671/> , <http://sws.geonames.org/7872583/> , <http://sws.geonames.org/7873672/> , <http://sws.geonames.org/7872577/> , <http://sws.geonames.org/7872585/> , <http://sws.geonames.org/7872575/> , <http://sws.geonames.org/7873668/> , <http://sws.geonames.org/7873673/> , <http://sws.geonames.org/7873669/> , <http://sws.geonames.org/2774594/> , <http://sws.geonames.org/7872578/> , <http://sws.geonames.org/7872586/> , <http://sws.geonames.org/2764794/> , <http://sws.geonames.org/2774596/> , <http://sws.geonames.org/7873662/> , <http://sws.geonames.org/7872579/> , <http://sws.geonames.org/7873660/> , <http://sws.geonames.org/7873665/> , <http://sws.geonames.org/7873661/> , <http://sws.geonames.org/7872580/> , <http://sws.geonames.org/7873663/> , <http://sws.geonames.org/2779855/> , <http://sws.geonames.org/2763504/> , <http://sws.geonames.org/7873666/> , <http://sws.geonames.org/7872581/> , <http://sws.geonames.org/7873670/> , <http://sws.geonames.org/7873664/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Landeck" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_7033>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Telfs" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_123> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "7033" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7872555/> , <http://sws.geonames.org/7873603/> , <http://sws.geonames.org/7873612/> , <http://sws.geonames.org/7873630/> , <http://sws.geonames.org/7872544/> , <http://sws.geonames.org/2769841/> , <http://sws.geonames.org/7872552/> , <http://sws.geonames.org/7872543/> , <http://sws.geonames.org/7872535/> , <http://sws.geonames.org/7872551/> , <http://sws.geonames.org/7872536/> , <http://sws.geonames.org/7873615/> , <http://sws.geonames.org/7872545/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Telfs" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_6126>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Schladming" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_72> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "6126" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/2767993/> , <http://sws.geonames.org/11592647/> , <http://sws.geonames.org/7873506/> , <http://sws.geonames.org/7873493/> , <http://sws.geonames.org/11592660/> , <http://sws.geonames.org/7872433/> , <http://sws.geonames.org/7872440/> , <http://sws.geonames.org/7873502/> , <http://sws.geonames.org/11592661/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Schladming" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_3222>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Waidhofen an der Thaya" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_41> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "3222" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7873049/> , <http://sws.geonames.org/7873046/> , <http://sws.geonames.org/7873047/> , <http://sws.geonames.org/7873052/> , <http://sws.geonames.org/7873048/> , <http://sws.geonames.org/7871924/> , <http://sws.geonames.org/7871921/> , <http://sws.geonames.org/7871922/> , <http://sws.geonames.org/7873043/> , <http://sws.geonames.org/7873050/> , <http://sws.geonames.org/2780959/> , <http://sws.geonames.org/7871923/> , <http://sws.geonames.org/7873044/> , <http://sws.geonames.org/7873051/> , <http://sws.geonames.org/7873045/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Waidhofen an der Thaya" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_2051>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Sankt Veit an der Glan" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_80> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "2051" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7871640/> , <http://sws.geonames.org/7872772/> , <http://sws.geonames.org/7871641/> , <http://sws.geonames.org/7872774/> , <http://sws.geonames.org/7872773/> , <http://sws.geonames.org/7871645/> , <http://sws.geonames.org/7871643/> , <http://sws.geonames.org/7871642/> , <http://sws.geonames.org/7872770/> , <http://sws.geonames.org/7872775/> , <http://sws.geonames.org/7871647/> , <http://sws.geonames.org/7871646/> , <http://sws.geonames.org/7871644/> , <http://sws.geonames.org/7872771/> , <http://sws.geonames.org/2774766/> , <http://sws.geonames.org/7872768/> , <http://sws.geonames.org/2781032/> , <http://sws.geonames.org/7871648/> , <http://sws.geonames.org/7872769/> , <http://sws.geonames.org/7872767/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Sankt Veit an der Glan" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_4042>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Mattighofen" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_97> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "4042" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7871979/> , <http://sws.geonames.org/7871972/> , <http://sws.geonames.org/7871974/> , <http://sws.geonames.org/7871985/> , <http://sws.geonames.org/7873109/> , <http://sws.geonames.org/7871976/> , <http://sws.geonames.org/7871980/> , <http://sws.geonames.org/7873106/> , <http://sws.geonames.org/7873098/> , <http://sws.geonames.org/7871970/> , <http://sws.geonames.org/7873110/> , <http://sws.geonames.org/7871968/> , <http://sws.geonames.org/7871971/> , <http://sws.geonames.org/7873093/> , <http://sws.geonames.org/7873105/> , <http://sws.geonames.org/7871981/> , <http://sws.geonames.org/7871984/> , <http://sws.geonames.org/7873099/> , <http://sws.geonames.org/7873104/> , <http://sws.geonames.org/7871975/> , <http://sws.geonames.org/7871969/> , <http://sws.geonames.org/7873111/> , <http://sws.geonames.org/7873094/> , <http://sws.geonames.org/7873100/> , <http://sws.geonames.org/7873102/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Mattighofen" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_6161>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Voitsberg" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_65> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "6161" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7873544/> , <http://sws.geonames.org/11592670/> , <http://sws.geonames.org/7873554/> , <http://sws.geonames.org/2767182/> , <http://sws.geonames.org/7873540/> , <http://sws.geonames.org/11592671/> , <http://sws.geonames.org/7872497/> , <http://sws.geonames.org/7872500/> , <http://sws.geonames.org/7872498/> , <http://sws.geonames.org/11592669/> , <http://sws.geonames.org/7872496/> , <http://sws.geonames.org/7873548/> , <http://sws.geonames.org/7873546/> , <http://sws.geonames.org/2781993/> , <http://sws.geonames.org/7873555/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Voitsberg" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_3091>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Gmünd in Niederösterreich" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_38> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "3091" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7872873/> , <http://sws.geonames.org/7871759/> , <http://sws.geonames.org/7871757/> , <http://sws.geonames.org/7871758/> , <http://sws.geonames.org/7871762/> , <http://sws.geonames.org/7872880/> , <http://sws.geonames.org/7871750/> , <http://sws.geonames.org/7871755/> , <http://sws.geonames.org/7872879/> , <http://sws.geonames.org/7872875/> , <http://sws.geonames.org/7872876/> , <http://sws.geonames.org/7871752/> , <http://sws.geonames.org/7871751/> , <http://sws.geonames.org/7871760/> , <http://sws.geonames.org/7872877/> , <http://sws.geonames.org/7871761/> , <http://sws.geonames.org/7871756/> , <http://sws.geonames.org/7871753/> , <http://sws.geonames.org/7871754/> , <http://sws.geonames.org/7872878/> , <http://sws.geonames.org/7872874/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Gmünd in Niederösterreich" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_3201>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Scheibbs" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_26> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "3201" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7873036/> , <http://sws.geonames.org/7873027/> , <http://sws.geonames.org/7871901/> , <http://sws.geonames.org/7871900/> , <http://sws.geonames.org/7871902/> , <http://sws.geonames.org/7871899/> , <http://sws.geonames.org/7873029/> , <http://sws.geonames.org/7873031/> , <http://sws.geonames.org/7871904/> , <http://sws.geonames.org/7873030/> , <http://sws.geonames.org/7871903/> , <http://sws.geonames.org/7873035/> , <http://sws.geonames.org/7873034/> , <http://sws.geonames.org/7873033/> , <http://sws.geonames.org/7873026/> , <http://sws.geonames.org/7871906/> , <http://sws.geonames.org/7873032/> , <http://sws.geonames.org/7871905/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Scheibbs" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_7081>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Reutte" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_131> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "7081" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7872613/> , <http://sws.geonames.org/7872614/> , <http://sws.geonames.org/7872615/> , <http://sws.geonames.org/7872616/> , <http://sws.geonames.org/7872620/> , <http://sws.geonames.org/7872621/> , <http://sws.geonames.org/7872617/> , <http://sws.geonames.org/7872618/> , <http://sws.geonames.org/7872619/> , <http://sws.geonames.org/7872610/> , <http://sws.geonames.org/7872611/> , <http://sws.geonames.org/7873699/> , <http://sws.geonames.org/2780307/> , <http://sws.geonames.org/7873688/> , <http://sws.geonames.org/7873691/> , <http://sws.geonames.org/7873692/> , <http://sws.geonames.org/7873695/> , <http://sws.geonames.org/7873696/> , <http://sws.geonames.org/7873697/> , <http://sws.geonames.org/7873698/> , <http://sws.geonames.org/7873700/> , <http://sws.geonames.org/7873701/> , <http://sws.geonames.org/7873684/> , <http://sws.geonames.org/7873685/> , <http://sws.geonames.org/7873686/> , <http://sws.geonames.org/7873687/> , <http://sws.geonames.org/7872612/> , <http://sws.geonames.org/2768803/> , <http://sws.geonames.org/2776281/> , <http://sws.geonames.org/7873689/> , <http://sws.geonames.org/7873693/> , <http://sws.geonames.org/7873694/> , <http://sws.geonames.org/7873702/> , <http://sws.geonames.org/7873681/> , <http://sws.geonames.org/7873682/> , <http://sws.geonames.org/7873683/> , <http://sws.geonames.org/7873690/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Reutte" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_3242>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Purkersdorf" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_24> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "3242" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7873073/> , <http://sws.geonames.org/2763264/> , <http://sws.geonames.org/7873069/> , <http://sws.geonames.org/7871954/> , <http://sws.geonames.org/7873075/> , <http://sws.geonames.org/7871951/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Purkersdorf" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_4162>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Urfahr" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_281> , <https://data.wu.ac.at/legal/lkg/court#court_92> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "4162" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7873235/> , <http://sws.geonames.org/7872150/> , <http://sws.geonames.org/7873247/> , <http://sws.geonames.org/7873243/> , <http://sws.geonames.org/7873240/> , <http://sws.geonames.org/7873234/> , <http://sws.geonames.org/7873249/> , <http://sws.geonames.org/7873237/> , <http://sws.geonames.org/7871502/> , <http://sws.geonames.org/7872152/> , <http://sws.geonames.org/7873231/> , <http://sws.geonames.org/7873236/> , <http://sws.geonames.org/7872155/> , <http://sws.geonames.org/7873239/> , <http://sws.geonames.org/7872154/> , <http://sws.geonames.org/7873233/> , <http://sws.geonames.org/7873242/> , <http://sws.geonames.org/7872149/> , <http://sws.geonames.org/7872151/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Urfahr" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_6212>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Mürzzuschlag" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_69> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "6212" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7873516/> , <http://sws.geonames.org/7872461/> , <http://sws.geonames.org/7873518/> , <http://sws.geonames.org/11592643/> , <http://sws.geonames.org/7872462/> , <http://sws.geonames.org/7872458/> , <http://sws.geonames.org/2764642/> , <http://sws.geonames.org/7873515/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Mürzzuschlag" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_4134>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Rohrbach" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_91> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "4134" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7872104/> , <http://sws.geonames.org/7873196/> , <http://sws.geonames.org/7872120/> , <http://sws.geonames.org/2770905/> , <http://sws.geonames.org/7873192/> , <http://sws.geonames.org/7872115/> , <http://sws.geonames.org/11592639/> , <http://sws.geonames.org/7873204/> , <http://sws.geonames.org/7872111/> , <http://sws.geonames.org/7873193/> , <http://sws.geonames.org/7872153/> , <http://sws.geonames.org/7873200/> , <http://sws.geonames.org/7872106/> , <http://sws.geonames.org/7873198/> , <http://sws.geonames.org/7872102/> , <http://sws.geonames.org/7872117/> , <http://sws.geonames.org/7872113/> , <http://sws.geonames.org/7872103/> , <http://sws.geonames.org/7873195/> , <http://sws.geonames.org/7873202/> , <http://sws.geonames.org/7872108/> , <http://sws.geonames.org/7872119/> , <http://sws.geonames.org/7873208/> , <http://sws.geonames.org/7873197/> , <http://sws.geonames.org/11592638/> , <http://sws.geonames.org/7872110/> , <http://sws.geonames.org/7872116/> , <http://sws.geonames.org/7873205/> , <http://sws.geonames.org/7872121/> , <http://sws.geonames.org/7872101/> , <http://sws.geonames.org/7872107/> , <http://sws.geonames.org/7873199/> , <http://sws.geonames.org/7873248/> , <http://sws.geonames.org/7872112/> , <http://sws.geonames.org/7872118/> , <http://sws.geonames.org/7873194/> , <http://sws.geonames.org/7873201/> , <http://sws.geonames.org/7872109/> , <http://sws.geonames.org/7872114/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Rohrbach" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_3142>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Lilienfeld" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_21> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "3142" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/2767286/> , <http://sws.geonames.org/7872935/> , <http://sws.geonames.org/7871810/> , <http://sws.geonames.org/7872928/> , <http://sws.geonames.org/7871809/> , <http://sws.geonames.org/7872933/> , <http://sws.geonames.org/7872930/> , <http://sws.geonames.org/7872929/> , <http://sws.geonames.org/7871811/> , <http://sws.geonames.org/7872936/> , <http://sws.geonames.org/7872934/> , <http://sws.geonames.org/7872931/> , <http://sws.geonames.org/7872937/> , <http://sws.geonames.org/7872932/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Lilienfeld" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_4021>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Steyr" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_102> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "4021" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7873223/> , <http://sws.geonames.org/7872053/> , <http://sws.geonames.org/7873165/> , <http://sws.geonames.org/2760934/> , <http://sws.geonames.org/7872146/> , <http://sws.geonames.org/7873228/> , <http://sws.geonames.org/7873227/> , <http://sws.geonames.org/7873225/> , <http://sws.geonames.org/8261497/> , <http://sws.geonames.org/7872056/> , <http://sws.geonames.org/7873222/> , <http://sws.geonames.org/7872140/> , <http://sws.geonames.org/7871503/> , <http://sws.geonames.org/7872141/> , <http://sws.geonames.org/7872139/> , <http://sws.geonames.org/7872148/> , <http://sws.geonames.org/7872050/> , <http://sws.geonames.org/7873224/> , <http://sws.geonames.org/7872143/> , <http://sws.geonames.org/7872145/> , <http://sws.geonames.org/7872147/> , <http://sws.geonames.org/2767263/> , <http://sws.geonames.org/7873226/> , <http://sws.geonames.org/7872051/> , <http://sws.geonames.org/7873161/> , <http://sws.geonames.org/7872142/> , <http://sws.geonames.org/7872144/> , <http://sws.geonames.org/7872054/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Steyr" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_900D>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Meidling" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_11> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "900D" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/2765027/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Meidling" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_3183>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Neunkirchen" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_46> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "3183" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7872997/> , <http://sws.geonames.org/7871875/> , <http://sws.geonames.org/7871878/> , <http://sws.geonames.org/7873005/> , <http://sws.geonames.org/7871870/> , <http://sws.geonames.org/7873002/> , <http://sws.geonames.org/7871865/> , <http://sws.geonames.org/7872995/> , <http://sws.geonames.org/7872998/> , <http://sws.geonames.org/7871876/> , <http://sws.geonames.org/7872990/> , <http://sws.geonames.org/7873000/> , <http://sws.geonames.org/7871858/> , <http://sws.geonames.org/7871869/> , <http://sws.geonames.org/7872996/> , <http://sws.geonames.org/7873003/> , <http://sws.geonames.org/7871868/> , <http://sws.geonames.org/7872671/> , <http://sws.geonames.org/7871860/> , <http://sws.geonames.org/7872985/> , <http://sws.geonames.org/7871879/> , <http://sws.geonames.org/7872993/> , <http://sws.geonames.org/7872988/> , <http://sws.geonames.org/7871871/> , <http://sws.geonames.org/7873001/> , <http://sws.geonames.org/7871862/> , <http://sws.geonames.org/7872999/> , <http://sws.geonames.org/7872991/> , <http://sws.geonames.org/7871873/> , <http://sws.geonames.org/7873004/> , <http://sws.geonames.org/7871863/> , <http://sws.geonames.org/7872992/> , <http://sws.geonames.org/7871874/> , <http://sws.geonames.org/2767775/> , <http://sws.geonames.org/7871861/> , <http://sws.geonames.org/7872989/> , <http://sws.geonames.org/7872994/> , <http://sws.geonames.org/7871872/> , <http://sws.geonames.org/7871866/> , <http://sws.geonames.org/7872987/> , <http://sws.geonames.org/7871877/> , <http://sws.geonames.org/7872986/> , <http://sws.geonames.org/7871864/> , <http://sws.geonames.org/7871867/> , <http://sws.geonames.org/7871859/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Neunkirchen" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_8011>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Bludenz" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_137> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "8011" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7872647/> , <http://sws.geonames.org/2764882/> , <http://sws.geonames.org/2779434/> , <http://sws.geonames.org/7873722/> , <http://sws.geonames.org/7872650/> , <http://sws.geonames.org/2781160/> , <http://sws.geonames.org/2781584/> , <http://sws.geonames.org/7873727/> , <http://sws.geonames.org/7873717/> , <http://sws.geonames.org/7873716/> , <http://sws.geonames.org/7872651/> , <http://sws.geonames.org/7873721/> , <http://sws.geonames.org/7872644/> , <http://sws.geonames.org/7872649/> , <http://sws.geonames.org/7873724/> , <http://sws.geonames.org/7873726/> , <http://sws.geonames.org/2763657/> , <http://sws.geonames.org/7872643/> , <http://sws.geonames.org/7872642/> , <http://sws.geonames.org/7873719/> , <http://sws.geonames.org/7872646/> , <http://sws.geonames.org/7873725/> , <http://sws.geonames.org/2762466/> , <http://sws.geonames.org/7873720/> , <http://sws.geonames.org/7872648/> , <http://sws.geonames.org/7873718/> , <http://sws.geonames.org/7872652/> , <http://sws.geonames.org/7873715/> , <http://sws.geonames.org/7872645/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Bludenz" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_6112>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Leoben" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_70> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "6112" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7872431/> , <http://sws.geonames.org/7873488/> , <http://sws.geonames.org/7873487/> , <http://sws.geonames.org/7872430/> , <http://sws.geonames.org/7872422/> , <http://sws.geonames.org/7873486/> , <http://sws.geonames.org/7873483/> , <http://sws.geonames.org/7873485/> , <http://sws.geonames.org/7872427/> , <http://sws.geonames.org/7872428/> , <http://sws.geonames.org/7872426/> , <http://sws.geonames.org/7872429/> , <http://sws.geonames.org/7873484/> , <http://sws.geonames.org/7873489/> , <http://sws.geonames.org/7872424/> , <http://sws.geonames.org/7872425/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Leoben" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_2091>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Wolfsberg" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_86> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "2091" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7872807/> , <http://sws.geonames.org/7872808/> , <http://sws.geonames.org/7871679/> , <http://sws.geonames.org/7871682/> , <http://sws.geonames.org/7871680/> , <http://sws.geonames.org/7871681/> , <http://sws.geonames.org/7872810/> , <http://sws.geonames.org/7872809/> , <http://sws.geonames.org/7871678/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Wolfsberg" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_6012>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Graz-West" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_61> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "6012" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7873416/> , <http://sws.geonames.org/7872330/> , <http://sws.geonames.org/7871499/> , <http://sws.geonames.org/11592650/> , <http://sws.geonames.org/7872328/> , <http://sws.geonames.org/7872343/> , <http://sws.geonames.org/7873411/> , <http://sws.geonames.org/7873415/> , <http://sws.geonames.org/7872346/> , <http://sws.geonames.org/7873408/> , <http://sws.geonames.org/7873395/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Graz-West" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_4113>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Perg" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_94> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "4113" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7872069/> , <http://sws.geonames.org/7873170/> , <http://sws.geonames.org/7872076/> , <http://sws.geonames.org/7871996/> , <http://sws.geonames.org/7872071/> , <http://sws.geonames.org/7873175/> , <http://sws.geonames.org/7872072/> , <http://sws.geonames.org/7872066/> , <http://sws.geonames.org/7873131/> , <http://sws.geonames.org/7873176/> , <http://sws.geonames.org/7872064/> , <http://sws.geonames.org/7873127/> , <http://sws.geonames.org/7872073/> , <http://sws.geonames.org/7872067/> , <http://sws.geonames.org/7872065/> , <http://sws.geonames.org/7872074/> , <http://sws.geonames.org/7873171/> , <http://sws.geonames.org/7872077/> , <http://sws.geonames.org/7873172/> , <http://sws.geonames.org/7873173/> , <http://sws.geonames.org/7872070/> , <http://sws.geonames.org/7872062/> , <http://sws.geonames.org/7871999/> , <http://sws.geonames.org/7873174/> , <http://sws.geonames.org/7872063/> , <http://sws.geonames.org/7873169/> , <http://sws.geonames.org/7873128/> , <http://sws.geonames.org/7873177/> , <http://sws.geonames.org/2766704/> , <http://sws.geonames.org/7872068/> , <http://sws.geonames.org/7872075/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Perg" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_1071>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Neusiedl am See" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_53> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "1071" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7872714/> , <http://sws.geonames.org/7872720/> , <http://sws.geonames.org/7871587/> , <http://sws.geonames.org/7872721/> , <http://sws.geonames.org/7871597/> , <http://sws.geonames.org/7872722/> , <http://sws.geonames.org/7871592/> , <http://sws.geonames.org/7872716/> , <http://sws.geonames.org/7871586/> , <http://sws.geonames.org/7872723/> , <http://sws.geonames.org/7871593/> , <http://sws.geonames.org/7872715/> , <http://sws.geonames.org/7871594/> , <http://sws.geonames.org/7872717/> , <http://sws.geonames.org/7872724/> , <http://sws.geonames.org/7872718/> , <http://sws.geonames.org/7872725/> , <http://sws.geonames.org/7871589/> , <http://sws.geonames.org/7871588/> , <http://sws.geonames.org/7872713/> , <http://sws.geonames.org/7871595/> , <http://sws.geonames.org/7872719/> , <http://sws.geonames.org/7871584/> , <http://sws.geonames.org/7871596/> , <http://sws.geonames.org/7871590/> , <http://sws.geonames.org/7871585/> , <http://sws.geonames.org/7871591/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Neusiedl am See" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_3121>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Korneuburg" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_34> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "3121" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7872905/> , <http://sws.geonames.org/7871785/> , <http://sws.geonames.org/7871792/> , <http://sws.geonames.org/7872911/> , <http://sws.geonames.org/7872909/> , <http://sws.geonames.org/7871794/> , <http://sws.geonames.org/7872903/> , <http://sws.geonames.org/7872906/> , <http://sws.geonames.org/7871795/> , <http://sws.geonames.org/7872910/> , <http://sws.geonames.org/7871788/> , <http://sws.geonames.org/7871786/> , <http://sws.geonames.org/7871793/> , <http://sws.geonames.org/7872908/> , <http://sws.geonames.org/7871790/> , <http://sws.geonames.org/7872907/> , <http://sws.geonames.org/7871789/> , <http://sws.geonames.org/7871787/> , <http://sws.geonames.org/7871791/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Korneuburg" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_3162>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Mistelbach" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_35> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "3162" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7872961/> , <http://sws.geonames.org/7872957/> , <http://sws.geonames.org/7872953/> , <http://sws.geonames.org/7871845/> , <http://sws.geonames.org/7871841/> , <http://sws.geonames.org/7871839/> , <http://sws.geonames.org/7872952/> , <http://sws.geonames.org/7872968/> , <http://sws.geonames.org/7872964/> , <http://sws.geonames.org/7872972/> , <http://sws.geonames.org/7871836/> , <http://sws.geonames.org/7872963/> , <http://sws.geonames.org/7872959/> , <http://sws.geonames.org/7872955/> , <http://sws.geonames.org/7871847/> , <http://sws.geonames.org/7871843/> , <http://sws.geonames.org/7872966/> , <http://sws.geonames.org/7872974/> , <http://sws.geonames.org/7872970/> , <http://sws.geonames.org/7872960/> , <http://sws.geonames.org/7871846/> , <http://sws.geonames.org/7871842/> , <http://sws.geonames.org/7872951/> , <http://sws.geonames.org/7872973/> , <http://sws.geonames.org/7871837/> , <http://sws.geonames.org/7872962/> , <http://sws.geonames.org/7871848/> , <http://sws.geonames.org/7871844/> , <http://sws.geonames.org/7872971/> , <http://sws.geonames.org/7872958/> , <http://sws.geonames.org/7871838/> , <http://sws.geonames.org/7871840/> , <http://sws.geonames.org/7872969/> , <http://sws.geonames.org/7872956/> , <http://sws.geonames.org/7872967/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Mistelbach" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_2101>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Feldkirchen" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_78> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "2101" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7871686/> , <http://sws.geonames.org/7872812/> , <http://sws.geonames.org/7872811/> , <http://sws.geonames.org/2767779/> , <http://sws.geonames.org/7872813/> , <http://sws.geonames.org/7871684/> , <http://sws.geonames.org/2767775/> , <http://sws.geonames.org/7871685/> , <http://sws.geonames.org/2782843/> , <http://sws.geonames.org/7871687/> , <http://sws.geonames.org/7871683/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Feldkirchen" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_4041>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Braunau am Inn" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_96> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "4041" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7871983/> , <http://sws.geonames.org/7871977/> , <http://sws.geonames.org/7873113/> , <http://sws.geonames.org/7871978/> , <http://sws.geonames.org/7873112/> , <http://sws.geonames.org/7873107/> , <http://sws.geonames.org/7873095/> , <http://sws.geonames.org/7873101/> , <http://sws.geonames.org/7871965/> , <http://sws.geonames.org/2763205/> , <http://sws.geonames.org/7873103/> , <http://sws.geonames.org/2763367/> , <http://sws.geonames.org/7871973/> , <http://sws.geonames.org/7873108/> , <http://sws.geonames.org/7873097/> , <http://sws.geonames.org/7873096/> , <http://sws.geonames.org/7871967/> , <http://sws.geonames.org/7871982/> , <http://sws.geonames.org/7873092/> , <http://sws.geonames.org/7871966/> , <http://sws.geonames.org/7871986/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Braunau am Inn" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_8031>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Dornbirn" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_138> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "8031" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7872674/> , <http://sws.geonames.org/7873739/> , <http://sws.geonames.org/7872673/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Dornbirn" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_3021>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "St. Pölten" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_25> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "3021" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7871880/> , <http://sws.geonames.org/7873020/> , <http://sws.geonames.org/7873011/> , <http://sws.geonames.org/7871493/> , <http://sws.geonames.org/7871898/> , <http://sws.geonames.org/7873017/> , <http://sws.geonames.org/7873023/> , <http://sws.geonames.org/7873015/> , <http://sws.geonames.org/7873012/> , <http://sws.geonames.org/7871895/> , <http://sws.geonames.org/7871893/> , <http://sws.geonames.org/7873018/> , <http://sws.geonames.org/7871887/> , <http://sws.geonames.org/7873024/> , <http://sws.geonames.org/7871881/> , <http://sws.geonames.org/7873013/> , <http://sws.geonames.org/7873019/> , <http://sws.geonames.org/7871888/> , <http://sws.geonames.org/7871891/> , <http://sws.geonames.org/7871885/> , <http://sws.geonames.org/7873025/> , <http://sws.geonames.org/7873014/> , <http://sws.geonames.org/7871897/> , <http://sws.geonames.org/7871882/> , <http://sws.geonames.org/7873022/> , <http://sws.geonames.org/7871892/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "St. Pölten" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_7011>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Innsbruck" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_122> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "7011" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7873625/> , <http://sws.geonames.org/7873618/> , <http://sws.geonames.org/7873623/> , <http://sws.geonames.org/2777375/> , <http://sws.geonames.org/7873608/> , <http://sws.geonames.org/7873613/> , <http://sws.geonames.org/7872549/> , <http://sws.geonames.org/7873619/> , <http://sws.geonames.org/7873627/> , <http://sws.geonames.org/7873621/> , <http://sws.geonames.org/7872534/> , <http://sws.geonames.org/7873606/> , <http://sws.geonames.org/7873600/> , <http://sws.geonames.org/7873611/> , <http://sws.geonames.org/7872546/> , <http://sws.geonames.org/2769901/> , <http://sws.geonames.org/7873616/> , <http://sws.geonames.org/7871498/> , <http://sws.geonames.org/2765179/> , <http://sws.geonames.org/7873605/> , <http://sws.geonames.org/7872538/> , <http://sws.geonames.org/7873610/> , <http://sws.geonames.org/7872540/> , <http://sws.geonames.org/7873609/> , <http://sws.geonames.org/7873614/> , <http://sws.geonames.org/7873620/> , <http://sws.geonames.org/7872533/> , <http://sws.geonames.org/7872550/> , <http://sws.geonames.org/7872541/> , <http://sws.geonames.org/2777938/> , <http://sws.geonames.org/7873602/> , <http://sws.geonames.org/7872537/> , <http://sws.geonames.org/7872542/> , <http://sws.geonames.org/7872531/> , <http://sws.geonames.org/2770909/> , <http://sws.geonames.org/2780146/> , <http://sws.geonames.org/7872553/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Innsbruck" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_900I>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Floridsdorf" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_16> , <https://data.wu.ac.at/legal/lkg/court#court_188> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "900I" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/2779467/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Floridsdorf" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_6173>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Weiz" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_66> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "6173" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7872520/> , <http://sws.geonames.org/7872513/> , <http://sws.geonames.org/7872522/> , <http://sws.geonames.org/7872507/> , <http://sws.geonames.org/11592640/> , <http://sws.geonames.org/7872521/> , <http://sws.geonames.org/7872518/> , <http://sws.geonames.org/11592641/> , <http://sws.geonames.org/7873557/> , <http://sws.geonames.org/7873575/> , <http://sws.geonames.org/7872510/> , <http://sws.geonames.org/7872506/> , <http://sws.geonames.org/7873583/> , <http://sws.geonames.org/7873569/> , <http://sws.geonames.org/7873578/> , <http://sws.geonames.org/7873576/> , <http://sws.geonames.org/7873581/> , <http://sws.geonames.org/7872501/> , <http://sws.geonames.org/7873563/> , <http://sws.geonames.org/7873568/> , <http://sws.geonames.org/7873579/> , <http://sws.geonames.org/7873573/> , <http://sws.geonames.org/7872502/> , <http://sws.geonames.org/7873577/> , <http://sws.geonames.org/7873558/> , <http://sws.geonames.org/7873560/> , <http://sws.geonames.org/7873559/> , <http://sws.geonames.org/7872515/> , <http://sws.geonames.org/7872514/> , <http://sws.geonames.org/7873556/> , <http://sws.geonames.org/7872509/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Weiz" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_7052>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Rattenberg" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_128> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "7052" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7873654/> , <http://sws.geonames.org/7872573/> , <http://sws.geonames.org/7873646/> , <http://sws.geonames.org/7873652/> , <http://sws.geonames.org/7873649/> , <http://sws.geonames.org/7872570/> , <http://sws.geonames.org/7872568/> , <http://sws.geonames.org/7872564/> , <http://sws.geonames.org/7873658/> , <http://sws.geonames.org/7873655/> , <http://sws.geonames.org/2782758/> , <http://sws.geonames.org/7873647/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Rattenberg" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_3241>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Klosterneuburg" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_36> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "3241" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7873070/> , <http://sws.geonames.org/7871946/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Klosterneuburg" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_3254>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Zwettl" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_42> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "3254" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7873087/> , <http://sws.geonames.org/2760417/> , <http://sws.geonames.org/7873090/> , <http://sws.geonames.org/7873088/> , <http://sws.geonames.org/7873080/> , <http://sws.geonames.org/7873089/> , <http://sws.geonames.org/7873081/> , <http://sws.geonames.org/7873091/> , <http://sws.geonames.org/7873082/> , <http://sws.geonames.org/7871959/> , <http://sws.geonames.org/7873083/> , <http://sws.geonames.org/7871956/> , <http://sws.geonames.org/7871962/> , <http://sws.geonames.org/7871960/> , <http://sws.geonames.org/7873077/> , <http://sws.geonames.org/7871963/> , <http://sws.geonames.org/7871961/> , <http://sws.geonames.org/7873078/> , <http://sws.geonames.org/7871957/> , <http://sws.geonames.org/7871964/> , <http://sws.geonames.org/7873085/> , <http://sws.geonames.org/7873079/> , <http://sws.geonames.org/7871958/> , <http://sws.geonames.org/7873086/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Zwettl" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_2083>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Völkermarkt" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_85> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "2083" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7872805/> , <http://sws.geonames.org/7871677/> , <http://sws.geonames.org/2766630/> , <http://sws.geonames.org/7871672/> , <http://sws.geonames.org/7872806/> , <http://sws.geonames.org/7871673/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Völkermarkt" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_6211>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Bruck an der Mur" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_68> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "6211" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7873336/> , <http://sws.geonames.org/7873344/> , <http://sws.geonames.org/7873339/> , <http://sws.geonames.org/11592675/> , <http://sws.geonames.org/7873345/> , <http://sws.geonames.org/7873335/> , <http://sws.geonames.org/7872257/> , <http://sws.geonames.org/11592642/> , <http://sws.geonames.org/7872260/> , <http://sws.geonames.org/7873343/> , <http://sws.geonames.org/7873341/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Bruck an der Mur" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_1091>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Oberwart" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_55> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "1091" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7872749/> , <http://sws.geonames.org/7872739/> , <http://sws.geonames.org/7872754/> , <http://sws.geonames.org/7871625/> , <http://sws.geonames.org/7872742/> , <http://sws.geonames.org/7871615/> , <http://sws.geonames.org/7871620/> , <http://sws.geonames.org/7872750/> , <http://sws.geonames.org/7871618/> , <http://sws.geonames.org/7872748/> , <http://sws.geonames.org/7872753/> , <http://sws.geonames.org/7872745/> , <http://sws.geonames.org/7871624/> , <http://sws.geonames.org/7872738/> , <http://sws.geonames.org/7872744/> , <http://sws.geonames.org/7871617/> , <http://sws.geonames.org/7872741/> , <http://sws.geonames.org/7872737/> , <http://sws.geonames.org/7872752/> , <http://sws.geonames.org/7872755/> , <http://sws.geonames.org/7872747/> , <http://sws.geonames.org/7871627/> , <http://sws.geonames.org/7872740/> , <http://sws.geonames.org/7871622/> , <http://sws.geonames.org/7872751/> , <http://sws.geonames.org/7871623/> , <http://sws.geonames.org/7872743/> , <http://sws.geonames.org/7871626/> , <http://sws.geonames.org/7871616/> , <http://sws.geonames.org/7872746/> , <http://sws.geonames.org/7871619/> , <http://sws.geonames.org/7871621/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Oberwart" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_4174>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Vöcklabruck" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_109> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "4174" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7873255/> , <http://sws.geonames.org/7872172/> , <http://sws.geonames.org/7872180/> , <http://sws.geonames.org/7873257/> , <http://sws.geonames.org/7873268/> , <http://sws.geonames.org/7873270/> , <http://sws.geonames.org/7872161/> , <http://sws.geonames.org/2768818/> , <http://sws.geonames.org/7873272/> , <http://sws.geonames.org/7872163/> , <http://sws.geonames.org/7873261/> , <http://sws.geonames.org/7872171/> , <http://sws.geonames.org/7873263/> , <http://sws.geonames.org/7872168/> , <http://sws.geonames.org/7873271/> , <http://sws.geonames.org/7873252/> , <http://sws.geonames.org/7872159/> , <http://sws.geonames.org/7873260/> , <http://sws.geonames.org/7873254/> , <http://sws.geonames.org/2763615/> , <http://sws.geonames.org/7873262/> , <http://sws.geonames.org/7872174/> , <http://sws.geonames.org/7873259/> , <http://sws.geonames.org/2767801/> , <http://sws.geonames.org/7872160/> , <http://sws.geonames.org/7872176/> , <http://sws.geonames.org/7872165/> , <http://sws.geonames.org/7872162/> , <http://sws.geonames.org/7872173/> , <http://sws.geonames.org/7873265/> , <http://sws.geonames.org/7872167/> , <http://sws.geonames.org/7872156/> , <http://sws.geonames.org/7872175/> , <http://sws.geonames.org/7873267/> , <http://sws.geonames.org/2781856/> , <http://sws.geonames.org/7872158/> , <http://sws.geonames.org/7873251/> , <http://sws.geonames.org/7873256/> , <http://sws.geonames.org/7873264/> , <http://sws.geonames.org/7873258/> , <http://sws.geonames.org/7873253/> , <http://sws.geonames.org/7873266/> , <http://sws.geonames.org/7872178/> , <http://sws.geonames.org/7872164/> , <http://sws.geonames.org/7872169/> , <http://sws.geonames.org/7872166/> , <http://sws.geonames.org/7872177/> , <http://sws.geonames.org/7873269/> , <http://sws.geonames.org/7872179/> , <http://sws.geonames.org/2761415/> , <http://sws.geonames.org/7872157/> , <http://sws.geonames.org/7872170/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Vöcklabruck" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_900C>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Favoriten" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_10> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "900C" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/2779776/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Favoriten" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_4061>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Freistadt" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_89> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "4061" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7873121/> , <http://sws.geonames.org/7871997/> , <http://sws.geonames.org/7872003/> , <http://sws.geonames.org/7871998/> , <http://sws.geonames.org/7873122/> , <http://sws.geonames.org/7873244/> , <http://sws.geonames.org/7873129/> , <http://sws.geonames.org/7872004/> , <http://sws.geonames.org/7873123/> , <http://sws.geonames.org/7873125/> , <http://sws.geonames.org/7873124/> , <http://sws.geonames.org/7873246/> , <http://sws.geonames.org/7873245/> , <http://sws.geonames.org/7872001/> , <http://sws.geonames.org/7872000/> , <http://sws.geonames.org/7871993/> , <http://sws.geonames.org/7873250/> , <http://sws.geonames.org/7873241/> , <http://sws.geonames.org/2772623/> , <http://sws.geonames.org/7872005/> , <http://sws.geonames.org/7873126/> , <http://sws.geonames.org/7871994/> , <http://sws.geonames.org/7873130/> , <http://sws.geonames.org/7873232/> , <http://sws.geonames.org/7872007/> , <http://sws.geonames.org/7872006/> , <http://sws.geonames.org/7872002/> , <http://sws.geonames.org/7873238/> , <http://sws.geonames.org/7871995/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Freistadt" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_3041>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Wiener Neustadt" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_47> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "3041" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/2780359/> , <http://sws.geonames.org/7871934/> , <http://sws.geonames.org/7873063/> , <http://sws.geonames.org/7871930/> , <http://sws.geonames.org/7873059/> , <http://sws.geonames.org/7873058/> , <http://sws.geonames.org/7873060/> , <http://sws.geonames.org/7873065/> , <http://sws.geonames.org/7871941/> , <http://sws.geonames.org/7871932/> , <http://sws.geonames.org/7871940/> , <http://sws.geonames.org/7873053/> , <http://sws.geonames.org/7871935/> , <http://sws.geonames.org/7871943/> , <http://sws.geonames.org/7871925/> , <http://sws.geonames.org/7873066/> , <http://sws.geonames.org/7871942/> , <http://sws.geonames.org/7873055/> , <http://sws.geonames.org/7871931/> , <http://sws.geonames.org/7873054/> , <http://sws.geonames.org/7873062/> , <http://sws.geonames.org/7873735/> , <http://sws.geonames.org/7871936/> , <http://sws.geonames.org/7871927/> , <http://sws.geonames.org/7871944/> , <http://sws.geonames.org/7871933/> , <http://sws.geonames.org/7873056/> , <http://sws.geonames.org/7871937/> , <http://sws.geonames.org/7871491/> , <http://sws.geonames.org/7871926/> , <http://sws.geonames.org/7873064/> , <http://sws.geonames.org/7873061/> , <http://sws.geonames.org/7871938/> , <http://sws.geonames.org/7871929/> , <http://sws.geonames.org/7873067/> , <http://sws.geonames.org/7871939/> , <http://sws.geonames.org/7871928/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Wiener Neustadt" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_7031>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Hall (in Tirol)" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "7031" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7873626/> , <http://sws.geonames.org/7872554/> , <http://sws.geonames.org/7873629/> , <http://sws.geonames.org/7873622/> , <http://sws.geonames.org/7873607/> , <http://sws.geonames.org/7873628/> , <http://sws.geonames.org/7872547/> , <http://sws.geonames.org/7872539/> , <http://sws.geonames.org/7873624/> , <http://sws.geonames.org/7873601/> , <http://sws.geonames.org/7872532/> , <http://sws.geonames.org/7873599/> , <http://sws.geonames.org/7872548/> , <http://sws.geonames.org/2778430/> , <http://sws.geonames.org/2773772/> , <http://sws.geonames.org/7873604/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Hall (in Tirol)" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_6124>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Liezen" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_71> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "6124" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/11592659/> , <http://sws.geonames.org/7873499/> , <http://sws.geonames.org/7872453/> , <http://sws.geonames.org/7872434/> , <http://sws.geonames.org/7872442/> , <http://sws.geonames.org/7873513/> , <http://sws.geonames.org/7873501/> , <http://sws.geonames.org/7872432/> , <http://sws.geonames.org/7873500/> , <http://sws.geonames.org/11592662/> , <http://sws.geonames.org/7873495/> , <http://sws.geonames.org/7872449/> , <http://sws.geonames.org/7872437/> , <http://sws.geonames.org/7873507/> , <http://sws.geonames.org/7873505/> , <http://sws.geonames.org/7873491/> , <http://sws.geonames.org/7873490/> , <http://sws.geonames.org/7872435/> , <http://sws.geonames.org/7872436/> , <http://sws.geonames.org/7872454/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Liezen" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_2021>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Villach" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_157> , <https://data.wu.ac.at/legal/lkg/court#court_82> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "2021" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7871669/> , <http://sws.geonames.org/7872797/> , <http://sws.geonames.org/7872800/> , <http://sws.geonames.org/7871663/> , <http://sws.geonames.org/7872799/> , <http://sws.geonames.org/7872802/> , <http://sws.geonames.org/7871665/> , <http://sws.geonames.org/7872796/> , <http://sws.geonames.org/2766662/> , <http://sws.geonames.org/7871667/> , <http://sws.geonames.org/7871668/> , <http://sws.geonames.org/7872798/> , <http://sws.geonames.org/2770414/> , <http://sws.geonames.org/7871662/> , <http://sws.geonames.org/7872801/> , <http://sws.geonames.org/7871492/> , <http://sws.geonames.org/7871664/> , <http://sws.geonames.org/7872803/> , <http://sws.geonames.org/7871666/> , <http://sws.geonames.org/7871670/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Villach" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_6011>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Graz-Ost" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_60> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "6011" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7872332/> , <http://sws.geonames.org/7873402/> , <http://sws.geonames.org/7873414/> , <http://sws.geonames.org/11592652/> , <http://sws.geonames.org/7872336/> , <http://sws.geonames.org/7872344/> , <http://sws.geonames.org/7873412/> , <http://sws.geonames.org/7872339/> , <http://sws.geonames.org/7873406/> , <http://sws.geonames.org/7871499/> , <http://sws.geonames.org/7873403/> , <http://sws.geonames.org/7873418/> , <http://sws.geonames.org/7872350/> , <http://sws.geonames.org/2763767/> , <http://sws.geonames.org/11592648/> , <http://sws.geonames.org/7873399/> , <http://sws.geonames.org/7872333/> , <http://sws.geonames.org/11592653/> , <http://sws.geonames.org/7872349/> , <http://sws.geonames.org/7872335/> , <http://sws.geonames.org/11592649/> , <http://sws.geonames.org/7873404/> , <http://sws.geonames.org/7873405/> , <http://sws.geonames.org/11592651/> , <http://sws.geonames.org/7872326/> , <http://sws.geonames.org/7873398/> , <http://sws.geonames.org/2761688/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Graz-Ost" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_6231>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Feldbach" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_64> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "6231" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7872492/> , <http://sws.geonames.org/7873384/> , <http://sws.geonames.org/7872292/> , <http://sws.geonames.org/7873536/> , <http://sws.geonames.org/7872288/> , <http://sws.geonames.org/7873383/> , <http://sws.geonames.org/7872484/> , <http://sws.geonames.org/7872489/> , <http://sws.geonames.org/7872309/> , <http://sws.geonames.org/7872486/> , <http://sws.geonames.org/7873538/> , <http://sws.geonames.org/7872294/> , <http://sws.geonames.org/7872487/> , <http://sws.geonames.org/7873368/> , <http://sws.geonames.org/7873376/> , <http://sws.geonames.org/7873367/> , <http://sws.geonames.org/7872285/> , <http://sws.geonames.org/7872283/> , <http://sws.geonames.org/7872312/> , <http://sws.geonames.org/7872290/> , <http://sws.geonames.org/11592646/> , <http://sws.geonames.org/7873535/> , <http://sws.geonames.org/7872491/> , <http://sws.geonames.org/7872304/> , <http://sws.geonames.org/7872310/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Feldbach" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_5032>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Oberndorf" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_112> , <https://data.wu.ac.at/legal/lkg/court#court_307> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "5032" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7873303/> , <http://sws.geonames.org/7872204/> , <http://sws.geonames.org/7873289/> , <http://sws.geonames.org/7873301/> , <http://sws.geonames.org/2778348/> , <http://sws.geonames.org/7872212/> , <http://sws.geonames.org/7872210/> , <http://sws.geonames.org/7872203/> , <http://sws.geonames.org/7873288/> , <http://sws.geonames.org/7873290/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Oberndorf" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_4081>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Grieskirchen" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_108> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "4081" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7873152/> , <http://sws.geonames.org/7872026/> , <http://sws.geonames.org/7873150/> , <http://sws.geonames.org/7872038/> , <http://sws.geonames.org/7873143/> , <http://sws.geonames.org/7873148/> , <http://sws.geonames.org/7872023/> , <http://sws.geonames.org/7872035/> , <http://sws.geonames.org/7872025/> , <http://sws.geonames.org/7872037/> , <http://sws.geonames.org/7873139/> , <http://sws.geonames.org/7873151/> , <http://sws.geonames.org/7872031/> , <http://sws.geonames.org/7872022/> , <http://sws.geonames.org/7872034/> , <http://sws.geonames.org/7872024/> , <http://sws.geonames.org/7873144/> , <http://sws.geonames.org/7872027/> , <http://sws.geonames.org/7872039/> , <http://sws.geonames.org/7873153/> , <http://sws.geonames.org/7872030/> , <http://sws.geonames.org/7873149/> , <http://sws.geonames.org/7872029/> , <http://sws.geonames.org/7872021/> , <http://sws.geonames.org/7872036/> , <http://sws.geonames.org/7873140/> , <http://sws.geonames.org/7872033/> , <http://sws.geonames.org/7873146/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Grieskirchen" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_3061>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Baden" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_44> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "3061" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7871705/> , <http://sws.geonames.org/7872838/> , <http://sws.geonames.org/7872837/> , <http://sws.geonames.org/7871709/> , <http://sws.geonames.org/7872843/> , <http://sws.geonames.org/7872842/> , <http://sws.geonames.org/7872836/> , <http://sws.geonames.org/7871706/> , <http://sws.geonames.org/7872835/> , <http://sws.geonames.org/7872847/> , <http://sws.geonames.org/7872841/> , <http://sws.geonames.org/7872834/> , <http://sws.geonames.org/7872840/> , <http://sws.geonames.org/7871715/> , <http://sws.geonames.org/7871716/> , <http://sws.geonames.org/7871711/> , <http://sws.geonames.org/7871708/> , <http://sws.geonames.org/7871714/> , <http://sws.geonames.org/7871713/> , <http://sws.geonames.org/7872846/> , <http://sws.geonames.org/7871707/> , <http://sws.geonames.org/7871704/> , <http://sws.geonames.org/7872839/> , <http://sws.geonames.org/7871710/> , <http://sws.geonames.org/7872833/> , <http://sws.geonames.org/7871703/> , <http://sws.geonames.org/7871712/> , <http://sws.geonames.org/7872845/> , <http://sws.geonames.org/7871702/> , <http://sws.geonames.org/7872844/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Baden" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_900H>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Döbling" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_15> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "900H" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/2780893/> , <http://sws.geonames.org/2762091/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Döbling" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_7051>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Kufstein" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_127> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "7051" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7873650/> , <http://sws.geonames.org/7873645/> , <http://sws.geonames.org/7873656/> , <http://sws.geonames.org/7873651/> , <http://sws.geonames.org/7873644/> , <http://sws.geonames.org/7872571/> , <http://sws.geonames.org/2772986/> , <http://sws.geonames.org/7873657/> , <http://sws.geonames.org/7872572/> , <http://sws.geonames.org/7872565/> , <http://sws.geonames.org/7873659/> , <http://sws.geonames.org/7872567/> , <http://sws.geonames.org/7873653/> , <http://sws.geonames.org/7872566/> , <http://sws.geonames.org/7873648/> , <http://sws.geonames.org/2763687/> , <http://sws.geonames.org/7872574/> , <http://sws.geonames.org/7872569/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Kufstein" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_3212>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Tulln" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_27> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "3212" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7871914/> , <http://sws.geonames.org/7871912/> , <http://sws.geonames.org/7873042/> , <http://sws.geonames.org/7871916/> , <http://sws.geonames.org/7871911/> , <http://sws.geonames.org/7871909/> , <http://sws.geonames.org/2783055/> , <http://sws.geonames.org/7871918/> , <http://sws.geonames.org/7873039/> , <http://sws.geonames.org/7871913/> , <http://sws.geonames.org/7871920/> , <http://sws.geonames.org/7871908/> , <http://sws.geonames.org/7871910/> , <http://sws.geonames.org/7871915/> , <http://sws.geonames.org/7871917/> , <http://sws.geonames.org/7873037/> , <http://sws.geonames.org/7873038/> , <http://sws.geonames.org/7873040/> , <http://sws.geonames.org/7873041/> , <http://sws.geonames.org/7871907/> , <http://sws.geonames.org/7871919/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Tulln" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_2041>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Ferlach" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_76> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "2041" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7871638/> , <http://sws.geonames.org/7871528/> , <http://sws.geonames.org/7872761/> , <http://sws.geonames.org/7871631/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Ferlach" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_7092>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Zell am Ziller" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_133> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "7092" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7873713/> , <http://sws.geonames.org/2763221/> , <http://sws.geonames.org/7872627/> , <http://sws.geonames.org/7873708/> , <http://sws.geonames.org/7872635/> , <http://sws.geonames.org/7873712/> , <http://sws.geonames.org/7872629/> , <http://sws.geonames.org/7872623/> , <http://sws.geonames.org/2778661/> , <http://sws.geonames.org/7873714/> , <http://sws.geonames.org/7873706/> , <http://sws.geonames.org/7872633/> , <http://sws.geonames.org/7873709/> , <http://sws.geonames.org/2767278/> , <http://sws.geonames.org/2778659/> , <http://sws.geonames.org/7873705/> , <http://sws.geonames.org/7872638/> , <http://sws.geonames.org/7872631/> , <http://sws.geonames.org/7872626/> , <http://sws.geonames.org/7873707/> , <http://sws.geonames.org/2767467/> , <http://sws.geonames.org/7873703/> , <http://sws.geonames.org/7873711/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Zell am Ziller" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_6031>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Deutschlandsberg" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_59> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "6031" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7873359/> , <http://sws.geonames.org/7872275/> , <http://sws.geonames.org/7872268/> , <http://sws.geonames.org/7872273/> , <http://sws.geonames.org/7873364/> , <http://sws.geonames.org/7872274/> , <http://sws.geonames.org/7872272/> , <http://sws.geonames.org/7873347/> , <http://sws.geonames.org/7873363/> , <http://sws.geonames.org/7873360/> , <http://sws.geonames.org/7873357/> , <http://sws.geonames.org/7873358/> , <http://sws.geonames.org/7872262/> , <http://sws.geonames.org/7873348/> , <http://sws.geonames.org/7873353/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Deutschlandsberg" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_2082>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Eisenkappel" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_84> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "2082" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7871531/> , <http://sws.geonames.org/7871674/> , <http://sws.geonames.org/7871529/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Eisenkappel" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_5011>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Salzburg" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_113> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "5011" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7873293/> , <http://sws.geonames.org/7873287/> , <http://sws.geonames.org/7873292/> , <http://sws.geonames.org/7873295/> , <http://sws.geonames.org/7873296/> , <http://sws.geonames.org/7871495/> , <http://sws.geonames.org/7872218/> , <http://sws.geonames.org/7872207/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Salzburg" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_3112>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Horn" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_39> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "3112" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7871781/> , <http://sws.geonames.org/7871782/> , <http://sws.geonames.org/7871783/> , <http://sws.geonames.org/7871780/> , <http://sws.geonames.org/7871784/> , <http://sws.geonames.org/7871774/> , <http://sws.geonames.org/7872896/> , <http://sws.geonames.org/7871775/> , <http://sws.geonames.org/7872900/> , <http://sws.geonames.org/7872897/> , <http://sws.geonames.org/7871776/> , <http://sws.geonames.org/7872901/> , <http://sws.geonames.org/7872898/> , <http://sws.geonames.org/7871773/> , <http://sws.geonames.org/7871777/> , <http://sws.geonames.org/7872895/> , <http://sws.geonames.org/7872902/> , <http://sws.geonames.org/7872899/> , <http://sws.geonames.org/7871778/> , <http://sws.geonames.org/7871779/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Horn" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_900B>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Josefstadt" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_9> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "900B" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/2782729/> , <http://sws.geonames.org/2775027/> , <http://sws.geonames.org/2770853/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Josefstadt" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_8022>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Bregenz" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_136> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "8022" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7872661/> , <http://sws.geonames.org/2781284/> , <http://sws.geonames.org/7872659/> , <http://sws.geonames.org/7872657/> , <http://sws.geonames.org/7872664/> , <http://sws.geonames.org/7872663/> , <http://sws.geonames.org/7873733/> , <http://sws.geonames.org/2782829/> , <http://sws.geonames.org/7872658/> , <http://sws.geonames.org/7872665/> , <http://sws.geonames.org/7872672/> , <http://sws.geonames.org/7872660/> , <http://sws.geonames.org/7873731/> , <http://sws.geonames.org/7872668/> , <http://sws.geonames.org/7872656/> , <http://sws.geonames.org/7872654/> , <http://sws.geonames.org/7873732/> , <http://sws.geonames.org/7872670/> , <http://sws.geonames.org/7873736/> , <http://sws.geonames.org/7872662/> , <http://sws.geonames.org/7873734/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Bregenz" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_3081>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Gänserndorf" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_32> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "3081" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7872868/> , <http://sws.geonames.org/7872858/> , <http://sws.geonames.org/7872870/> , <http://sws.geonames.org/7871735/> , <http://sws.geonames.org/7871746/> , <http://sws.geonames.org/7871734/> , <http://sws.geonames.org/7871730/> , <http://sws.geonames.org/7871733/> , <http://sws.geonames.org/7872866/> , <http://sws.geonames.org/7872856/> , <http://sws.geonames.org/7872855/> , <http://sws.geonames.org/7871747/> , <http://sws.geonames.org/7871744/> , <http://sws.geonames.org/7871736/> , <http://sws.geonames.org/7871745/> , <http://sws.geonames.org/7871731/> , <http://sws.geonames.org/7872867/> , <http://sws.geonames.org/7872859/> , <http://sws.geonames.org/2775764/> , <http://sws.geonames.org/7872864/> , <http://sws.geonames.org/7871743/> , <http://sws.geonames.org/7871748/> , <http://sws.geonames.org/7871732/> , <http://sws.geonames.org/7871749/> , <http://sws.geonames.org/7871737/> , <http://sws.geonames.org/2769410/> , <http://sws.geonames.org/7871739/> , <http://sws.geonames.org/7871742/> , <http://sws.geonames.org/7872862/> , <http://sws.geonames.org/7872861/> , <http://sws.geonames.org/7871728/> , <http://sws.geonames.org/7872860/> , <http://sws.geonames.org/7872857/> , <http://sws.geonames.org/7871729/> , <http://sws.geonames.org/7871740/> , <http://sws.geonames.org/7872871/> , <http://sws.geonames.org/7871738/> , <http://sws.geonames.org/7871741/> , <http://sws.geonames.org/7872872/> , <http://sws.geonames.org/7872863/> , <http://sws.geonames.org/2768298/> , <http://sws.geonames.org/7871727/> , <http://sws.geonames.org/7872869/> , <http://sws.geonames.org/7872865/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Gänserndorf" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_7071>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Lienz" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_90> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "7071" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/2762603/> , <http://sws.geonames.org/7872603/> , <http://sws.geonames.org/7872600/> , <http://sws.geonames.org/7872607/> , <http://sws.geonames.org/7872598/> , <http://sws.geonames.org/7872596/> , <http://sws.geonames.org/7872590/> , <http://sws.geonames.org/7873680/> , <http://sws.geonames.org/7873679/> , <http://sws.geonames.org/7873676/> , <http://sws.geonames.org/7872587/> , <http://sws.geonames.org/2763653/> , <http://sws.geonames.org/7872605/> , <http://sws.geonames.org/7872602/> , <http://sws.geonames.org/2782309/> , <http://sws.geonames.org/7872609/> , <http://sws.geonames.org/7872597/> , <http://sws.geonames.org/7872595/> , <http://sws.geonames.org/7872599/> , <http://sws.geonames.org/7872592/> , <http://sws.geonames.org/7873674/> , <http://sws.geonames.org/7872589/> , <http://sws.geonames.org/7873678/> , <http://sws.geonames.org/2765938/> , <http://sws.geonames.org/7872604/> , <http://sws.geonames.org/7872601/> , <http://sws.geonames.org/7872608/> , <http://sws.geonames.org/7872606/> , <http://sws.geonames.org/7872594/> , <http://sws.geonames.org/7872591/> , <http://sws.geonames.org/7873675/> , <http://sws.geonames.org/7872588/> , <http://sws.geonames.org/7873677/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Lienz" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_2061>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Spittal an der Drau" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_81> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "2061" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7872792/> , <http://sws.geonames.org/7872794/> , <http://sws.geonames.org/7872787/> , <http://sws.geonames.org/7871651/> , <http://sws.geonames.org/7871802/> , <http://sws.geonames.org/7872781/> , <http://sws.geonames.org/7872776/> , <http://sws.geonames.org/7872790/> , <http://sws.geonames.org/7872779/> , <http://sws.geonames.org/7872785/> , <http://sws.geonames.org/7871658/> , <http://sws.geonames.org/7872788/> , <http://sws.geonames.org/7871652/> , <http://sws.geonames.org/7872791/> , <http://sws.geonames.org/7872789/> , <http://sws.geonames.org/2772036/> , <http://sws.geonames.org/7871654/> , <http://sws.geonames.org/7872782/> , <http://sws.geonames.org/7872777/> , <http://sws.geonames.org/7872793/> , <http://sws.geonames.org/7872783/> , <http://sws.geonames.org/7871656/> , <http://sws.geonames.org/7872786/> , <http://sws.geonames.org/7871659/> , <http://sws.geonames.org/7871650/> , <http://sws.geonames.org/7871653/> , <http://sws.geonames.org/7871649/> , <http://sws.geonames.org/7871661/> , <http://sws.geonames.org/7871655/> , <http://sws.geonames.org/7871657/> , <http://sws.geonames.org/7872784/> , <http://sws.geonames.org/7872778/> , <http://sws.geonames.org/7872795/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Spittal an der Drau" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_900M>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Leopoldstadt" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_8> , <https://data.wu.ac.at/legal/lkg/court#court_159> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "900M" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/2772614/> , <http://sws.geonames.org/2781400/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Leopoldstadt" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_1041>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Güssing" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_50> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "1041" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7871566/> , <http://sws.geonames.org/7872691/> , <http://sws.geonames.org/7871554/> , <http://sws.geonames.org/7872696/> , <http://sws.geonames.org/7872700/> , <http://sws.geonames.org/7871562/> , <http://sws.geonames.org/7871560/> , <http://sws.geonames.org/7871557/> , <http://sws.geonames.org/7872698/> , <http://sws.geonames.org/7871551/> , <http://sws.geonames.org/7871565/> , <http://sws.geonames.org/7872703/> , <http://sws.geonames.org/7871571/> , <http://sws.geonames.org/7871568/> , <http://sws.geonames.org/7872693/> , <http://sws.geonames.org/7871549/> , <http://sws.geonames.org/7871556/> , <http://sws.geonames.org/7872702/> , <http://sws.geonames.org/7871570/> , <http://sws.geonames.org/7871564/> , <http://sws.geonames.org/7872692/> , <http://sws.geonames.org/7871550/> , <http://sws.geonames.org/7871553/> , <http://sws.geonames.org/7871567/> , <http://sws.geonames.org/7871561/> , <http://sws.geonames.org/7872697/> , <http://sws.geonames.org/2770843/> , <http://sws.geonames.org/7872695/> , <http://sws.geonames.org/7871563/> , <http://sws.geonames.org/7871559/> , <http://sws.geonames.org/7872704/> , <http://sws.geonames.org/7871572/> , <http://sws.geonames.org/7871552/> , <http://sws.geonames.org/7872694/> , <http://sws.geonames.org/7871548/> , <http://sws.geonames.org/7871555/> , <http://sws.geonames.org/7871569/> , <http://sws.geonames.org/7871558/> , <http://sws.geonames.org/7872699/> , <http://sws.geonames.org/7872701/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Güssing" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_5031>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Neumarkt bei Salzburg" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_111> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "5031" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7873297/> , <http://sws.geonames.org/7872211/> , <http://sws.geonames.org/7873299/> , <http://sws.geonames.org/7872216/> , <http://sws.geonames.org/7872215/> , <http://sws.geonames.org/7873304/> , <http://sws.geonames.org/7873302/> , <http://sws.geonames.org/7872219/> , <http://sws.geonames.org/7873300/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Neumarkt bei Salzburg" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_4011>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Linz" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_130> , <https://data.wu.ac.at/legal/lkg/court#court_273> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "4011" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7871502/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Linz" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_900G>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Hernals" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_14> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "900G" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/2776486/> , <http://sws.geonames.org/2769357/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Hernals" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_7022>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Silz" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_125> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "7022" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7872526/> , <http://sws.geonames.org/7872529/> , <http://sws.geonames.org/7873595/> , <http://sws.geonames.org/7872525/> , <http://sws.geonames.org/2769555/> , <http://sws.geonames.org/7873591/> , <http://sws.geonames.org/7873594/> , <http://sws.geonames.org/7872527/> , <http://sws.geonames.org/7873593/> , <http://sws.geonames.org/2773013/> , <http://sws.geonames.org/7873589/> , <http://sws.geonames.org/7872530/> , <http://sws.geonames.org/7873596/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Silz" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_7091>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Schwaz" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_132> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "7091" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/2764507/> , <http://sws.geonames.org/7872636/> , <http://sws.geonames.org/7872641/> , <http://sws.geonames.org/2761794/> , <http://sws.geonames.org/7872632/> , <http://sws.geonames.org/7872640/> , <http://sws.geonames.org/7872630/> , <http://sws.geonames.org/7872639/> , <http://sws.geonames.org/7872622/> , <http://sws.geonames.org/7872625/> , <http://sws.geonames.org/7873704/> , <http://sws.geonames.org/7872634/> , <http://sws.geonames.org/7872637/> , <http://sws.geonames.org/7873710/> , <http://sws.geonames.org/7872624/> , <http://sws.geonames.org/7872628/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Schwaz" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_2081>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Bleiburg" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_83> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "2081" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7871676/> , <http://sws.geonames.org/7871675/> , <http://sws.geonames.org/7872804/> , <http://sws.geonames.org/7871671/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Bleiburg" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_1061>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Mattersburg" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_52> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "1061" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7872706/> , <http://sws.geonames.org/7872711/> , <http://sws.geonames.org/7871579/> , <http://sws.geonames.org/7871580/> , <http://sws.geonames.org/7871574/> , <http://sws.geonames.org/7872708/> , <http://sws.geonames.org/7871573/> , <http://sws.geonames.org/7871582/> , <http://sws.geonames.org/7871576/> , <http://sws.geonames.org/7871575/> , <http://sws.geonames.org/7872709/> , <http://sws.geonames.org/7871581/> , <http://sws.geonames.org/7871577/> , <http://sws.geonames.org/7872705/> , <http://sws.geonames.org/7871583/> , <http://sws.geonames.org/7872710/> , <http://sws.geonames.org/7872707/> , <http://sws.geonames.org/7871578/> , <http://sws.geonames.org/7872712/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Mattersburg" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_5051>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Tamsweg" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_117> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "5051" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7872234/> , <http://sws.geonames.org/7872232/> , <http://sws.geonames.org/7873325/> , <http://sws.geonames.org/7873320/> , <http://sws.geonames.org/2772584/> , <http://sws.geonames.org/7872236/> , <http://sws.geonames.org/7872233/> , <http://sws.geonames.org/7872231/> , <http://sws.geonames.org/7873319/> , <http://sws.geonames.org/2778335/> , <http://sws.geonames.org/7873323/> , <http://sws.geonames.org/7873324/> , <http://sws.geonames.org/7873322/> , <http://sws.geonames.org/7872235/> , <http://sws.geonames.org/7873321/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Tamsweg" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_900A>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Innere Stadt Wien" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_7> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "900A" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/2771932/> , <http://sws.geonames.org/2773040/> , <http://sws.geonames.org/2775259/> , <http://sws.geonames.org/2771956/> , <http://sws.geonames.org/2765027/> , <http://sws.geonames.org/2761393/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Innere Stadt Wien" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_3152>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Melk" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_22> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "3152" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7872947/> , <http://sws.geonames.org/7871822/> , <http://sws.geonames.org/7872941/> , <http://sws.geonames.org/7872938/> , <http://sws.geonames.org/7871817/> , <http://sws.geonames.org/7871833/> , <http://sws.geonames.org/7871828/> , <http://sws.geonames.org/2775852/> , <http://sws.geonames.org/7872949/> , <http://sws.geonames.org/7872940/> , <http://sws.geonames.org/7871824/> , <http://sws.geonames.org/7872943/> , <http://sws.geonames.org/7871819/> , <http://sws.geonames.org/7871835/> , <http://sws.geonames.org/7871812/> , <http://sws.geonames.org/7871814/> , <http://sws.geonames.org/7871830/> , <http://sws.geonames.org/7871825/> , <http://sws.geonames.org/7872942/> , <http://sws.geonames.org/7872939/> , <http://sws.geonames.org/2765756/> , <http://sws.geonames.org/7872945/> , <http://sws.geonames.org/2773325/> , <http://sws.geonames.org/7871821/> , <http://sws.geonames.org/7871832/> , <http://sws.geonames.org/7871816/> , <http://sws.geonames.org/7872948/> , <http://sws.geonames.org/7871827/> , <http://sws.geonames.org/7872944/> , <http://sws.geonames.org/7871813/> , <http://sws.geonames.org/7871823/> , <http://sws.geonames.org/7871818/> , <http://sws.geonames.org/7871834/> , <http://sws.geonames.org/7871829/> , <http://sws.geonames.org/7872946/> , <http://sws.geonames.org/7872950/> , <http://sws.geonames.org/7871820/> , <http://sws.geonames.org/7871815/> , <http://sws.geonames.org/7871831/> , <http://sws.geonames.org/7871826/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Melk" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_4031>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Wels" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_104> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "4031" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7873273/> , <http://sws.geonames.org/7872190/> , <http://sws.geonames.org/7872192/> , <http://sws.geonames.org/7872185/> , <http://sws.geonames.org/7872194/> , <http://sws.geonames.org/7873276/> , <http://sws.geonames.org/7873281/> , <http://sws.geonames.org/7872191/> , <http://sws.geonames.org/7872193/> , <http://sws.geonames.org/7873275/> , <http://sws.geonames.org/7872181/> , <http://sws.geonames.org/7873278/> , <http://sws.geonames.org/7872184/> , <http://sws.geonames.org/7872187/> , <http://sws.geonames.org/7872189/> , <http://sws.geonames.org/7873280/> , <http://sws.geonames.org/7872186/> , <http://sws.geonames.org/7873274/> , <http://sws.geonames.org/7873277/> , <http://sws.geonames.org/7873279/> , <http://sws.geonames.org/7873282/> , <http://sws.geonames.org/7872183/> , <http://sws.geonames.org/7872188/> , <http://sws.geonames.org/7872182/> , <http://sws.geonames.org/7871525/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Wels" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_5064>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Zell am See" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_118> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "5064" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7872242/> , <http://sws.geonames.org/7873327/> , <http://sws.geonames.org/7872246/> , <http://sws.geonames.org/7872250/> , <http://sws.geonames.org/7872251/> , <http://sws.geonames.org/7873326/> , <http://sws.geonames.org/7873334/> , <http://sws.geonames.org/7872237/> , <http://sws.geonames.org/7872241/> , <http://sws.geonames.org/7873333/> , <http://sws.geonames.org/7872240/> , <http://sws.geonames.org/2773437/> , <http://sws.geonames.org/2779089/> , <http://sws.geonames.org/2761651/> , <http://sws.geonames.org/7873329/> , <http://sws.geonames.org/7872245/> , <http://sws.geonames.org/7873332/> , <http://sws.geonames.org/7872249/> , <http://sws.geonames.org/7872244/> , <http://sws.geonames.org/7872243/> , <http://sws.geonames.org/7872248/> , <http://sws.geonames.org/7872247/> , <http://sws.geonames.org/7873331/> , <http://sws.geonames.org/7872239/> , <http://sws.geonames.org/7872252/> , <http://sws.geonames.org/7873330/> , <http://sws.geonames.org/7872238/> , <http://sws.geonames.org/7873328/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Zell am See" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_8021>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Bezau" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_135> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "8021" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/2776154/> , <http://sws.geonames.org/7872655/> , <http://sws.geonames.org/2773014/> , <http://sws.geonames.org/7873730/> , <http://sws.geonames.org/2781105/> , <http://sws.geonames.org/7872667/> , <http://sws.geonames.org/7871935/> , <http://sws.geonames.org/7873004/> , <http://sws.geonames.org/7873728/> , <http://sws.geonames.org/7872653/> , <http://sws.geonames.org/2771676/> , <http://sws.geonames.org/2765461/> , <http://sws.geonames.org/7873735/> , <http://sws.geonames.org/7873729/> , <http://sws.geonames.org/2765595/> , <http://sws.geonames.org/2767515/> , <http://sws.geonames.org/7872669/> , <http://sws.geonames.org/7872671/> , <http://sws.geonames.org/2772410/> , <http://sws.geonames.org/7873738/> , <http://sws.geonames.org/7872666/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Bezau" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_4072>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Gmunden" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_106> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "4072" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7873137/> , <http://sws.geonames.org/7872013/> , <http://sws.geonames.org/7872015/> , <http://sws.geonames.org/7873135/> , <http://sws.geonames.org/7872014/> , <http://sws.geonames.org/7872016/> , <http://sws.geonames.org/7873138/> , <http://sws.geonames.org/7872017/> , <http://sws.geonames.org/7872020/> , <http://sws.geonames.org/7873132/> , <http://sws.geonames.org/7872011/> , <http://sws.geonames.org/7872019/> , <http://sws.geonames.org/7872009/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Gmunden" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_3011>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Krems an der Donau" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_40> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "3011" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7872921/> , <http://sws.geonames.org/7872918/> , <http://sws.geonames.org/7872913/> , <http://sws.geonames.org/7872923/> , <http://sws.geonames.org/2767271/> , <http://sws.geonames.org/7871805/> , <http://sws.geonames.org/7871797/> , <http://sws.geonames.org/7872786/> , <http://sws.geonames.org/7872915/> , <http://sws.geonames.org/7871808/> , <http://sws.geonames.org/7872925/> , <http://sws.geonames.org/7871801/> , <http://sws.geonames.org/7872927/> , <http://sws.geonames.org/7872914/> , <http://sws.geonames.org/2782957/> , <http://sws.geonames.org/7871800/> , <http://sws.geonames.org/7872924/> , <http://sws.geonames.org/7871806/> , <http://sws.geonames.org/7872916/> , <http://sws.geonames.org/7871798/> , <http://sws.geonames.org/7871803/> , <http://sws.geonames.org/7872922/> , <http://sws.geonames.org/7871496/> , <http://sws.geonames.org/7871802/> , <http://sws.geonames.org/7872912/> , <http://sws.geonames.org/7871799/> , <http://sws.geonames.org/7872920/> , <http://sws.geonames.org/7872917/> , <http://sws.geonames.org/7871804/> , <http://sws.geonames.org/7871807/> , <http://sws.geonames.org/7871796/> , <http://sws.geonames.org/7872919/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Krems an der Donau" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_3052>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Haag" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_168> , <https://data.wu.ac.at/legal/lkg/court#court_296> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "3052" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7872817/> , <http://sws.geonames.org/7872818/> , <http://sws.geonames.org/7872822/> , <http://sws.geonames.org/7871697/> , <http://sws.geonames.org/7871701/> , <http://sws.geonames.org/2777169/> , <http://sws.geonames.org/7871698/> , <http://sws.geonames.org/7872830/> , <http://sws.geonames.org/7871690/> , <http://sws.geonames.org/7872825/> , <http://sws.geonames.org/7872827/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Haag" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_7042>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Kitzbühel" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_126> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "7042" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7873636/> , <http://sws.geonames.org/7873633/> , <http://sws.geonames.org/7873641/> , <http://sws.geonames.org/2775168/> , <http://sws.geonames.org/7873643/> , <http://sws.geonames.org/7872560/> , <http://sws.geonames.org/7873639/> , <http://sws.geonames.org/7873635/> , <http://sws.geonames.org/7872563/> , <http://sws.geonames.org/7873640/> , <http://sws.geonames.org/7872559/> , <http://sws.geonames.org/7872556/> , <http://sws.geonames.org/7873631/> , <http://sws.geonames.org/7872562/> , <http://sws.geonames.org/7873638/> , <http://sws.geonames.org/7873634/> , <http://sws.geonames.org/7872558/> , <http://sws.geonames.org/7873642/> , <http://sws.geonames.org/7872561/> , <http://sws.geonames.org/7872557/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Kitzbühel" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_900L>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Liesing" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_18> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "900L" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/2772484/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Liesing" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_6201>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Judenburg" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_74> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "6201" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7872389/> , <http://sws.geonames.org/7873455/> , <http://sws.geonames.org/7873456/> , <http://sws.geonames.org/7873090/> , <http://sws.geonames.org/11592672/> , <http://sws.geonames.org/7872382/> , <http://sws.geonames.org/7873447/> , <http://sws.geonames.org/11592673/> , <http://sws.geonames.org/7872390/> , <http://sws.geonames.org/7873448/> , <http://sws.geonames.org/7873450/> , <http://sws.geonames.org/7872391/> , <http://sws.geonames.org/7872398/> , <http://sws.geonames.org/7873449/> , <http://sws.geonames.org/7873270/> , <http://sws.geonames.org/7873452/> , <http://sws.geonames.org/7872387/> , <http://sws.geonames.org/11592674/> , <http://sws.geonames.org/7872378/> , <http://sws.geonames.org/7872379/> , <http://sws.geonames.org/7873453/> , <http://sws.geonames.org/7872380/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Judenburg" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_1081>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Oberpullendorf" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_54> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "1081" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7871612/> , <http://sws.geonames.org/7871604/> , <http://sws.geonames.org/7872729/> , <http://sws.geonames.org/7871601/> , <http://sws.geonames.org/7872736/> , <http://sws.geonames.org/7872732/> , <http://sws.geonames.org/7871606/> , <http://sws.geonames.org/7871607/> , <http://sws.geonames.org/7872726/> , <http://sws.geonames.org/7871614/> , <http://sws.geonames.org/7871611/> , <http://sws.geonames.org/7872728/> , <http://sws.geonames.org/7871603/> , <http://sws.geonames.org/7871600/> , <http://sws.geonames.org/7872735/> , <http://sws.geonames.org/7872731/> , <http://sws.geonames.org/7871609/> , <http://sws.geonames.org/7871605/> , <http://sws.geonames.org/7871599/> , <http://sws.geonames.org/7871613/> , <http://sws.geonames.org/7871610/> , <http://sws.geonames.org/7871602/> , <http://sws.geonames.org/7872727/> , <http://sws.geonames.org/7872733/> , <http://sws.geonames.org/7872734/> , <http://sws.geonames.org/7872730/> , <http://sws.geonames.org/7871598/> , <http://sws.geonames.org/7871608/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Oberpullendorf" .
+
+<https://data.wu.ac.at/legal/lkg/judicialdistrict#judicialdistrict_5043>
+        a       <https://data.wu.ac.at/legal/lkg/lkg#JudicialDistrict> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Sankt Johann im Pongau" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#court_having_jurisdiction>
+                <https://data.wu.ac.at/legal/lkg/court#court_116> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_id>
+                "5043" ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_member>
+                <http://sws.geonames.org/7873318/> , <http://sws.geonames.org/7872230/> , <http://sws.geonames.org/7873306/> , <http://sws.geonames.org/2768931/> , <http://sws.geonames.org/7872226/> , <http://sws.geonames.org/7872221/> , <http://sws.geonames.org/7872229/> , <http://sws.geonames.org/7873315/> , <http://sws.geonames.org/7873309/> , <http://sws.geonames.org/7873311/> , <http://sws.geonames.org/7873316/> , <http://sws.geonames.org/7872222/> , <http://sws.geonames.org/7872227/> , <http://sws.geonames.org/7873313/> , <http://sws.geonames.org/7873317/> , <http://sws.geonames.org/7873307/> , <http://sws.geonames.org/7872224/> , <http://sws.geonames.org/7872228/> , <http://sws.geonames.org/7873312/> , <http://sws.geonames.org/7872220/> , <http://sws.geonames.org/7872225/> , <http://sws.geonames.org/7872223/> , <http://sws.geonames.org/7873314/> , <http://sws.geonames.org/7873308/> , <http://sws.geonames.org/7873310/> ;
+        <https://data.wu.ac.at/legal/lkg/lkg#judicial_district_name>
+                "Sankt Johann im Pongau" .

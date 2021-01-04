@@ -1,0 +1,505 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://data.wu.ac.at/legal/lkg#"
+     xml:base="https://data.wu.ac.at/legal/lkg"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:ns="https://creativecommons.org/ns#"
+     xmlns:ns2="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:adms="http://www.w3.org/ns/adms#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:ontology="https://www.geonames.org/ontology#"
+     xmlns:relators="http://id.loc.gov/vocabulary/relators/"
+     xmlns:ontology1="http://data.europa.eu/eli/ontology#">
+    <owl:Ontology rdf:about="https://data.wu.ac.at/legal/lkg#">
+        <owl:imports rdf:resource="http://data.europa.eu/eli/ontology#"/>
+        <owl:imports rdf:resource="https://www.geonames.org/ontology"/>
+	<dc:creator>Erwin Filtz</dc:creator>
+        <dc:creator>Axel Polleres</dc:creator>
+        <dc:creator>Sabrina Kirrane</dc:creator>
+        <dc:date>01-04-2020</dc:date>
+        <terms:title>Legal Knowledge Graph Ontology</terms:title>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.2</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://data.wu.ac.at/legal/lkg#court_having_jurisdiction -->
+
+    <owl:ObjectProperty rdf:about="https://data.wu.ac.at/legal/lkg#court_having_jurisdiction">
+        <rdfs:domain rdf:resource="https://data.wu.ac.at/legal/lkg#JudicialDistrict"/>
+        <rdfs:range rdf:resource="https://data.wu.ac.at/legal/lkg#Court"/>
+        <rdfs:comment>Connects a judicial district to a court that has competent jurisdiction over this judicial district. The competent jurisdiction includes only the spatial aspect.</rdfs:comment>
+        <rdfs:label xml:lang="en">court having jurisdiction</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://data.wu.ac.at/legal/lkg#court_type -->
+
+    <owl:ObjectProperty rdf:about="https://data.wu.ac.at/legal/lkg#court_type">
+        <rdfs:domain rdf:resource="https://data.wu.ac.at/legal/lkg#Court"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:comment>Defines the type of a court (e.g. district court).</rdfs:comment>
+        <rdfs:label xml:lang="en">court type</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://data.wu.ac.at/legal/lkg#has_lower_instance -->
+
+    <owl:ObjectProperty rdf:about="https://data.wu.ac.at/legal/lkg#has_lower_instance">
+        <rdfs:domain rdf:resource="https://data.wu.ac.at/legal/lkg#Court"/>
+        <rdfs:range rdf:resource="https://data.wu.ac.at/legal/lkg#Court"/>
+        <rdfs:comment>Links two courts indicating a hierarchy relationship.</rdfs:comment>
+        <rdfs:label xml:lang="en">has lower instance</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://data.wu.ac.at/legal/lkg#has_next_version -->
+
+    <owl:ObjectProperty rdf:about="https://data.wu.ac.at/legal/lkg#has_next_version">
+        <rdfs:domain rdf:resource="https://data.wu.ac.at/legal/lkg#LegalProvision"/>
+        <rdfs:range rdf:resource="https://data.wu.ac.at/legal/lkg#LegalProvision"/>
+        <rdfs:comment xml:lang="en">Indicates that this legal provision has a next version.</rdfs:comment>
+        <rdfs:label xml:lang="en">has next version</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://data.wu.ac.at/legal/lkg#has_previous_court -->
+
+    <owl:ObjectProperty rdf:about="https://data.wu.ac.at/legal/lkg#has_previous_court">
+        <rdfs:domain rdf:resource="https://data.wu.ac.at/legal/lkg#Jurisdiction"/>
+        <rdfs:range rdf:resource="https://data.wu.ac.at/legal/lkg#Court"/>
+        <rdfs:label xml:lang="en">has previous court</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://data.wu.ac.at/legal/lkg#has_previous_version -->
+
+    <owl:ObjectProperty rdf:about="https://data.wu.ac.at/legal/lkg#has_previous_version">
+        <rdfs:domain rdf:resource="https://data.wu.ac.at/legal/lkg#LegalProvision"/>
+        <rdfs:range rdf:resource="https://data.wu.ac.at/legal/lkg#LegalProvision"/>
+        <rdfs:comment xml:lang="en">Indicates that this legal provision has a previous version.</rdfs:comment>
+        <rdfs:label xml:lang="en">has previous version</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://data.wu.ac.at/legal/lkg#has_upper_instance -->
+
+    <owl:ObjectProperty rdf:about="https://data.wu.ac.at/legal/lkg#has_upper_instance">
+        <rdfs:domain rdf:resource="https://data.wu.ac.at/legal/lkg#Court"/>
+        <rdfs:range rdf:resource="https://data.wu.ac.at/legal/lkg#Court"/>
+        <rdfs:comment>Links two courts indicating a hierarchy relationship.</rdfs:comment>
+        <rdfs:label xml:lang="en">has upper instance</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://data.wu.ac.at/legal/lkg#is_part_document -->
+
+    <owl:ObjectProperty rdf:about="https://data.wu.ac.at/legal/lkg#is_part_document">
+        <rdfs:domain rdf:resource="https://data.wu.ac.at/legal/lkg#LawGazette"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:comment>Defines the part of a law gazette (e.g. law, order,...).</rdfs:comment>
+        <rdfs:label xml:lang="en">is part document</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://data.wu.ac.at/legal/lkg#judicial_district_member -->
+
+    <owl:ObjectProperty rdf:about="https://data.wu.ac.at/legal/lkg#judicial_district_member">
+        <rdfs:domain rdf:resource="https://data.wu.ac.at/legal/lkg#JudicialDistrict"/>
+        <rdfs:range rdf:resource="https://www.geonames.org/ontology#Feature"/>
+        <rdfs:comment>A judicial district consists of spatial entities.</rdfs:comment>
+        <rdfs:label xml:lang="en">judicial district member</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://data.wu.ac.at/legal/lkg#located_in_community -->
+
+    <owl:ObjectProperty rdf:about="https://data.wu.ac.at/legal/lkg#located_in_community">
+        <rdfs:domain rdf:resource="https://data.wu.ac.at/legal/lkg#Court"/>
+        <rdfs:range rdf:resource="https://www.geonames.org/ontology#Feature"/>
+        <rdfs:comment>A court has its seat in a specific community.</rdfs:comment>
+        <rdfs:label xml:lang="en">located in community</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://data.wu.ac.at/legal/lkg#located_in_country -->
+
+    <owl:ObjectProperty rdf:about="https://data.wu.ac.at/legal/lkg#located_in_country">
+        <rdfs:domain rdf:resource="https://data.wu.ac.at/legal/lkg#Court"/>
+        <rdfs:range rdf:resource="https://www.geonames.org/ontology#Feature"/>
+        <rdfs:comment>A court has its seat in a specific country.</rdfs:comment>
+        <rdfs:label xml:lang="en">located in country</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://data.wu.ac.at/legal/lkg#located_in_district -->
+
+    <owl:ObjectProperty rdf:about="https://data.wu.ac.at/legal/lkg#located_in_district">
+        <rdfs:domain rdf:resource="https://data.wu.ac.at/legal/lkg#Court"/>
+        <rdfs:range rdf:resource="https://www.geonames.org/ontology#Feature"/>
+        <rdfs:comment>A court has its seat in a specific district.</rdfs:comment>
+        <rdfs:label xml:lang="en">located in district</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://data.wu.ac.at/legal/lkg#located_in_state -->
+
+    <owl:ObjectProperty rdf:about="https://data.wu.ac.at/legal/lkg#located_in_state">
+        <rdfs:domain rdf:resource="https://data.wu.ac.at/legal/lkg#Court"/>
+        <rdfs:range rdf:resource="https://www.geonames.org/ontology#Feature"/>
+        <rdfs:comment>A court has its seat in a specific state.</rdfs:comment>
+        <rdfs:label xml:lang="en">located in state</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://data.wu.ac.at/legal/lkg#date_changed -->
+
+    <owl:DatatypeProperty rdf:about="https://data.wu.ac.at/legal/lkg#date_changed">
+        <rdfs:domain rdf:resource="https://data.wu.ac.at/legal/lkg#LawGazette"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+        <rdfs:comment>Indicates that a law gazette has been changed at the given date.</rdfs:comment>
+        <rdfs:label xml:lang="en">date changed</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://data.wu.ac.at/legal/lkg#has_character_article -->
+
+    <owl:DatatypeProperty rdf:about="https://data.wu.ac.at/legal/lkg#has_character_article">
+        <rdfs:domain rdf:resource="https://data.wu.ac.at/legal/lkg#LegalProvision"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>Character that is preceed by a number of an article.</rdfs:comment>
+        <rdfs:label xml:lang="en">has character article</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://data.wu.ac.at/legal/lkg#has_character_attachment -->
+
+    <owl:DatatypeProperty rdf:about="https://data.wu.ac.at/legal/lkg#has_character_attachment">
+        <rdfs:domain rdf:resource="https://data.wu.ac.at/legal/lkg#LegalProvision"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>Character that is preceed by a number of an attachment.</rdfs:comment>
+        <rdfs:label xml:lang="en">has character attachment</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://data.wu.ac.at/legal/lkg#has_character_paragraph -->
+
+    <owl:DatatypeProperty rdf:about="https://data.wu.ac.at/legal/lkg#has_character_paragraph">
+        <rdfs:domain rdf:resource="https://data.wu.ac.at/legal/lkg#LegalProvision"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>Character that is preceed by a number of a paragraph.</rdfs:comment>
+        <rdfs:label xml:lang="en">has character paragraph</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://data.wu.ac.at/legal/lkg#has_consignor -->
+
+    <owl:DatatypeProperty rdf:about="https://data.wu.ac.at/legal/lkg#has_consignor">
+        <rdfs:domain rdf:resource="https://data.wu.ac.at/legal/lkg#LawGazette"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>The authority exhibiting the bill.</rdfs:comment>
+        <rdfs:label xml:lang="en">has consignor</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://data.wu.ac.at/legal/lkg#has_date -->
+
+    <owl:DatatypeProperty rdf:about="https://data.wu.ac.at/legal/lkg#has_date">
+        <rdfs:domain rdf:resource="https://data.wu.ac.at/legal/lkg#Jurisdiction"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+        <rdfs:comment>Date mentioned in a lkg:Jurisdiction.</rdfs:comment>
+        <rdfs:label xml:lang="en">has date</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://data.wu.ac.at/legal/lkg#has_date_federal_council -->
+
+    <owl:DatatypeProperty rdf:about="https://data.wu.ac.at/legal/lkg#has_date_federal_council">
+        <rdfs:domain rdf:resource="https://data.wu.ac.at/legal/lkg#LawGazette"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+        <rdfs:comment>Date a law has passed the federal council.</rdfs:comment>
+        <rdfs:label xml:lang="en">has date federal council</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://data.wu.ac.at/legal/lkg#has_date_national_council -->
+
+    <owl:DatatypeProperty rdf:about="https://data.wu.ac.at/legal/lkg#has_date_national_council">
+        <rdfs:domain rdf:resource="https://data.wu.ac.at/legal/lkg#LawGazette"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+        <rdfs:comment>Date a law has passed the national council.</rdfs:comment>
+        <rdfs:label xml:lang="en">has date national council</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://data.wu.ac.at/legal/lkg#has_government_bill -->
+
+    <owl:DatatypeProperty rdf:about="https://data.wu.ac.at/legal/lkg#has_government_bill">
+        <rdfs:domain rdf:resource="https://data.wu.ac.at/legal/lkg#LawGazette"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+        <rdfs:comment>Refers to a bill exhibited by the government.</rdfs:comment>
+        <rdfs:label xml:lang="en">has government bill</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://data.wu.ac.at/legal/lkg#has_number_article -->
+
+    <owl:DatatypeProperty rdf:about="https://data.wu.ac.at/legal/lkg#has_number_article">
+        <rdfs:domain rdf:resource="https://data.wu.ac.at/legal/lkg#LegalProvision"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>The number of the article.</rdfs:comment>
+        <rdfs:label xml:lang="en">has number article</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://data.wu.ac.at/legal/lkg#has_number_attachment -->
+
+    <owl:DatatypeProperty rdf:about="https://data.wu.ac.at/legal/lkg#has_number_attachment">
+        <rdfs:domain rdf:resource="https://data.wu.ac.at/legal/lkg#LegalProvision"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>The number of the attachment.</rdfs:comment>
+        <rdfs:label xml:lang="en">has number attachment</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://data.wu.ac.at/legal/lkg#has_number_federal_council -->
+
+    <owl:DatatypeProperty rdf:about="https://data.wu.ac.at/legal/lkg#has_number_federal_council">
+        <rdfs:domain rdf:resource="https://data.wu.ac.at/legal/lkg#LawGazette"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>Session number in which a law has passed the federal council.</rdfs:comment>
+        <rdfs:label xml:lang="en">has number federal council</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://data.wu.ac.at/legal/lkg#has_number_national_council -->
+
+    <owl:DatatypeProperty rdf:about="https://data.wu.ac.at/legal/lkg#has_number_national_council">
+        <rdfs:domain rdf:resource="https://data.wu.ac.at/legal/lkg#LawGazette"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>Session number in which a law has passed the national council.</rdfs:comment>
+        <rdfs:label xml:lang="en">has number national council</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://data.wu.ac.at/legal/lkg#has_number_paragraph -->
+
+    <owl:DatatypeProperty rdf:about="https://data.wu.ac.at/legal/lkg#has_number_paragraph">
+        <rdfs:domain rdf:resource="https://data.wu.ac.at/legal/lkg#LegalProvision"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>The number of the paragraph.</rdfs:comment>
+        <rdfs:label xml:lang="en">has number paragraph</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://data.wu.ac.at/legal/lkg#has_private_bill -->
+
+    <owl:DatatypeProperty rdf:about="https://data.wu.ac.at/legal/lkg#has_private_bill">
+        <rdfs:domain rdf:resource="https://data.wu.ac.at/legal/lkg#LawGazette"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+        <rdfs:comment>Refers the private bill.</rdfs:comment>
+        <rdfs:label xml:lang="en">has private bill</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://data.wu.ac.at/legal/lkg#has_report_federal_council -->
+
+    <owl:DatatypeProperty rdf:about="https://data.wu.ac.at/legal/lkg#has_report_federal_council">
+        <rdfs:domain rdf:resource="https://data.wu.ac.at/legal/lkg#LawGazette"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+        <rdfs:comment>Links the report of the federal council.</rdfs:comment>
+        <rdfs:label xml:lang="en">has report federal council</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://data.wu.ac.at/legal/lkg#has_report_national_council -->
+
+    <owl:DatatypeProperty rdf:about="https://data.wu.ac.at/legal/lkg#has_report_national_council">
+        <rdfs:domain rdf:resource="https://data.wu.ac.at/legal/lkg#LawGazette"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+        <rdfs:comment>Links the report of the national council.</rdfs:comment>
+        <rdfs:label xml:lang="en">has report national council</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://data.wu.ac.at/legal/lkg#has_text -->
+
+    <owl:DatatypeProperty rdf:about="https://data.wu.ac.at/legal/lkg#has_text">
+        <rdfs:domain rdf:resource="https://data.wu.ac.at/legal/lkg#Jurisdiction"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>Links to the actual document text of a lkg:Jurisdiction.</rdfs:comment>
+        <rdfs:label xml:lang="en">has text</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://data.wu.ac.at/legal/lkg#in_legistlation_period -->
+
+    <owl:DatatypeProperty rdf:about="https://data.wu.ac.at/legal/lkg#in_legistlation_period">
+        <rdfs:domain rdf:resource="https://data.wu.ac.at/legal/lkg#LawGazette"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>Indicates the legislation period in which a law gazette has been published.</rdfs:comment>
+        <rdfs:label xml:lang="en">in legislation period</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://data.wu.ac.at/legal/lkg#judicial_district_id -->
+
+    <owl:DatatypeProperty rdf:about="https://data.wu.ac.at/legal/lkg#judicial_district_id">
+        <rdfs:domain rdf:resource="https://data.wu.ac.at/legal/lkg#JudicialDistrict"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>ID of a judicial district.</rdfs:comment>
+        <rdfs:label xml:lang="en">judicial district id</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://data.wu.ac.at/legal/lkg#judicial_district_name -->
+
+    <owl:DatatypeProperty rdf:about="https://data.wu.ac.at/legal/lkg#judicial_district_name">
+        <rdfs:domain rdf:resource="https://data.wu.ac.at/legal/lkg#JudicialDistrict"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>Name of the judicial district.</rdfs:comment>
+        <rdfs:label xml:lang="en">judicial district name</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://data.wu.ac.at/legal/lkg#Court -->
+
+    <owl:Class rdf:about="https://data.wu.ac.at/legal/lkg#Court">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:comment xml:lang="en">Authority of the judiciary branch entitled to make binding decisions in a legal system. A court has a certain class that defines its place in the court hierarchy (e.g. district court) as well as the type (e.g. ordinary court)</rdfs:comment>
+        <rdfs:label xml:lang="en">Court</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://data.wu.ac.at/legal/lkg#JudicialDistrict -->
+
+    <owl:Class rdf:about="https://data.wu.ac.at/legal/lkg#JudicialDistrict">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:comment xml:lang="en">Describes a spatial area for a district court has competent jurisdiction. A judicial district is distinct from a political district.</rdfs:comment>
+        <rdfs:label xml:lang="en">Judicial District</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://data.wu.ac.at/legal/lkg#Jurisdiction -->
+
+    <owl:Class rdf:about="https://data.wu.ac.at/legal/lkg#Jurisdiction">
+        <rdfs:subClassOf rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F1_Work"/>
+        <rdfs:comment xml:lang="en">Contains documents from authorities of the judiciary branch such as judgments and legal rules.</rdfs:comment>
+        <rdfs:label xml:lang="en">Jurisdiction</rdfs:label>
+        <rdfs:label xml:lang="de">Rechtsprechung</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://data.wu.ac.at/legal/lkg#Law -->
+
+    <owl:Class rdf:about="https://data.wu.ac.at/legal/lkg#Law">
+        <rdfs:subClassOf rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+        <rdfs:comment xml:lang="en">Collection of legal provisions beloning to the same law book.</rdfs:comment>
+        <rdfs:label xml:lang="de">Gesetzbuch</rdfs:label>
+        <rdfs:label xml:lang="en">Law</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://data.wu.ac.at/legal/lkg#LawGazette -->
+
+    <owl:Class rdf:about="https://data.wu.ac.at/legal/lkg#LawGazette">
+        <rdfs:subClassOf rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+        <rdfs:comment xml:lang="en">Announces changes in the legal system and contains laws, orders and announcements for federal and state level.</rdfs:comment>
+        <rdfs:label xml:lang="de">Gesetzblatt</rdfs:label>
+        <rdfs:label xml:lang="en">Law Gazette</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://data.wu.ac.at/legal/lkg#LegalProvision -->
+
+    <owl:Class rdf:about="https://data.wu.ac.at/legal/lkg#LegalProvision">
+        <rdfs:subClassOf rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+        <rdfs:comment xml:lang="en">Contains the actual norm. Each article/paragraph is a document on its own.</rdfs:comment>
+        <rdfs:label xml:lang="en">Legal Provision</rdfs:label>
+        <rdfs:label xml:lang="de">Norm</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

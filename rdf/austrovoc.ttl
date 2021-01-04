@@ -1,0 +1,3401 @@
+@prefix : <https://data.wu.ac.at/legal/austrovoc#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix grddl: <http://www.w3.org/2003/g/data-view#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.wu.ac.at/legal/austrovoc> a owl:Ontology .
+
+:bri a skos:ConceptScheme;
+  dct:description "Index of the RIS Bundesrecht"@de;
+  dct:title "Bundesrechtindex"@de;
+  skos:hasTopConcept :bri1, :bri2, :bri3, :bri4, :bri5, :bri6, :bri7, :bri8, :bri9 .
+
+:bri1 a skos:Concept;
+  dct:modified "2020-03-25T14:51:53.560+01:00"^^xsd:dateTime;
+  skos:inScheme :bri;
+  skos:narrower :bri10, :bri11, :bri12, :bri13, :bri14, :bri15, :bri16, :bri17, :bri18,
+    :bri19;
+  skos:notation "1"@de;
+  skos:prefLabel "Verfassungs- und Organisationsrecht, Medienrecht, allgemeine international Angelegenheiten"@de;
+  skos:topConceptOf <https://data.wu.ac.at/legal/austrovoc> .
+
+:ent_beschluss skos:prefLabel "Beschluss"@de .
+
+:bri10 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/527>;
+  skos:broader :bri1;
+  skos:inScheme :bri;
+  skos:narrower :bri1001, :bri1002, :bri1003, :bri1004, :bri1005, :bri1006, :bri1007,
+    :bri1008, :bri1009, :bri1010, :bri1011, :bri1012, :bri1013, :bri1014, :bri1015, :bri1016;
+  skos:notation "10"@de;
+  skos:prefLabel "Verfassungsrecht"@de .
+
+:bri1001 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/148>;
+  skos:broader :bri10;
+  skos:inScheme :bri;
+  skos:notation "1001"@de;
+  skos:prefLabel "Bundes-Verfassungsgesetz (B-VG)"@de .
+
+:bri1002 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/527>;
+  skos:broader :bri10;
+  skos:inScheme :bri;
+  skos:notation "1002"@de;
+  skos:prefLabel "Novellen zum B-VG, Ämter der Landesregierungen"@de .
+
+:bri1003 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/2242>, <http://eurovoc.europa.eu/425>;
+  skos:broader :bri10;
+  skos:inScheme :bri;
+  skos:notation "1003"@de;
+  skos:prefLabel "Nationalrat, Bundesrat"@de .
+
+:bri1004 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/695>;
+  skos:broader :bri10;
+  skos:inScheme :bri;
+  skos:notation "1004"@de;
+  skos:prefLabel "Wahlen"@de .
+
+:bri1005 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/1336>, <http://eurovoc.europa.eu/3843>;
+  skos:broader :bri10;
+  skos:inScheme :bri;
+  skos:notation "1005"@de;
+  skos:prefLabel "Bezüge, Unvereinbarkeit"@de .
+
+:bri1006 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/8422>;
+  skos:broader :bri10;
+  skos:inScheme :bri;
+  skos:notation "1006"@de;
+  skos:prefLabel "Direkte Demokratie"@de .
+
+:bri1007 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/1539.http://eurovoc.europa.eu/5181>;
+  skos:broader :bri10;
+  skos:inScheme :bri;
+  skos:notation "1007"@de;
+  skos:prefLabel "Verfassungs- und Verwaltungsgerichtsbarkeit"@de .
+
+:bri1008 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/527>;
+  skos:broader :bri10;
+  skos:inScheme :bri;
+  skos:notation "1008"@de;
+  skos:prefLabel "Volksanwaltschaft, Rechnungshof"@de .
+
+:bri1009 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/527>;
+  skos:broader :bri10;
+  skos:inScheme :bri;
+  skos:notation "1009"@de;
+  skos:prefLabel "Gemeindeaufsicht"@de .
+
+:bri1010 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/5181>, <http://eurovoc.europa.eu/538>;
+  skos:broader :bri10;
+  skos:inScheme :bri;
+  skos:notation "1010"@de;
+  skos:prefLabel "Grundrechte, Datenschutz, Auskunftspflicht"@de .
+
+:bri1011 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/1625>;
+  skos:broader :bri10;
+  skos:inScheme :bri;
+  skos:notation "1011"@de;
+  skos:prefLabel "Vereins- und Versammlungsrecht"@de .
+
+:bri1012 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/2258>;
+  skos:broader :bri10;
+  skos:inScheme :bri;
+  skos:notation "1012"@de;
+  skos:prefLabel "Politische Parteien"@de .
+
+:bri1013 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/5838>;
+  skos:broader :bri10;
+  skos:inScheme :bri;
+  skos:notation "1013"@de;
+  skos:prefLabel "Amtshaftung, Organhaftpflicht, Polizeibefugnis-Entschädigung"@de .
+
+:bri1014 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/527>;
+  skos:broader :bri10;
+  skos:inScheme :bri;
+  skos:notation "1014"@de;
+  skos:prefLabel "Staatliche Symbole, Nationalfeiertag"@de .
+
+:bri1015 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/1464>;
+  skos:broader :bri10;
+  skos:inScheme :bri;
+  skos:notation "1015"@de;
+  skos:prefLabel "Europäische Integration"@de .
+
+:bri1016 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/527>;
+  skos:broader :bri10;
+  skos:inScheme :bri;
+  skos:notation "1016"@de;
+  skos:prefLabel "Sonstiges"@de .
+
+:bri11 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/1114>;
+  skos:broader :bri1;
+  skos:inScheme :bri;
+  skos:narrower :bri1101, :bri1102;
+  skos:notation "11"@de;
+  skos:prefLabel "Hoheitsgebiet, Grenzen"@de .
+
+:bri1101 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/1114>;
+  skos:broader :bri11;
+  skos:inScheme :bri;
+  skos:notation "1101"@de;
+  skos:prefLabel "Staatsgrenzgesetz"@de .
+
+:bri1102 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/1114>;
+  skos:broader :bri11;
+  skos:inScheme :bri;
+  skos:notation "1102"@de;
+  skos:prefLabel "Grenzänderungen"@de .
+
+:bri12 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3228>;
+  skos:broader :bri1;
+  skos:inScheme :bri;
+  skos:narrower :bri1201, :bri1202, :bri1203, :bri1204, :bri1205;
+  skos:notation "12"@de;
+  skos:prefLabel "Internationale Angelegenheiten"@de .
+
+:bri1201 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/2053>;
+  skos:broader :bri12;
+  skos:inScheme :bri;
+  skos:notation "1201"@de;
+  skos:prefLabel "Neutralität"@de .
+
+:bri1202 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3049>;
+  skos:broader :bri12;
+  skos:inScheme :bri;
+  skos:notation "1202"@de;
+  skos:prefLabel "Privilegien, Immunitäten"@de .
+
+:bri1203 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3935>;
+  skos:broader :bri12;
+  skos:inScheme :bri;
+  skos:notation "1203"@de;
+  skos:prefLabel "Entsendung ins Ausland"@de .
+
+:bri1204 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3077>;
+  skos:broader :bri12;
+  skos:inScheme :bri;
+  skos:notation "1204"@de;
+  skos:prefLabel "Entwicklungshilfe"@de .
+
+:bri1205 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3228>;
+  skos:broader :bri12;
+  skos:inScheme :bri;
+  skos:notation "1205"@de;
+  skos:prefLabel "Sonstiges"@de .
+
+:bri13 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3228>, <http://eurovoc.europa.eu/527>;
+  skos:broader :bri1;
+  skos:inScheme :bri;
+  skos:narrower :bri1301, :bri1302, :bri1303;
+  skos:notation "13"@de;
+  skos:prefLabel "Staatsvertragsdurchführung, Kriegsfolgen"@de .
+
+:bri1301 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/527>;
+  skos:broader :bri13;
+  skos:inScheme :bri;
+  skos:notation "1301"@de;
+  skos:prefLabel "Staatsvertragsdurchführung"@de .
+
+:bri1302 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/527>;
+  skos:broader :bri13;
+  skos:inScheme :bri;
+  skos:notation "1302"@de;
+  skos:prefLabel "Vermögensrechtliche Kriegsfolgen"@de .
+
+:bri1303 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/527>;
+  skos:broader :bri13;
+  skos:inScheme :bri;
+  skos:notation "1303"@de;
+  skos:prefLabel "Sonstiges"@de .
+
+:bri14 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3228>, <http://eurovoc.europa.eu/527>;
+  skos:broader :bri1;
+  skos:inScheme :bri;
+  skos:narrower :bri1401, :bri1402;
+  skos:notation "14"@de;
+  skos:prefLabel "Organisationsrecht"@de .
+
+:bri1401 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/2166>;
+  skos:broader :bri14;
+  skos:inScheme :bri;
+  skos:notation "1401"@de;
+  skos:prefLabel "Verwaltungsorganisation"@de .
+
+:bri1402 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3228>, <http://eurovoc.europa.eu/527>;
+  skos:broader :bri14;
+  skos:inScheme :bri;
+  skos:notation "1402"@de;
+  skos:prefLabel "Gerichtsorganisation"@de .
+
+:bri15 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3228>, <http://eurovoc.europa.eu/527>;
+  skos:broader :bri1;
+  skos:inScheme :bri;
+  skos:notation "15"@de;
+  skos:prefLabel "Unabhängigkeitserklärung, Rechtsüberleitung, Übergangsrecht, Rechtsbereinigung"@de .
+
+:bri16 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3228>, <http://eurovoc.europa.eu/527>;
+  skos:broader :bri1;
+  skos:inScheme :bri;
+  skos:narrower :bri1601, :bri1602;
+  skos:notation "16"@de;
+  skos:prefLabel "Medienrecht"@de .
+
+:bri1601 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/2013>;
+  skos:broader :bri16;
+  skos:inScheme :bri;
+  skos:notation "1601"@de;
+  skos:prefLabel "Medien, Presseförderung"@de .
+
+:bri1602 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/2883>;
+  skos:broader :bri16;
+  skos:inScheme :bri;
+  skos:notation "1602"@de;
+  skos:prefLabel "Rundfunk"@de .
+
+:bri17 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3228>, <http://eurovoc.europa.eu/527>;
+  skos:broader :bri1;
+  skos:inScheme :bri;
+  skos:notation "17"@de;
+  skos:prefLabel "Vereinbarungen gemäß Art. 15a B-VG"@de .
+
+:bri18 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3228>, <http://eurovoc.europa.eu/527>;
+  skos:broader :bri1;
+  skos:inScheme :bri;
+  skos:notation "18"@de;
+  skos:prefLabel "Kundmachungswesen"@de .
+
+:bri19 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3461>;
+  skos:broader :bri1;
+  skos:inScheme :bri;
+  skos:narrower :bri1901, :bri1902, :bri1903, :bri1904, :bri1905, :bri1906, :bri1907,
+    :bri1908, :bri1909, :bri1910, :bri1911, :bri1912, :bri1913, :bri1915, :bri1916, :bri1917,
+    :bri1918, :bri1919, :bri1920, :bri1921, :bri1922;
+  skos:notation "19"@de;
+  skos:prefLabel "Völkerrechtliche Verträge"@de .
+
+:bri1901 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3461>;
+  skos:broader :bri19;
+  skos:inScheme :bri;
+  skos:notation "1901"@de;
+  skos:prefLabel "Staatsverträge von St. Germain und Wien"@de .
+
+:bri1902 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/1114>;
+  skos:broader :bri19;
+  skos:inScheme :bri;
+  skos:notation "1902"@de;
+  skos:prefLabel "Staatsgenzen"@de .
+
+:bri1903 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/2179>;
+  skos:broader :bri19;
+  skos:inScheme :bri;
+  skos:notation "1903"@de;
+  skos:prefLabel "Vereinte Nationen, Internationaler Gerichtshof (IGH)"@de .
+
+:bri1904 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/121>;
+  skos:broader :bri19;
+  skos:inScheme :bri;
+  skos:notation "1904"@de;
+  skos:prefLabel "Europarat"@de .
+
+:bri1905 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/584>;
+  skos:broader :bri19;
+  skos:inScheme :bri;
+  skos:notation "1905"@de;
+  skos:prefLabel "Menschenrechte"@de .
+
+:bri1906 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3049>;
+  skos:broader :bri19;
+  skos:inScheme :bri;
+  skos:notation "1906"@de;
+  skos:prefLabel "Privilegien und Immunitäten"@de .
+
+:bri1907 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3049>;
+  skos:broader :bri19;
+  skos:inScheme :bri;
+  skos:notation "1907"@de;
+  skos:prefLabel "Diplomatischer und konsularischer Verkehr"@de .
+
+:bri1908 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3461>;
+  skos:broader :bri19;
+  skos:inScheme :bri;
+  skos:notation "1908"@de;
+  skos:prefLabel "Freundschafts- und Vergleichsverträge"@de .
+
+:bri1909 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3461>;
+  skos:broader :bri19;
+  skos:inScheme :bri;
+  skos:notation "1909"@de;
+  skos:prefLabel "Niederlassungsverträge"@de .
+
+:bri1910 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/1743>;
+  skos:broader :bri19;
+  skos:inScheme :bri;
+  skos:notation "1910"@de;
+  skos:prefLabel "Friedenssicherung"@de .
+
+:bri1911 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/541>;
+  skos:broader :bri19;
+  skos:inScheme :bri;
+  skos:notation "1911"@de;
+  skos:prefLabel "Kriegsrecht, Kriegsfolgen"@de .
+
+:bri1912 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/6930>;
+  skos:broader :bri19;
+  skos:inScheme :bri;
+  skos:notation "1912"@de;
+  skos:prefLabel "Gebietsansprüche"@de .
+
+:bri1913 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/542>;
+  skos:broader :bri19;
+  skos:inScheme :bri;
+  skos:notation "1913"@de;
+  skos:prefLabel "Seerecht"@de .
+
+:bri1915 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3461>;
+  skos:broader :bri19;
+  skos:inScheme :bri;
+  skos:notation "1915"@de;
+  skos:prefLabel "Vertragsrecht"@de .
+
+:bri1916 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3461>;
+  skos:broader :bri19;
+  skos:inScheme :bri;
+  skos:notation "1916"@de;
+  skos:prefLabel "Berechnung von Fristen"@de .
+
+:bri1917 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/6034>;
+  skos:broader :bri19;
+  skos:inScheme :bri;
+  skos:notation "1917"@de;
+  skos:prefLabel "Gebietskörperschaften"@de .
+
+:bri1918 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3077>;
+  skos:broader :bri19;
+  skos:inScheme :bri;
+  skos:notation "1918"@de;
+  skos:prefLabel "Entwicklungshilfe"@de .
+
+:bri1919 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3461>;
+  skos:broader :bri19;
+  skos:inScheme :bri;
+  skos:notation "1919"@de;
+  skos:prefLabel "Konferenzen, Ausstellungen"@de .
+
+:bri1920 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3461>;
+  skos:broader :bri19;
+  skos:inScheme :bri;
+  skos:notation "1920"@de;
+  skos:prefLabel "Amtssitzabkommen"@de .
+
+:bri1921 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3461>;
+  skos:broader :bri19;
+  skos:inScheme :bri;
+  skos:notation "1921"@de;
+  skos:prefLabel "Angestellte internationaler Organisationen"@de .
+
+:bri1922 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/5838>;
+  skos:broader :bri19;
+  skos:inScheme :bri;
+  skos:notation "1922"@de;
+  skos:prefLabel "Amtshaftung"@de .
+
+:bri2 a skos:Concept;
+  dct:modified "2020-03-25T14:52:19.649+01:00"^^xsd:dateTime;
+  skos:inScheme :bri;
+  skos:narrower :bri20, :bri21, :bri22, :bri23, :bri24, :bri25, :bri26, :bri27, :bri29;
+  skos:notation "2"@de;
+  skos:prefLabel "Zivil- und Strafrecht"@de;
+  skos:topConceptOf <https://data.wu.ac.at/legal/austrovoc> .
+
+:ent_beschluss skos:inScheme :rt .
+
+:bri20 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/576>;
+  skos:broader :bri2;
+  skos:inScheme :bri;
+  skos:narrower :bri2001, :bri2002, :bri2003, :bri2004, :bri2005, :bri2006, :bri2007,
+    :bri2008, :bri2009, :bri2010, :bri2011, :bri2012, :bri2013;
+  skos:notation "20"@de;
+  skos:prefLabel "Privatrecht allgemein"@de .
+
+:bri2001 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/5496>;
+  skos:broader :bri20;
+  skos:inScheme :bri;
+  skos:notation "2001"@de;
+  skos:prefLabel "Allgemeines bürgerliches Gesetzbuch (ABGB)"@de .
+
+:bri2002 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/540>;
+  skos:broader :bri20;
+  skos:inScheme :bri;
+  skos:notation "2002"@de;
+  skos:prefLabel "Familienrecht"@de .
+
+:bri2003 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/576>;
+  skos:broader :bri20;
+  skos:inScheme :bri;
+  skos:notation "2003"@de;
+  skos:prefLabel "Erwachsenenschutz"@de .
+
+:bri2004 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3936>;
+  skos:broader :bri20;
+  skos:inScheme :bri;
+  skos:notation "2004"@de;
+  skos:prefLabel "Erbrecht einschließlich Anerbenrecht"@de .
+
+:bri2005 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/556>;
+  skos:broader :bri20;
+  skos:inScheme :bri;
+  skos:notation "2005"@de;
+  skos:prefLabel "Wohn- und Mietrecht"@de .
+
+:bri2006 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/2836>;
+  skos:broader :bri20;
+  skos:inScheme :bri;
+  skos:notation "2006"@de;
+  skos:prefLabel "Konsumentenschutz"@de .
+
+:bri2007 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3497>, <http://eurovoc.europa.eu/499>;
+  skos:broader :bri20;
+  skos:inScheme :bri;
+  skos:notation "2007"@de;
+  skos:prefLabel "Schadenersatz, Haftpflicht"@de .
+
+:bri2008 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/529>;
+  skos:broader :bri20;
+  skos:inScheme :bri;
+  skos:notation "2008"@de;
+  skos:prefLabel "Urheberrecht"@de .
+
+:bri2009 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/566>;
+  skos:broader :bri20;
+  skos:inScheme :bri;
+  skos:notation "2009"@de;
+  skos:prefLabel "Internationales Privatrecht"@de .
+
+:bri2010 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/576>;
+  skos:broader :bri20;
+  skos:inScheme :bri;
+  skos:notation "2010"@de;
+  skos:prefLabel "Priester, Ordensleute"@de .
+
+:bri2011 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/5079>;
+  skos:broader :bri20;
+  skos:inScheme :bri;
+  skos:notation "2011"@de;
+  skos:prefLabel "Grundbuch"@de .
+
+:bri2012 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/576>;
+  skos:broader :bri20;
+  skos:inScheme :bri;
+  skos:notation "2012"@de;
+  skos:prefLabel "Urkunden"@de .
+
+:bri2013 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/576>;
+  skos:broader :bri20;
+  skos:inScheme :bri;
+  skos:notation "2013"@de;
+  skos:prefLabel "Sonstiges"@de .
+
+:bri21 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/524>;
+  skos:broader :bri2;
+  skos:inScheme :bri;
+  skos:narrower :bri2101, :bri2102, :bri2103, :bri2104, :bri2105, :bri2106, :bri2107;
+  skos:notation "21"@de;
+  skos:prefLabel "Handels- und Wertpapierrecht"@de .
+
+:bri2101 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/524>;
+  skos:broader :bri21;
+  skos:inScheme :bri;
+  skos:notation "2101"@de;
+  skos:prefLabel "Handelsrecht"@de .
+
+:bri2102 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/524>;
+  skos:broader :bri21;
+  skos:inScheme :bri;
+  skos:notation "2102"@de;
+  skos:prefLabel "Aktienrecht"@de .
+
+:bri2103 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/524>;
+  skos:broader :bri21;
+  skos:inScheme :bri;
+  skos:notation "2103"@de;
+  skos:prefLabel "GesmbH-Recht"@de .
+
+:bri2104 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/524>;
+  skos:broader :bri21;
+  skos:inScheme :bri;
+  skos:notation "2104"@de;
+  skos:prefLabel "Genossenschaftsrecht"@de .
+
+:bri2105 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3233>;
+  skos:broader :bri21;
+  skos:inScheme :bri;
+  skos:notation "2105"@de;
+  skos:prefLabel "Börse"@de .
+
+:bri2106 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/524>;
+  skos:broader :bri21;
+  skos:inScheme :bri;
+  skos:notation "2106"@de;
+  skos:prefLabel "Wertpapierrecht"@de .
+
+:bri2107 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/524>;
+  skos:broader :bri21;
+  skos:inScheme :bri;
+  skos:notation "2107"@de;
+  skos:prefLabel "Sonstiges"@de .
+
+:bri22 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/2699>;
+  skos:broader :bri2;
+  skos:inScheme :bri;
+  skos:narrower :bri2201, :bri2202, :bri2203, :bri2204;
+  skos:notation "22"@de;
+  skos:prefLabel "Zivilprozess, Außerstreitiges Verfahren"@de .
+
+:bri2201 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/2699>;
+  skos:broader :bri22;
+  skos:inScheme :bri;
+  skos:notation "2201"@de;
+  skos:prefLabel "Jurisdiktionsnorm"@de .
+
+:bri2202 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3942>;
+  skos:broader :bri22;
+  skos:inScheme :bri;
+  skos:notation "2202"@de;
+  skos:prefLabel "Zivilprozessordnung"@de .
+
+:bri2203 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/2699>;
+  skos:broader :bri22;
+  skos:inScheme :bri;
+  skos:notation "2203"@de;
+  skos:prefLabel "Außerstreitverfahren"@de .
+
+:bri2204 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/2699>;
+  skos:broader :bri22;
+  skos:inScheme :bri;
+  skos:notation "2204"@de;
+  skos:prefLabel "Sonstiges"@de .
+
+:bri23 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3942>;
+  skos:broader :bri2;
+  skos:inScheme :bri;
+  skos:narrower :bri2301, :bri2302, :bri2303, :bri2304, :bri2305;
+  skos:notation "23"@de;
+  skos:prefLabel "Insolvenzrecht, Exekutionsrecht"@de .
+
+:bri2301 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3942>;
+  skos:broader :bri23;
+  skos:inScheme :bri;
+  skos:notation "2301"@de;
+  skos:prefLabel "Insolvenzordnung"@de .
+
+:bri2302 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3942>;
+  skos:broader :bri23;
+  skos:inScheme :bri;
+  skos:notation "2302"@de;
+  skos:prefLabel "Anfechtungsordnung"@de .
+
+:bri2303 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3942>;
+  skos:broader :bri23;
+  skos:inScheme :bri;
+  skos:notation "2303"@de;
+  skos:prefLabel "Sonstiges Insolvenzrecht"@de .
+
+:bri2304 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3942>;
+  skos:broader :bri23;
+  skos:inScheme :bri;
+  skos:notation "2304"@de;
+  skos:prefLabel "Exekutionsordnung"@de .
+
+:bri2305 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3942>;
+  skos:broader :bri23;
+  skos:inScheme :bri;
+  skos:notation "2305"@de;
+  skos:prefLabel "Sonstiges Exekutionsrecht"@de .
+
+:bri24 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/573>;
+  skos:broader :bri2;
+  skos:inScheme :bri;
+  skos:narrower :bri2401, :bri2402, :bri2403;
+  skos:notation "24"@de;
+  skos:prefLabel "Strafrecht"@de .
+
+:bri2401 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/5497>;
+  skos:broader :bri24;
+  skos:inScheme :bri;
+  skos:notation "2401"@de;
+  skos:prefLabel "Strafgesetzbuch"@de .
+
+:bri2402 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/1546>;
+  skos:broader :bri24;
+  skos:inScheme :bri;
+  skos:notation "2402"@de;
+  skos:prefLabel "Jugendgerichtsbarkeit"@de .
+
+:bri2403 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/573>;
+  skos:broader :bri24;
+  skos:inScheme :bri;
+  skos:notation "2403"@de;
+  skos:prefLabel "Sonstiges"@de .
+
+:bri25 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/2704>;
+  skos:broader :bri2;
+  skos:inScheme :bri;
+  skos:narrower :bri2501, :bri2502, :bri2503, :bri2504;
+  skos:notation "25"@de;
+  skos:prefLabel "Strafprozess, Strafvollzug"@de .
+
+:bri2501 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/2704>;
+  skos:broader :bri25;
+  skos:inScheme :bri;
+  skos:notation "2501"@de;
+  skos:prefLabel "Strafprozess"@de .
+
+:bri2502 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/2704>;
+  skos:broader :bri25;
+  skos:inScheme :bri;
+  skos:notation "2502"@de;
+  skos:prefLabel "Strafvollzug"@de .
+
+:bri2503 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/2597>;
+  skos:broader :bri25;
+  skos:inScheme :bri;
+  skos:notation "2503"@de;
+  skos:prefLabel "Amnestien"@de .
+
+:bri2504 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/2704>;
+  skos:broader :bri25;
+  skos:inScheme :bri;
+  skos:notation "2504"@de;
+  skos:prefLabel "Sonstiges"@de .
+
+:bri26 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/2817>;
+  skos:broader :bri2;
+  skos:inScheme :bri;
+  skos:narrower :bri2601, :bri2602, :bri2603, :bri2604;
+  skos:notation "26"@de;
+  skos:prefLabel "Gewerblicher Rechtsschutz"@de .
+
+:bri2601 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/539>;
+  skos:broader :bri26, :bri27;
+  skos:inScheme :bri;
+  skos:notation "2601"@de;
+  skos:prefLabel "Wettbewerbsrecht"@de .
+
+:bri2602 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3665>;
+  skos:broader :bri26, :bri27;
+  skos:inScheme :bri;
+  skos:notation "2602"@de;
+  skos:prefLabel "Marken- und Musterschutz"@de .
+
+:bri2603 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/550>;
+  skos:broader :bri26, :bri27;
+  skos:inScheme :bri;
+  skos:notation "2603"@de;
+  skos:prefLabel "Patentrecht"@de .
+
+:bri2604 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/2817>;
+  skos:broader :bri26, :bri27;
+  skos:inScheme :bri;
+  skos:notation "2604"@de;
+  skos:prefLabel "Sonstiges"@de .
+
+:bri27 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/2236>;
+  skos:broader :bri2;
+  skos:inScheme :bri;
+  skos:narrower :bri2601, :bri2602, :bri2603, :bri2604, :bri2701, :bri2702, :bri2703,
+    :bri2704;
+  skos:notation "27"@de;
+  skos:prefLabel "Rechtspflege"@de .
+
+:bri2701 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/5141>;
+  skos:broader :bri27;
+  skos:inScheme :bri;
+  skos:notation "2701"@de;
+  skos:prefLabel "Rechtsanwälte"@de .
+
+:bri2702 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/2085>;
+  skos:broader :bri27;
+  skos:inScheme :bri;
+  skos:notation "2702"@de;
+  skos:prefLabel "Notare"@de .
+
+:bri2703 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/2236>;
+  skos:broader :bri27;
+  skos:inScheme :bri;
+  skos:notation "2703"@de;
+  skos:prefLabel "Gerichts- und Justizverwaltungsgebühren"@de .
+
+:bri2704 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/2236>;
+  skos:broader :bri27;
+  skos:inScheme :bri;
+  skos:notation "2704"@de;
+  skos:prefLabel "Sonstiges"@de .
+
+:bri29 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3461>;
+  skos:broader :bri2;
+  skos:inScheme :bri;
+  skos:narrower :bri2901, :bri2902, :bri2903, :bri2904, :bri2905, :bri2906, :bri2907,
+    :bri2908, :bri2909, :bri2910, :bri2911, :bri2912, :bri2913, :bri2914;
+  skos:notation "29"@de;
+  skos:prefLabel "Völkerrechtliche Verträge"@de .
+
+:bri2901 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/523>;
+  skos:broader :bri29;
+  skos:inScheme :bri;
+  skos:notation "2901"@de;
+  skos:prefLabel "Zivilrecht"@de .
+
+:bri2902 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/566>;
+  skos:broader :bri29;
+  skos:inScheme :bri;
+  skos:notation "2902"@de;
+  skos:prefLabel "Internationales Privatrecht"@de .
+
+:bri2903 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/2699>;
+  skos:broader :bri29;
+  skos:inScheme :bri;
+  skos:notation "2903"@de;
+  skos:prefLabel "Zivilprozess"@de .
+
+:bri2904 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/522>;
+  skos:broader :bri29;
+  skos:inScheme :bri;
+  skos:notation "2904"@de;
+  skos:prefLabel "Internationales Wechsel- und Scheckrecht"@de .
+
+:bri2905 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3461>;
+  skos:broader :bri29;
+  skos:inScheme :bri;
+  skos:notation "2905"@de;
+  skos:prefLabel "Rechtshilfe in Zivil- und Handelssachen"@de .
+
+:bri2906 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/529>;
+  skos:broader :bri29;
+  skos:inScheme :bri;
+  skos:notation "2906"@de;
+  skos:prefLabel "Urheberrecht"@de .
+
+:bri2907 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/2817>;
+  skos:broader :bri29;
+  skos:inScheme :bri;
+  skos:notation "2907"@de;
+  skos:prefLabel "Gewerblicher Rechtsschutz"@de .
+
+:bri2908 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/573>;
+  skos:broader :bri29;
+  skos:inScheme :bri;
+  skos:notation "2908"@de;
+  skos:prefLabel "Strafrecht"@de .
+
+:bri2909 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/953>;
+  skos:broader :bri29;
+  skos:inScheme :bri;
+  skos:notation "2909"@de;
+  skos:prefLabel "Auslieferung, Rechtshilfe in Strafsachen"@de .
+
+:bri2910 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/2704>;
+  skos:broader :bri29;
+  skos:inScheme :bri;
+  skos:notation "2910"@de;
+  skos:prefLabel "Strafprozess, Strafvollzug"@de .
+
+:bri2911 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3461>;
+  skos:broader :bri29;
+  skos:inScheme :bri;
+  skos:notation "2911"@de;
+  skos:prefLabel "Anerkennung und Vollstreckung gerichtlicher Entscheidungen"@de .
+
+:bri2912 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3461>;
+  skos:broader :bri29;
+  skos:inScheme :bri;
+  skos:notation "2912"@de;
+  skos:prefLabel "Geltendmachung und Vollstreckung von Unterhaltsansprüchen"@de .
+
+:bri2913 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3461>;
+  skos:broader :bri29;
+  skos:inScheme :bri;
+  skos:notation "2913"@de;
+  skos:prefLabel "Anerkennung und Vollstreckung von Schiedssprüchen"@de .
+
+:bri2914 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3461>;
+  skos:broader :bri29;
+  skos:inScheme :bri;
+  skos:notation "2914"@de;
+  skos:prefLabel "Beglaubigung ausländischer Urkunden (Befreiung)"@de .
+
+:bri3 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/561>;
+  skos:inScheme :bri;
+  skos:narrower :bri30, :bri31, :bri32, :bri33, :bri34, :bri35, :bri36, :bri37, :bri38,
+    :bri39;
+  skos:notation "3"@de;
+  skos:prefLabel "Finanzrecht, Geld-, Währungs- und Kreditrecht"@de;
+  skos:topConceptOf <https://data.wu.ac.at/legal/austrovoc> .
+
+:bri30 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/561>;
+  skos:broader :bri3;
+  skos:inScheme :bri;
+  skos:narrower :bri3001, :bri3002;
+  skos:notation "30"@de;
+  skos:prefLabel "Finanzverfassung, Finanzausgleich"@de .
+
+:bri3001 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/561>;
+  skos:broader :bri30;
+  skos:inScheme :bri;
+  skos:notation "3001"@de;
+  skos:prefLabel "Finanzverfassung"@de .
+
+:bri3002 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/2319>;
+  skos:broader :bri30;
+  skos:inScheme :bri;
+  skos:notation "3002"@de;
+  skos:prefLabel "Finanzausgleich"@de .
+
+:bri31 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/5050>, <http://eurovoc.europa.eu/5052>;
+  skos:broader :bri3;
+  skos:inScheme :bri;
+  skos:narrower :bri3101, :bri3102, :bri3103, :bri3104, :bri3105, :bri3106;
+  skos:notation "31"@de;
+  skos:prefLabel "Bundeshaushalt"@de .
+
+:bri3101 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/5050>;
+  skos:broader :bri31;
+  skos:inScheme :bri;
+  skos:notation "3101"@de;
+  skos:prefLabel "Allgemeines Haushaltsrecht, Bundesbudget"@de .
+
+:bri3102 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/2448>;
+  skos:broader :bri31;
+  skos:inScheme :bri;
+  skos:notation "3102"@de;
+  skos:prefLabel "Verfügungen über Bundesvermögen"@de .
+
+:bri3103 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/736>;
+  skos:broader :bri31;
+  skos:inScheme :bri;
+  skos:notation "3103"@de;
+  skos:prefLabel "Bundeshaftung, Anleihen"@de .
+
+:bri3104 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/2448>;
+  skos:broader :bri31;
+  skos:inScheme :bri;
+  skos:notation "3104"@de;
+  skos:prefLabel "Bundesbeteiligungen"@de .
+
+:bri3105 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/712>;
+  skos:broader :bri31;
+  skos:inScheme :bri;
+  skos:notation "3105"@de;
+  skos:prefLabel "Förderungen, Zuschüsse, Fonds"@de .
+
+:bri3106 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/2448>;
+  skos:broader :bri31;
+  skos:inScheme :bri;
+  skos:notation "3106"@de;
+  skos:prefLabel "Sanierungen"@de .
+
+:bri32 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/561>;
+  skos:broader :bri3;
+  skos:inScheme :bri;
+  skos:narrower :bri3201, :bri3202, :bri3203, :bri3204, :bri3205, :bri3206, :bri3207,
+    :bri3208;
+  skos:notation "32"@de;
+  skos:prefLabel "Steuerrecht"@de .
+
+:bri3201 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/561>;
+  skos:broader :bri32;
+  skos:inScheme :bri;
+  skos:notation "3201"@de;
+  skos:prefLabel "Finanzverfahren, allgemeines Abgabenrecht"@de .
+
+:bri3202 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/1326>;
+  skos:broader :bri32;
+  skos:inScheme :bri;
+  skos:notation "3202"@de;
+  skos:prefLabel "Steuern vom Einkommen und Ertrag"@de .
+
+:bri3203 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/561>;
+  skos:broader :bri32;
+  skos:inScheme :bri;
+  skos:notation "3203"@de;
+  skos:prefLabel "Steuern vom Vermögen"@de .
+
+:bri3204 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/4585>;
+  skos:broader :bri32;
+  skos:inScheme :bri;
+  skos:notation "3204"@de;
+  skos:prefLabel "Steuern vom Umsatz"@de .
+
+:bri3205 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/1321>;
+  skos:broader :bri32;
+  skos:inScheme :bri;
+  skos:notation "3205"@de;
+  skos:prefLabel "Verbrauchsteuern"@de .
+
+:bri3206 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/561>;
+  skos:broader :bri32;
+  skos:inScheme :bri;
+  skos:notation "3206"@de;
+  skos:prefLabel "Verkehrsteuern"@de .
+
+:bri3207 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/561>;
+  skos:broader :bri32;
+  skos:inScheme :bri;
+  skos:notation "3207"@de;
+  skos:prefLabel "Stempel- und Rechtsgebühren, Stempelmarken"@de .
+
+:bri3208 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/561>;
+  skos:broader :bri32;
+  skos:inScheme :bri;
+  skos:notation "3208"@de;
+  skos:prefLabel "Sonstiges"@de .
+
+:bri33 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/561>;
+  skos:broader :bri3;
+  skos:inScheme :bri;
+  skos:notation "33"@de;
+  skos:prefLabel "Bewertungsrecht"@de .
+
+:bri34 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/1979>;
+  skos:broader :bri3;
+  skos:inScheme :bri;
+  skos:notation "34"@de;
+  skos:prefLabel "Monopole"@de .
+
+:bri35 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3156>;
+  skos:broader :bri3;
+  skos:inScheme :bri;
+  skos:narrower :bri3501, :bri3502, :bri3503, :bri3504, :bri3505;
+  skos:notation "35"@de;
+  skos:prefLabel "Zollrecht"@de .
+
+:bri3501 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/148>;
+  skos:broader :bri35;
+  skos:inScheme :bri;
+  skos:notation "3501"@de;
+  skos:prefLabel "Bundesverfassungsgesetz"@de .
+
+:bri3502 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3156>;
+  skos:broader :bri35;
+  skos:inScheme :bri;
+  skos:notation "3502"@de;
+  skos:prefLabel "Zollgesetz"@de .
+
+:bri3503 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3156>;
+  skos:broader :bri35;
+  skos:inScheme :bri;
+  skos:notation "3503"@de;
+  skos:prefLabel "Taragesetz, Wertzollgesetz"@de .
+
+:bri3504 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3156>;
+  skos:broader :bri35;
+  skos:inScheme :bri;
+  skos:notation "3504"@de;
+  skos:prefLabel "Zolltarifgesetz, Präferenzzollgesetz"@de .
+
+:bri3505 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3156>;
+  skos:broader :bri35;
+  skos:inScheme :bri;
+  skos:notation "3505"@de;
+  skos:prefLabel "Sonstiges"@de .
+
+:bri36 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/822>;
+  skos:broader :bri3;
+  skos:inScheme :bri;
+  skos:notation "36"@de;
+  skos:prefLabel "Wirtschaftstreuhänder"@de .
+
+:bri37 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/561>;
+  skos:broader :bri3;
+  skos:inScheme :bri;
+  skos:narrower :bri3701, :bri3702, :bri3703, :bri3704, :bri3705;
+  skos:notation "37"@de;
+  skos:prefLabel "Geld-, Währungs- und Kreditrecht"@de .
+
+:bri3701 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/561>;
+  skos:broader :bri37;
+  skos:inScheme :bri;
+  skos:notation "3701"@de;
+  skos:prefLabel "Geld- und Währungsrecht"@de .
+
+:bri3702 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/561>;
+  skos:broader :bri37;
+  skos:inScheme :bri;
+  skos:notation "3702"@de;
+  skos:prefLabel "Kreditwesen"@de .
+
+:bri3703 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/561>;
+  skos:broader :bri37;
+  skos:inScheme :bri;
+  skos:notation "3703"@de;
+  skos:prefLabel "Nationalbank"@de .
+
+:bri3704 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/561>;
+  skos:broader :bri37;
+  skos:inScheme :bri;
+  skos:notation "3704"@de;
+  skos:prefLabel "Internationale Finanzinstitutionen"@de .
+
+:bri3705 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/561>;
+  skos:broader :bri37;
+  skos:inScheme :bri;
+  skos:notation "3705"@de;
+  skos:prefLabel "Sonstiges"@de .
+
+:bri38 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/561>;
+  skos:broader :bri3;
+  skos:inScheme :bri;
+  skos:notation "38"@de;
+  skos:prefLabel "Punzierung"@de .
+
+:bri39 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3461>;
+  skos:broader :bri3;
+  skos:inScheme :bri;
+  skos:narrower :bri3901, :bri3902, :bri3903, :bri3904, :bri3905, :bri3906, :bri3907,
+    :bri3908, :bri3909, :bri3910, :bri3911;
+  skos:notation "39"@de;
+  skos:prefLabel "Völkerrechtliche Verträge"@de .
+
+:bri3901 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/1452>, <http://eurovoc.europa.eu/4344>;
+  skos:broader :bri39;
+  skos:inScheme :bri;
+  skos:notation "3901"@de;
+  skos:prefLabel "Finanzinstitutionen, Währungsabkommen"@de .
+
+:bri3902 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/922>;
+  skos:broader :bri39;
+  skos:inScheme :bri;
+  skos:notation "3902"@de;
+  skos:prefLabel "Finanzierungsabkommen, Finanzhilfe"@de .
+
+:bri3903 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/504>;
+  skos:broader :bri39;
+  skos:inScheme :bri;
+  skos:notation "3903"@de;
+  skos:prefLabel "Doppelbesteuerung"@de .
+
+:bri3904 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/4836>;
+  skos:broader :bri39;
+  skos:inScheme :bri;
+  skos:notation "3904"@de;
+  skos:prefLabel "Zollabkommen"@de .
+
+:bri3905 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/4385>;
+  skos:broader :bri39;
+  skos:inScheme :bri;
+  skos:notation "3905"@de;
+  skos:prefLabel "Zollbegünstigungen"@de .
+
+:bri3906 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/206>;
+  skos:broader :bri39;
+  skos:inScheme :bri;
+  skos:notation "3906"@de;
+  skos:prefLabel "Rechts- und Amtshilfe"@de .
+
+:bri3907 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/4491>;
+  skos:broader :bri39;
+  skos:inScheme :bri;
+  skos:notation "3907"@de;
+  skos:prefLabel "Zahlungsverkehr"@de .
+
+:bri3908 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3461>;
+  skos:broader :bri39;
+  skos:inScheme :bri;
+  skos:notation "3908"@de;
+  skos:prefLabel "Vermögensrechtliche Angelegenheiten"@de .
+
+:bri3909 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3461>;
+  skos:broader :bri39;
+  skos:inScheme :bri;
+  skos:notation "3909"@de;
+  skos:prefLabel "Auslandsschulden"@de .
+
+:bri3910 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3461>;
+  skos:broader :bri39;
+  skos:inScheme :bri;
+  skos:notation "3910"@de;
+  skos:prefLabel "Punzierung"@de .
+
+:bri3911 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3461>;
+  skos:broader :bri39;
+  skos:inScheme :bri;
+  skos:notation "3911"@de;
+  skos:prefLabel "EU-Haushaltsrecht"@de .
+
+:bri4 a skos:Concept;
+  dct:modified "2020-03-25T14:51:10.456+01:00"^^xsd:dateTime;
+  skos:inScheme :bri;
+  skos:narrower :bri40, :bri41, :bri43, :bri44, :bri46, :bri49;
+  skos:notation "4"@de;
+  skos:prefLabel "Innere Verwaltung und Wehrrecht"@de;
+  skos:topConceptOf <https://data.wu.ac.at/legal/austrovoc> .
+
+:bri dct:modified "2020-03-23T12:22:55.039+01:00"^^xsd:dateTime .
+
+:bri40 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/517>;
+  skos:broader :bri4;
+  skos:inScheme :bri;
+  skos:narrower :bri4001, :bri4002;
+  skos:notation "40"@de;
+  skos:prefLabel "Verwaltungsverfahren"@de .
+
+:bri4001 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/517>;
+  skos:broader :bri40;
+  skos:inScheme :bri;
+  skos:notation "4001"@de;
+  skos:prefLabel "Verwaltungsverfahrensgesetze"@de .
+
+:bri4002 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/517>;
+  skos:broader :bri40;
+  skos:inScheme :bri;
+  skos:notation "4002"@de;
+  skos:prefLabel "Sonstiges"@de .
+
+:bri41 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/38>;
+  skos:broader :bri4;
+  skos:inScheme :bri;
+  skos:narrower :bri4101, :bri4102, :bri4103, :bri4104, :bri4105, :bri4106, :bri4107,
+    :bri4108, :bri4109, :bri4110;
+  skos:notation "41"@de;
+  skos:prefLabel "Innere Angelegenheiten"@de .
+
+:bri4101 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/38>;
+  skos:broader :bri41;
+  skos:inScheme :bri;
+  skos:notation "4101"@de;
+  skos:prefLabel "Sicherheitsrecht"@de .
+
+:bri4102 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/2034>, <http://eurovoc.europa.eu/5597>;
+  skos:broader :bri41;
+  skos:inScheme :bri;
+  skos:notation "4102"@de;
+  skos:prefLabel "Staatsbürgerschaft, Pass- und Melderecht, Fremdenrecht, Asylrecht"@de .
+
+:bri4103 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/884>;
+  skos:broader :bri41;
+  skos:inScheme :bri;
+  skos:notation "4103"@de;
+  skos:prefLabel "Personenstandsrecht"@de .
+
+:bri4104 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/2647>;
+  skos:broader :bri41;
+  skos:inScheme :bri;
+  skos:notation "4104"@de;
+  skos:prefLabel "Sprengmittel, Waffen, Munition"@de .
+
+:bri4105 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/1051>;
+  skos:broader :bri41;
+  skos:inScheme :bri;
+  skos:notation "4105"@de;
+  skos:prefLabel "Stiftungen, Fonds"@de .
+
+:bri4106 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/5800>;
+  skos:broader :bri41;
+  skos:inScheme :bri;
+  skos:notation "4106"@de;
+  skos:prefLabel "Pornographie"@de .
+
+:bri4107 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/38>;
+  skos:broader :bri41;
+  skos:inScheme :bri;
+  skos:notation "4107"@de;
+  skos:prefLabel "Grenzüberwachung"@de .
+
+:bri4108 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3329>;
+  skos:broader :bri41;
+  skos:inScheme :bri;
+  skos:notation "4108"@de;
+  skos:prefLabel "Ehrenzeichen, Orden, Uniformen, Abzeichen"@de .
+
+:bri4109 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/38>;
+  skos:broader :bri41;
+  skos:inScheme :bri;
+  skos:notation "4109"@de;
+  skos:prefLabel "Internationale Amtshilfe"@de .
+
+:bri4110 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/38>;
+  skos:broader :bri41;
+  skos:inScheme :bri;
+  skos:notation "4110"@de;
+  skos:prefLabel "Sonstiges"@de .
+
+:bri43 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/7809>;
+  skos:broader :bri4;
+  skos:inScheme :bri;
+  skos:narrower :bri4301, :bri4302, :bri44;
+  skos:notation "43"@de;
+  skos:prefLabel "Wehrrecht"@de .
+
+:bri4301 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/7809>;
+  skos:broader :bri43;
+  skos:inScheme :bri;
+  skos:notation "4301"@de;
+  skos:prefLabel "Wehrrecht allgemein"@de .
+
+:bri4302 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/7809>;
+  skos:broader :bri43;
+  skos:inScheme :bri;
+  skos:notation "4302"@de;
+  skos:prefLabel "Leistungsrecht"@de .
+
+:bri44 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/4106>;
+  skos:broader :bri4, :bri43;
+  skos:inScheme :bri;
+  skos:notation "44"@de;
+  skos:prefLabel "Zivildienst"@de .
+
+:bri46 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/4256>;
+  skos:broader :bri4;
+  skos:inScheme :bri;
+  skos:narrower :bri4601, :bri4602;
+  skos:notation "46"@de;
+  skos:prefLabel "Statistik"@de .
+
+:bri4601 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/4256>;
+  skos:broader :bri46;
+  skos:inScheme :bri;
+  skos:notation "4601"@de;
+  skos:prefLabel "Bundesstatistikgesetz 1965"@de .
+
+:bri4602 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/4256>;
+  skos:broader :bri46;
+  skos:inScheme :bri;
+  skos:notation "4602"@de;
+  skos:prefLabel "Sonstiges"@de .
+
+:bri49 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3461>;
+  skos:broader :bri4;
+  skos:inScheme :bri;
+  skos:narrower :bri4901, :bri4902, :bri4903, :bri4904, :bri4905, :bri4906, :bri4907,
+    :bri4908, :bri4909, :bri4910, :bri4911, :bri4912;
+  skos:notation "49"@de;
+  skos:prefLabel "Völkerrechtliche Verträge"@de .
+
+:bri4901 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/2986>;
+  skos:broader :bri49;
+  skos:inScheme :bri;
+  skos:notation "4901"@de;
+  skos:prefLabel "Flüchtlinge"@de .
+
+:bri4902 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/2096>, <http://eurovoc.europa.eu/3521>;
+  skos:broader :bri49;
+  skos:inScheme :bri;
+  skos:notation "4902"@de;
+  skos:prefLabel "Staatsbürgerschaft, Staatenlosigkeit"@de .
+
+:bri4903 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/884>;
+  skos:broader :bri49;
+  skos:inScheme :bri;
+  skos:notation "4903"@de;
+  skos:prefLabel "Personenstand"@de .
+
+:bri4904 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/4540>;
+  skos:broader :bri49;
+  skos:inScheme :bri;
+  skos:notation "4904"@de;
+  skos:prefLabel "Grenzverkehr"@de .
+
+:bri4905 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/2271>;
+  skos:broader :bri49;
+  skos:inScheme :bri;
+  skos:notation "4905"@de;
+  skos:prefLabel "Reisedokumente, Sichtvermerke"@de .
+
+:bri4906 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/38>, <http://eurovoc.europa.eu/7809>;
+  skos:broader :bri49;
+  skos:inScheme :bri;
+  skos:notation "4906"@de;
+  skos:prefLabel "Schubverkehr"@de .
+
+:bri4907 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/4256>;
+  skos:broader :bri49;
+  skos:inScheme :bri;
+  skos:notation "4907"@de;
+  skos:prefLabel "Statistik"@de .
+
+:bri4908 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/38>, <http://eurovoc.europa.eu/7809>;
+  skos:broader :bri49;
+  skos:inScheme :bri;
+  skos:notation "4908"@de;
+  skos:prefLabel "Amtshilfe, Zustellung von Schriftstücken"@de .
+
+:bri4909 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/38>, <http://eurovoc.europa.eu/7809>;
+  skos:broader :bri49;
+  skos:inScheme :bri;
+  skos:notation "4909"@de;
+  skos:prefLabel "Militärische Waffen"@de .
+
+:bri4910 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/38>, <http://eurovoc.europa.eu/7809>;
+  skos:broader :bri49;
+  skos:inScheme :bri;
+  skos:notation "4910"@de;
+  skos:prefLabel "Kriegsgräber"@de .
+
+:bri4911 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/38>, <http://eurovoc.europa.eu/7809>;
+  skos:broader :bri49;
+  skos:inScheme :bri;
+  skos:notation "4911"@de;
+  skos:prefLabel "Internationale Sicherheit"@de .
+
+:bri4912 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3057>;
+  skos:broader :bri49;
+  skos:inScheme :bri;
+  skos:notation "4912"@de;
+  skos:prefLabel "Zivilschutz"@de .
+
+:bri5 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/637>;
+  skos:inScheme :bri;
+  skos:narrower :bri50, :bri53, :bri54, :bri55, :bri56, :bri57, :bri58, :bri59;
+  skos:notation "5"@de;
+  skos:prefLabel "Wirtschaft"@de;
+  skos:topConceptOf <https://data.wu.ac.at/legal/austrovoc> .
+
+:bri50 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/637>;
+  skos:broader :bri5;
+  skos:inScheme :bri;
+  skos:narrower :bri5001, :bri5002, :bri5003, :bri5004, :bri5005;
+  skos:notation "50"@de;
+  skos:prefLabel "Gewerberecht"@de .
+
+:bri5001 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/637>;
+  skos:broader :bri50;
+  skos:inScheme :bri;
+  skos:notation "5001"@de;
+  skos:prefLabel "Gewerbeordnung"@de .
+
+:bri5002 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/637>;
+  skos:broader :bri50;
+  skos:inScheme :bri;
+  skos:notation "5002"@de;
+  skos:prefLabel "Sonstiges Gewerberecht"@de .
+
+:bri5003 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/637>;
+  skos:broader :bri50;
+  skos:inScheme :bri;
+  skos:notation "5003"@de;
+  skos:prefLabel "Personen- und Güterbeförderung"@de .
+
+:bri5004 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/1074>;
+  skos:broader :bri50;
+  skos:inScheme :bri;
+  skos:notation "5004"@de;
+  skos:prefLabel "Berufsausbildung"@de .
+
+:bri5005 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/637>;
+  skos:broader :bri50;
+  skos:inScheme :bri;
+  skos:notation "5005"@de;
+  skos:prefLabel "Kammern der gewerblichen Wirtschaft"@de .
+
+:bri53 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/2497>;
+  skos:broader :bri5;
+  skos:inScheme :bri;
+  skos:notation "53"@de;
+  skos:prefLabel "Wirtschaftsförderung"@de .
+
+:bri54 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/9>;
+  skos:broader :bri5;
+  skos:inScheme :bri;
+  skos:narrower :bri5401, :bri5402, :bri5403, :bri5404, :bri5405, :bri5406, :bri5407;
+  skos:notation "54"@de;
+  skos:prefLabel "Außenhandel"@de .
+
+:bri5401 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/9>;
+  skos:broader :bri54;
+  skos:inScheme :bri;
+  skos:notation "5401"@de;
+  skos:prefLabel "Ausfuhrförderung"@de .
+
+:bri5402 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/9>;
+  skos:broader :bri54;
+  skos:inScheme :bri;
+  skos:notation "5402"@de;
+  skos:prefLabel "Außenhandelsgesetz"@de .
+
+:bri5403 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/176>;
+  skos:broader :bri54;
+  skos:inScheme :bri;
+  skos:notation "5403"@de;
+  skos:prefLabel "EFTA"@de .
+
+:bri5404 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/5343>;
+  skos:broader :bri54;
+  skos:inScheme :bri;
+  skos:notation "5404"@de;
+  skos:prefLabel "EG"@de .
+
+:bri5405 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/5327>;
+  skos:broader :bri54;
+  skos:inScheme :bri;
+  skos:notation "5405"@de;
+  skos:prefLabel "EGKS"@de .
+
+:bri5406 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/1136>;
+  skos:broader :bri54;
+  skos:inScheme :bri;
+  skos:notation "5406"@de;
+  skos:prefLabel "GATT"@de .
+
+:bri5407 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/9>;
+  skos:broader :bri54;
+  skos:inScheme :bri;
+  skos:notation "5407"@de;
+  skos:prefLabel "Sonstiges Außenhandelsrecht"@de .
+
+:bri55 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/637>;
+  skos:broader :bri5;
+  skos:inScheme :bri;
+  skos:notation "55"@de;
+  skos:prefLabel "Wirtschaftslenkung"@de .
+
+:bri56 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/637>;
+  skos:broader :bri5;
+  skos:inScheme :bri;
+  skos:narrower :bri5601, :bri5602, :bri5603, :bri5604;
+  skos:notation "56"@de;
+  skos:prefLabel "Öffentliche Wirtschaft"@de .
+
+:bri5601 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/2031>;
+  skos:broader :bri56;
+  skos:inScheme :bri;
+  skos:notation "5601"@de;
+  skos:prefLabel "Verstaatlichung"@de .
+
+:bri5602 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/637>;
+  skos:broader :bri56;
+  skos:inScheme :bri;
+  skos:notation "5602"@de;
+  skos:prefLabel "Verstaatlichte Banken"@de .
+
+:bri5603 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/637>;
+  skos:broader :bri56;
+  skos:inScheme :bri;
+  skos:notation "5603"@de;
+  skos:prefLabel "ÖBB"@de .
+
+:bri5604 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/637>;
+  skos:broader :bri56;
+  skos:inScheme :bri;
+  skos:notation "5604"@de;
+  skos:prefLabel "Sonstiges"@de .
+
+:bri57 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3151>;
+  skos:broader :bri5;
+  skos:inScheme :bri;
+  skos:narrower :bri5701, :bri5702, :bri5703, :bri5709;
+  skos:notation "57"@de;
+  skos:prefLabel "Versicherungen"@de .
+
+:bri5701 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3151>;
+  skos:broader :bri57;
+  skos:inScheme :bri;
+  skos:notation "5701"@de;
+  skos:prefLabel "Versicherungsaufsicht"@de .
+
+:bri5702 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3151>;
+  skos:broader :bri57;
+  skos:inScheme :bri;
+  skos:notation "5702"@de;
+  skos:prefLabel "Förderungen"@de .
+
+:bri5703 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3151>;
+  skos:broader :bri57;
+  skos:inScheme :bri;
+  skos:notation "5703"@de;
+  skos:prefLabel "Pensionskassenrecht"@de .
+
+:bri5709 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3151>;
+  skos:broader :bri57;
+  skos:inScheme :bri;
+  skos:notation "5709"@de;
+  skos:prefLabel "Sonstiges"@de .
+
+:bri58 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/534>;
+  skos:broader :bri5;
+  skos:inScheme :bri;
+  skos:narrower :bri5801, :bri5802, :bri5803, :bri5804, :bri5805;
+  skos:notation "58"@de;
+  skos:prefLabel "Berg- und Energierecht"@de .
+
+:bri5801 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/534>;
+  skos:broader :bri58;
+  skos:inScheme :bri;
+  skos:notation "5801"@de;
+  skos:prefLabel "Bergrecht"@de .
+
+:bri5802 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/534>;
+  skos:broader :bri58;
+  skos:inScheme :bri;
+  skos:notation "5802"@de;
+  skos:prefLabel "Energierecht"@de .
+
+:bri5803 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/534>;
+  skos:broader :bri58;
+  skos:inScheme :bri;
+  skos:notation "5803"@de;
+  skos:prefLabel "Sicherung der Energieversorgung"@de .
+
+:bri5804 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/753>;
+  skos:broader :bri58;
+  skos:inScheme :bri;
+  skos:notation "5804"@de;
+  skos:prefLabel "Kernenergie"@de .
+
+:bri5805 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/534>;
+  skos:broader :bri58;
+  skos:inScheme :bri;
+  skos:notation "5805"@de;
+  skos:prefLabel "Förderungen"@de .
+
+:bri59 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3461>;
+  skos:broader :bri5;
+  skos:inScheme :bri;
+  skos:narrower :bri5901, :bri5902, :bri5903, :bri5904, :bri5905, :bri5906, :bri5907,
+    :bri5908, :bri5909, :bri5910, :bri5911, :bri5912;
+  skos:notation "59"@de;
+  skos:prefLabel "Völkerrechtliche Verträge"@de .
+
+:bri5901 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/176>;
+  skos:broader :bri59;
+  skos:inScheme :bri;
+  skos:notation "5901"@de;
+  skos:prefLabel "EFTA"@de .
+
+:bri5902 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/187>;
+  skos:broader :bri59;
+  skos:inScheme :bri;
+  skos:notation "5902"@de;
+  skos:prefLabel "EFTA-Länder"@de .
+
+:bri5903 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/1136>;
+  skos:broader :bri59;
+  skos:inScheme :bri;
+  skos:notation "5903"@de;
+  skos:prefLabel "GATT, Welthandelsorganisation"@de .
+
+:bri5904 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/4060>, <http://eurovoc.europa.eu/5618>;
+  skos:broader :bri59;
+  skos:inScheme :bri;
+  skos:notation "5904"@de;
+  skos:prefLabel "EU - EWR"@de .
+
+:bri5905 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/5327>;
+  skos:broader :bri59;
+  skos:inScheme :bri;
+  skos:notation "5905"@de;
+  skos:prefLabel "EGKS"@de .
+
+:bri5906 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3461>;
+  skos:broader :bri59;
+  skos:inScheme :bri;
+  skos:notation "5906"@de;
+  skos:prefLabel "Energie"@de .
+
+:bri5907 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/753>;
+  skos:broader :bri59;
+  skos:inScheme :bri;
+  skos:notation "5907"@de;
+  skos:prefLabel "Kernenergie"@de .
+
+:bri5908 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/1839>, <http://eurovoc.europa.eu/2735>;
+  skos:broader :bri59;
+  skos:inScheme :bri;
+  skos:notation "5908"@de;
+  skos:prefLabel "Rohstoffe, Nahrungsmittel"@de .
+
+:bri5909 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/1488>;
+  skos:broader :bri59;
+  skos:inScheme :bri;
+  skos:notation "5909"@de;
+  skos:prefLabel "Wirtschaftliche und industrielle Zusammenarbeit, Investitionen"@de .
+
+:bri5910 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/1567>;
+  skos:broader :bri59;
+  skos:inScheme :bri;
+  skos:notation "5910"@de;
+  skos:prefLabel "Handelsabkommen"@de .
+
+:bri5911 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3461>;
+  skos:broader :bri59;
+  skos:inScheme :bri;
+  skos:notation "5911"@de;
+  skos:prefLabel "Textilabkommen"@de .
+
+:bri5912 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/4470>;
+  skos:broader :bri59;
+  skos:inScheme :bri;
+  skos:notation "5912"@de;
+  skos:prefLabel "Fremdenverkehr"@de .
+
+:bri6 a skos:Concept;
+  dct:modified "2020-03-25T14:46:30.624+01:00"^^xsd:dateTime;
+  skos:inScheme :bri;
+  skos:narrower :bri60, :bri61, :bri62, :bri63, :bri64, :bri65, :bri66, :bri67, :bri68,
+    :bri69;
+  skos:notation "6"@de;
+  skos:prefLabel "Arbeitsrecht, Dienstrecht, Soziale Sicherheit"@de;
+  skos:topConceptOf <https://data.wu.ac.at/legal/austrovoc> .
+
+:bri dct:title "Federal Law Index"@en;
+  rdfs:comment "https://www.ris.bka.gv.at/UI/Bund/Bundesnormen/IndexBundesrecht.aspx"^^xsd:anyURI .
+
+:bri60 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/557>;
+  skos:broader :bri6;
+  skos:inScheme :bri;
+  skos:narrower :bri6001, :bri6002, :bri6003, :bri6004;
+  skos:notation "60"@de;
+  skos:prefLabel "Arbeitsrecht"@de .
+
+:bri6001 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/557>;
+  skos:broader :bri60;
+  skos:inScheme :bri;
+  skos:notation "6001"@de;
+  skos:prefLabel "Arbeitsvertragsrecht"@de .
+
+:bri6002 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/4039>;
+  skos:broader :bri60;
+  skos:inScheme :bri;
+  skos:notation "6002"@de;
+  skos:prefLabel "Arbeitnehmerschutz"@de .
+
+:bri6003 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/557>;
+  skos:broader :bri60;
+  skos:inScheme :bri;
+  skos:notation "6003"@de;
+  skos:prefLabel "Kollektives Arbeitsrecht"@de .
+
+:bri6004 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/557>;
+  skos:broader :bri60;
+  skos:inScheme :bri;
+  skos:notation "6004"@de;
+  skos:prefLabel "Arbeitsrecht allgemein"@de .
+
+:bri61 a skos:Concept;
+  dct:modified "2020-03-25T14:49:12.198+01:00"^^xsd:dateTime;
+  skos:broader :bri6;
+  skos:inScheme :bri;
+  skos:narrower :bri6101, :bri6102, :bri6103, :bri6104;
+  skos:notation "61"@de;
+  skos:prefLabel "Familienförderung, Jugendfürsorge"@de .
+
+:bri6101 a skos:Concept;
+  dct:modified "2020-03-25T14:50:12.996+01:00"^^xsd:dateTime;
+  rdfs:seeAlso <http://eurovoc.europa.eu/1004>;
+  skos:broader :bri61;
+  skos:inScheme :bri;
+  skos:notation "6101"@de;
+  skos:prefLabel "Familienlastenausgleich"@de .
+
+:bri6102 a skos:Concept;
+  dct:modified "2020-03-25T14:50:18.737+01:00"^^xsd:dateTime;
+  rdfs:seeAlso <http://eurovoc.europa.eu/1004>;
+  skos:broader :bri61;
+  skos:inScheme :bri;
+  skos:notation "6102"@de;
+  skos:prefLabel "Familienberatung"@de .
+
+:bri6103 a skos:Concept;
+  dct:modified "2020-03-25T14:50:07.983+01:00"^^xsd:dateTime;
+  rdfs:seeAlso <http://eurovoc.europa.eu/1004>;
+  skos:broader :bri61;
+  skos:inScheme :bri;
+  skos:notation "6103"@de;
+  skos:prefLabel "Familienpolitischer Beirat"@de .
+
+:bri6104 a skos:Concept;
+  dct:modified "2020-03-25T14:49:57.503+01:00"^^xsd:dateTime;
+  rdfs:seeAlso <http://eurovoc.europa.eu/1528>;
+  skos:broader :bri61;
+  skos:inScheme :bri;
+  skos:notation "6104"@de;
+  skos:prefLabel "Jugendfürsorge"@de .
+
+:bri62 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/557>;
+  skos:broader :bri6;
+  skos:inScheme :bri;
+  skos:notation "62"@de;
+  skos:prefLabel "Arbeitsmarktverwaltung"@de .
+
+:bri63 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/557>;
+  skos:broader :bri6;
+  skos:inScheme :bri;
+  skos:narrower :bri6301, :bri6302, :bri6303, :bri6304, :bri6305, :bri6306, :bri6307,
+    :bri6308, :bri6309;
+  skos:notation "63"@de;
+  skos:prefLabel "Allgemeines Dienst- und Besoldungsrecht"@de .
+
+:bri6301 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/557>;
+  skos:broader :bri63;
+  skos:inScheme :bri;
+  skos:notation "6301"@de;
+  skos:prefLabel "Beamten-Dienstrechtsgesetz 1979"@de .
+
+:bri6302 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/557>;
+  skos:broader :bri63;
+  skos:inScheme :bri;
+  skos:notation "6302"@de;
+  skos:prefLabel "Gehaltsgesetz 1956"@de .
+
+:bri6303 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/557>;
+  skos:broader :bri63;
+  skos:inScheme :bri;
+  skos:notation "6303"@de;
+  skos:prefLabel "Vertragsbedienstetengesetz 1948"@de .
+
+:bri6304 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/557>;
+  skos:broader :bri63;
+  skos:inScheme :bri;
+  skos:notation "6304"@de;
+  skos:prefLabel "Bundesbedienstetenschutz"@de .
+
+:bri6305 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/557>;
+  skos:broader :bri63;
+  skos:inScheme :bri;
+  skos:notation "6305"@de;
+  skos:prefLabel "Reisegebührenvorschrift"@de .
+
+:bri6306 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/557>;
+  skos:broader :bri63;
+  skos:inScheme :bri;
+  skos:notation "6306"@de;
+  skos:prefLabel "Dienstrechtsverfahren"@de .
+
+:bri6307 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3374>;
+  skos:broader :bri63;
+  skos:inScheme :bri;
+  skos:notation "6307"@de;
+  skos:prefLabel "Personalvertretung"@de .
+
+:bri6308 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/557>;
+  skos:broader :bri63;
+  skos:inScheme :bri;
+  skos:notation "6308"@de;
+  skos:prefLabel "Sonstiges"@de .
+
+:bri6309 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/557>;
+  skos:broader :bri63;
+  skos:inScheme :bri;
+  skos:notation "6309"@de;
+  skos:prefLabel "Nachkriegs- und Übergangsrecht"@de .
+
+:bri64 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/557>;
+  skos:broader :bri6;
+  skos:inScheme :bri;
+  skos:narrower :bri6401, :bri6402, :bri6403, :bri6404, :bri6405;
+  skos:notation "64"@de;
+  skos:prefLabel "Besonderes Dienst- und Besoldungsrecht"@de .
+
+:bri6401 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/777>;
+  skos:broader :bri64;
+  skos:inScheme :bri;
+  skos:notation "6401"@de;
+  skos:prefLabel "Hochschullehrer"@de .
+
+:bri6402 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/557>;
+  skos:broader :bri64;
+  skos:inScheme :bri;
+  skos:notation "6402"@de;
+  skos:prefLabel "Bundeslehrer"@de .
+
+:bri6403 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/557>;
+  skos:broader :bri64;
+  skos:inScheme :bri;
+  skos:notation "6403"@de;
+  skos:prefLabel "Landeslehrer"@de .
+
+:bri6404 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/557>;
+  skos:broader :bri64;
+  skos:inScheme :bri;
+  skos:notation "6404"@de;
+  skos:prefLabel "ÖBB"@de .
+
+:bri6405 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/557>;
+  skos:broader :bri64;
+  skos:inScheme :bri;
+  skos:notation "6405"@de;
+  skos:prefLabel "Sonstiges"@de .
+
+:bri65 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/557>;
+  skos:broader :bri6;
+  skos:inScheme :bri;
+  skos:narrower :bri6501, :bri6502, :bri6503;
+  skos:notation "65"@de;
+  skos:prefLabel "Pensionsrecht für Bundesbedienstete"@de .
+
+:bri6501 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/557>;
+  skos:broader :bri65;
+  skos:inScheme :bri;
+  skos:notation "6501"@de;
+  skos:prefLabel "Allgemeines Pensionsrecht"@de .
+
+:bri6502 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/557>;
+  skos:broader :bri65;
+  skos:inScheme :bri;
+  skos:notation "6502"@de;
+  skos:prefLabel "Besonderes Pensionsrecht"@de .
+
+:bri6503 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/557>;
+  skos:broader :bri65;
+  skos:inScheme :bri;
+  skos:notation "6503"@de;
+  skos:prefLabel "Nachkriegs- und Übergangsrecht"@de .
+
+:bri66 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/4050>;
+  skos:broader :bri6;
+  skos:inScheme :bri;
+  skos:narrower :bri6601, :bri6602, :bri6603;
+  skos:notation "66"@de;
+  skos:prefLabel "Sozialversicherung"@de .
+
+:bri6601 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/4050>;
+  skos:broader :bri66;
+  skos:inScheme :bri;
+  skos:notation "6601"@de;
+  skos:prefLabel "Allgemeines Sozialversicherungsgesetz"@de .
+
+:bri6602 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/4050>;
+  skos:broader :bri66;
+  skos:inScheme :bri;
+  skos:notation "6602"@de;
+  skos:prefLabel "Andere Sozialversicherungsgesetze"@de .
+
+:bri6603 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/4050>;
+  skos:broader :bri66;
+  skos:inScheme :bri;
+  skos:notation "6603"@de;
+  skos:prefLabel "Sonstiges"@de .
+
+:bri67 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/4050>;
+  skos:broader :bri6;
+  skos:inScheme :bri;
+  skos:notation "67"@de;
+  skos:prefLabel "Versorgungsrecht"@de .
+
+:bri68 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/557>;
+  skos:broader :bri6;
+  skos:inScheme :bri;
+  skos:narrower :bri6801, :bri6802;
+  skos:notation "68"@de;
+  skos:prefLabel "Behinderteneinstellung, Sonstiges Sozialrecht"@de .
+
+:bri6801 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/557>;
+  skos:broader :bri68;
+  skos:inScheme :bri;
+  skos:notation "6801"@de;
+  skos:prefLabel "Behinderteneinstellung"@de .
+
+:bri6802 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/557>;
+  skos:broader :bri68;
+  skos:inScheme :bri;
+  skos:notation "6802"@de;
+  skos:prefLabel "Sonstiges Sozialrecht"@de .
+
+:bri69 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3461>;
+  skos:broader :bri6;
+  skos:inScheme :bri;
+  skos:narrower :bri6901, :bri6902, :bri6903, :bri6904, :bri6905, :bri6906;
+  skos:notation "69"@de;
+  skos:prefLabel "Völkerrechtliche Verträge"@de .
+
+:bri6901 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/2130>;
+  skos:broader :bri69;
+  skos:inScheme :bri;
+  skos:notation "6901"@de;
+  skos:prefLabel "Internationale Arbeitsorganisation"@de .
+
+:bri6902 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/557>;
+  skos:broader :bri69;
+  skos:inScheme :bri;
+  skos:notation "6902"@de;
+  skos:prefLabel "Arbeitsrecht"@de .
+
+:bri6903 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/557>;
+  skos:broader :bri69;
+  skos:inScheme :bri;
+  skos:notation "6903"@de;
+  skos:prefLabel "Soziale Sicherheit"@de .
+
+:bri6904 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/557>;
+  skos:broader :bri69;
+  skos:inScheme :bri;
+  skos:notation "6904"@de;
+  skos:prefLabel "Ausländerbeschäftigung"@de .
+
+:bri6905 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/557>;
+  skos:broader :bri69;
+  skos:inScheme :bri;
+  skos:notation "6905"@de;
+  skos:prefLabel "Fürsorgewesen"@de .
+
+:bri6906 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/4697>;
+  skos:broader :bri69;
+  skos:inScheme :bri;
+  skos:notation "6906"@de;
+  skos:prefLabel "Kriegsopfer"@de .
+
+:bri7 a skos:Concept;
+  dct:modified "2020-03-25T14:51:46.698+01:00"^^xsd:dateTime;
+  skos:inScheme :bri;
+  skos:narrower :bri70, :bri71, :bri72, :bri73, :bri74, :bri75, :bri76, :bri77, :bri78,
+    :bri79;
+  skos:notation "7"@de;
+  skos:prefLabel "Schulen, Wissenschaft, Kirche, Kultur, Sport"@de;
+  skos:topConceptOf <https://data.wu.ac.at/legal/austrovoc> .
+
+:entscheidungsart a skos:Concept .
+
+:bri70 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/873>;
+  skos:broader :bri7;
+  skos:inScheme :bri;
+  skos:narrower :bri7001, :bri7002, :bri7003, :bri7004, :bri7005, :bri7006, :bri7007,
+    :bri7008, :bri7009, :bri7010, :bri7011;
+  skos:notation "70"@de;
+  skos:prefLabel "Schulen"@de .
+
+:bri7001 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/48>;
+  skos:broader :bri70;
+  skos:inScheme :bri;
+  skos:notation "7001"@de;
+  skos:prefLabel "Schulverwaltung, Schulaufsicht"@de .
+
+:bri7002 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/873>;
+  skos:broader :bri70;
+  skos:inScheme :bri;
+  skos:notation "7002"@de;
+  skos:prefLabel "Schulorganisation"@de .
+
+:bri7003 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/873>;
+  skos:broader :bri70;
+  skos:inScheme :bri;
+  skos:notation "7003"@de;
+  skos:prefLabel "Schulerhaltung"@de .
+
+:bri7004 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/873>;
+  skos:broader :bri70;
+  skos:inScheme :bri;
+  skos:notation "7004"@de;
+  skos:prefLabel "Schulzeit"@de .
+
+:bri7005 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/789>;
+  skos:broader :bri70;
+  skos:inScheme :bri;
+  skos:notation "7005"@de;
+  skos:prefLabel "Schulpflicht"@de .
+
+:bri7006 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/873>;
+  skos:broader :bri70;
+  skos:inScheme :bri;
+  skos:notation "7006"@de;
+  skos:prefLabel "Schulunterricht"@de .
+
+:bri7007 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/873>;
+  skos:broader :bri70;
+  skos:inScheme :bri;
+  skos:notation "7007"@de;
+  skos:prefLabel "Schule und Kirche"@de .
+
+:bri7008 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/873>;
+  skos:broader :bri70;
+  skos:inScheme :bri;
+  skos:notation "7008"@de;
+  skos:prefLabel "Privatschulen"@de .
+
+:bri7009 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/873>;
+  skos:broader :bri70;
+  skos:inScheme :bri;
+  skos:notation "7009"@de;
+  skos:prefLabel "Minderheiten-Schulrecht"@de .
+
+:bri7010 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/873>;
+  skos:broader :bri70;
+  skos:inScheme :bri;
+  skos:notation "7010"@de;
+  skos:prefLabel "Schülerbeihilfen"@de .
+
+:bri7011 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/873>;
+  skos:broader :bri70;
+  skos:inScheme :bri;
+  skos:notation "7011"@de;
+  skos:prefLabel "Sonstiges"@de .
+
+:bri71 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/873>;
+  skos:broader :bri7;
+  skos:inScheme :bri;
+  skos:notation "71"@de;
+  skos:prefLabel "Land- und forstwirtschaftliche Schulen"@de .
+
+:bri72 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/800>;
+  skos:broader :bri7;
+  skos:inScheme :bri;
+  skos:narrower :bri7201, :bri7202, :bri7203, :bri7204, :bri7205, :bri7206, :bri7207,
+    :bri7208, :bri7209, :bri7210, :bri7211, :bri7212, :bri7213, :bri7214, :bri7215, :bri7216;
+  skos:notation "72"@de;
+  skos:prefLabel "Wissenschaft, Hochschulen"@de .
+
+:bri7201 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/800>;
+  skos:broader :bri72;
+  skos:inScheme :bri;
+  skos:notation "7201"@de;
+  skos:prefLabel "Hochschulorganisation"@de .
+
+:bri7202 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/800>;
+  skos:broader :bri72;
+  skos:inScheme :bri;
+  skos:notation "7202"@de;
+  skos:prefLabel "Studienrecht allgemein"@de .
+
+:bri7203 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/800>;
+  skos:broader :bri72;
+  skos:inScheme :bri;
+  skos:notation "7203"@de;
+  skos:prefLabel "Theologische Studienrichtungen"@de .
+
+:bri7204 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/800>;
+  skos:broader :bri72;
+  skos:inScheme :bri;
+  skos:notation "7204"@de;
+  skos:prefLabel "Studienrichtung Rechtswissenschaft"@de .
+
+:bri7205 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/800>;
+  skos:broader :bri72;
+  skos:inScheme :bri;
+  skos:notation "7205"@de;
+  skos:prefLabel "Studienrichtung Medizin"@de .
+
+:bri7206 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/800>;
+  skos:broader :bri72;
+  skos:inScheme :bri;
+  skos:notation "7206"@de;
+  skos:prefLabel "Studienrichtung Veterinärmedizin"@de .
+
+:bri7207 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/800>;
+  skos:broader :bri72;
+  skos:inScheme :bri;
+  skos:notation "7207"@de;
+  skos:prefLabel "Geistes- und naturwissenschaftliche Studienrichtungen"@de .
+
+:bri7208 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/800>;
+  skos:broader :bri72;
+  skos:inScheme :bri;
+  skos:notation "7208"@de;
+  skos:prefLabel "Technische Studienrichtungen"@de .
+
+:bri7209 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/800>;
+  skos:broader :bri72;
+  skos:inScheme :bri;
+  skos:notation "7209"@de;
+  skos:prefLabel "Sozial- und wirtschaftswissenschaftliche Studienrichtung"@de .
+
+:bri7210 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/800>;
+  skos:broader :bri72;
+  skos:inScheme :bri;
+  skos:notation "7210"@de;
+  skos:prefLabel "Montanistische Studienrichtungen"@de .
+
+:bri7211 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/800>;
+  skos:broader :bri72;
+  skos:inScheme :bri;
+  skos:notation "7211"@de;
+  skos:prefLabel "Studienrichtungen der Bodenkultur"@de .
+
+:bri7212 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/800>;
+  skos:broader :bri72;
+  skos:inScheme :bri;
+  skos:notation "7212"@de;
+  skos:prefLabel "Studien an den Hochschulen künstlerischer Richtung"@de .
+
+:bri7213 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/800>;
+  skos:broader :bri72;
+  skos:inScheme :bri;
+  skos:notation "7213"@de;
+  skos:prefLabel "Studienförderung"@de .
+
+:bri7214 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/800>;
+  skos:broader :bri72;
+  skos:inScheme :bri;
+  skos:notation "7214"@de;
+  skos:prefLabel "Hochschülerschaft"@de .
+
+:bri7215 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/2914>;
+  skos:broader :bri72;
+  skos:inScheme :bri;
+  skos:notation "7215"@de;
+  skos:prefLabel "Forschung"@de .
+
+:bri7216 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/800>;
+  skos:broader :bri72;
+  skos:inScheme :bri;
+  skos:notation "7216"@de;
+  skos:prefLabel "Sonstiges"@de .
+
+:bri73 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/873>;
+  skos:broader :bri7;
+  skos:inScheme :bri;
+  skos:notation "73"@de;
+  skos:prefLabel "Ausbildungspflicht"@de .
+
+:bri74 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3257>, <http://eurovoc.europa.eu/4101>;
+  skos:broader :bri7;
+  skos:inScheme :bri;
+  skos:narrower :bri7401, :bri7402, :bri7403;
+  skos:notation "74"@de;
+  skos:prefLabel "Kirchen, Religionsgemeinschaften"@de .
+
+:bri7401 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3257>, <http://eurovoc.europa.eu/4101>;
+  skos:broader :bri74;
+  skos:inScheme :bri;
+  skos:notation "7401"@de;
+  skos:prefLabel "Gesetzliche Anerkennung, äußere Rechtsverhältnisse"@de .
+
+:bri7402 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3257>, <http://eurovoc.europa.eu/4101>;
+  skos:broader :bri74;
+  skos:inScheme :bri;
+  skos:notation "7402"@de;
+  skos:prefLabel "Finanzielle Angelegenheiten"@de .
+
+:bri7403 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3257>, <http://eurovoc.europa.eu/4101>;
+  skos:broader :bri74;
+  skos:inScheme :bri;
+  skos:notation "7403"@de;
+  skos:prefLabel "Sonstige"@de .
+
+:bri75 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/673>;
+  skos:broader :bri7;
+  skos:inScheme :bri;
+  skos:notation "75"@de;
+  skos:prefLabel "Volksbildung"@de .
+
+:bri76 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/873>;
+  skos:broader :bri7;
+  skos:inScheme :bri;
+  skos:notation "76"@de;
+  skos:prefLabel "Anerkennungen"@de .
+
+:bri77 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/2688>;
+  skos:broader :bri7;
+  skos:inScheme :bri;
+  skos:notation "77"@de;
+  skos:prefLabel "Kunst, Kultur"@de .
+
+:bri78 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/4245>;
+  skos:broader :bri7;
+  skos:inScheme :bri;
+  skos:notation "78"@de;
+  skos:prefLabel "Sport"@de .
+
+:bri79 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3461>;
+  skos:broader :bri7;
+  skos:inScheme :bri;
+  skos:narrower :bri7901, :bri7902, :bri7903, :bri7904, :bri7905, :bri7906, :bri7907,
+    :bri7908;
+  skos:notation "79"@de;
+  skos:prefLabel "Völkerrechtliche Verträge"@de .
+
+:bri7901 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/800>, <http://eurovoc.europa.eu/873>;
+  skos:broader :bri79;
+  skos:inScheme :bri;
+  skos:notation "7901"@de;
+  skos:prefLabel "Schulen, Universitäten"@de .
+
+:bri7902 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/2914>;
+  skos:broader :bri79;
+  skos:inScheme :bri;
+  skos:notation "7902"@de;
+  skos:prefLabel "Forschung"@de .
+
+:bri7903 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/800>, <http://eurovoc.europa.eu/873>;
+  skos:broader :bri79;
+  skos:inScheme :bri;
+  skos:notation "7903"@de;
+  skos:prefLabel "Kooperationsabkommen (Kultur, Wissenschaft, Technik)"@de .
+
+:bri7904 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/800>, <http://eurovoc.europa.eu/873>;
+  skos:broader :bri79;
+  skos:inScheme :bri;
+  skos:notation "7904"@de;
+  skos:prefLabel "Kultur- und Denkmalschutz"@de .
+
+:bri7905 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/4595>;
+  skos:broader :bri79;
+  skos:inScheme :bri;
+  skos:notation "7905"@de;
+  skos:prefLabel "UNESCO"@de .
+
+:bri7906 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/800>, <http://eurovoc.europa.eu/873>;
+  skos:broader :bri79;
+  skos:inScheme :bri;
+  skos:notation "7906"@de;
+  skos:prefLabel "Kirchen, Religionsgemeinschaften"@de .
+
+:bri7907 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/4245>;
+  skos:broader :bri79;
+  skos:inScheme :bri;
+  skos:notation "7907"@de;
+  skos:prefLabel "Sport"@de .
+
+:bri7908 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3935>;
+  skos:broader :bri79;
+  skos:inScheme :bri;
+  skos:notation "7908"@de;
+  skos:prefLabel "Rechtswissenschaft"@de .
+
+:bri8 a skos:Concept;
+  dct:modified "2020-03-25T14:51:30.220+01:00"^^xsd:dateTime;
+  skos:inScheme :bri;
+  skos:narrower :bri80, :bri81, :bri82, :bri83, :bri86, :bri89;
+  skos:notation "8"@de;
+  skos:prefLabel "Land- und Forstwirtschaft, Gesundheit, Umweltschutz, Veterinärrecht"@de;
+  skos:topConceptOf <https://data.wu.ac.at/legal/austrovoc> .
+
+:bri skos:prefLabel "Bundesrechtindex"@de .
+
+:bri80 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/4352>, <http://eurovoc.europa.eu/5886>;
+  skos:broader :bri8;
+  skos:inScheme :bri;
+  skos:narrower :bri8001, :bri8002, :bri8003, :bri8004, :bri8005, :bri8006, :bri8007,
+    :bri8008;
+  skos:notation "80"@de;
+  skos:prefLabel "Land- und Forstwirtschaft"@de .
+
+:bri8001 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/4352>, <http://eurovoc.europa.eu/5886>;
+  skos:broader :bri80, :bri81;
+  skos:inScheme :bri;
+  skos:notation "8001"@de;
+  skos:prefLabel "Organisationsrecht"@de .
+
+:bri8002 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/563>;
+  skos:broader :bri80, :bri81;
+  skos:inScheme :bri;
+  skos:notation "8002"@de;
+  skos:prefLabel "Forstrecht"@de .
+
+:bri8003 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/4352>, <http://eurovoc.europa.eu/5886>;
+  skos:broader :bri80, :bri81;
+  skos:inScheme :bri;
+  skos:notation "8003"@de;
+  skos:prefLabel "Weinrecht"@de .
+
+:bri8004 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/539>;
+  skos:broader :bri80, :bri81;
+  skos:inScheme :bri;
+  skos:notation "8004"@de;
+  skos:prefLabel "Wettbewerbsrecht"@de .
+
+:bri8005 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/2827>, <http://eurovoc.europa.eu/4490>;
+  skos:broader :bri80, :bri81;
+  skos:inScheme :bri;
+  skos:notation "8005"@de;
+  skos:prefLabel "Pflanzenschutz, Schädlingsbekämpfung"@de .
+
+:bri8006 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/2978>;
+  skos:broader :bri80, :bri81;
+  skos:inScheme :bri;
+  skos:notation "8006"@de;
+  skos:prefLabel "Bodenreform"@de .
+
+:bri8007 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/4352>, <http://eurovoc.europa.eu/5886>;
+  skos:broader :bri80, :bri81;
+  skos:inScheme :bri;
+  skos:notation "8007"@de;
+  skos:prefLabel "Förderungen"@de .
+
+:bri8008 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/523>;
+  skos:broader :bri80, :bri81;
+  skos:inScheme :bri;
+  skos:notation "8008"@de;
+  skos:prefLabel "Zivilrecht"@de .
+
+:bri81 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/2825>;
+  skos:broader :bri8;
+  skos:inScheme :bri;
+  skos:narrower :bri8001, :bri8002, :bri8003, :bri8004, :bri8005, :bri8006, :bri8007,
+    :bri8008, :bri8101, :bri8102;
+  skos:notation "81"@de;
+  skos:prefLabel "Wasserrecht, Wasserbauten"@de .
+
+:bri8101 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/2825>;
+  skos:broader :bri81;
+  skos:inScheme :bri;
+  skos:notation "8101"@de;
+  skos:prefLabel "Wasserrechtsgesetz 1959"@de .
+
+:bri8102 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/2825>;
+  skos:broader :bri81;
+  skos:inScheme :bri;
+  skos:notation "8102"@de;
+  skos:prefLabel "Sonstiges"@de .
+
+:bri82 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/1596>;
+  skos:broader :bri8;
+  skos:inScheme :bri;
+  skos:narrower :bri8201, :bri8202, :bri8203, :bri8204, :bri8205, :bri8206, :bri8207;
+  skos:notation "82"@de;
+  skos:prefLabel "Gesundheitsrecht"@de .
+
+:bri8201 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/1596>;
+  skos:broader :bri82;
+  skos:inScheme :bri;
+  skos:notation "8201"@de;
+  skos:prefLabel "Gesundheitsrecht, Organisationsrecht"@de .
+
+:bri8202 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/1596>;
+  skos:broader :bri82;
+  skos:inScheme :bri;
+  skos:notation "8202"@de;
+  skos:prefLabel "Gesundheitsrecht allgemein"@de .
+
+:bri8203 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3594>;
+  skos:broader :bri82;
+  skos:inScheme :bri;
+  skos:notation "8203"@de;
+  skos:prefLabel "Ärzte, sonstiges Sanitätspersonal"@de .
+
+:bri8204 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3813>, <http://eurovoc.europa.eu/7355>;
+  skos:broader :bri82;
+  skos:inScheme :bri;
+  skos:notation "8204"@de;
+  skos:prefLabel "Apotheken, Arzneimittel"@de .
+
+:bri8205 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/1590>;
+  skos:broader :bri82;
+  skos:inScheme :bri;
+  skos:notation "8205"@de;
+  skos:prefLabel "Lebensmittelrecht"@de .
+
+:bri8206 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/876>;
+  skos:broader :bri82;
+  skos:inScheme :bri;
+  skos:notation "8206"@de;
+  skos:prefLabel "Krankenanstalten, Kurorte"@de .
+
+:bri8207 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/1596>;
+  skos:broader :bri82;
+  skos:inScheme :bri;
+  skos:notation "8207"@de;
+  skos:prefLabel "Sonstiges"@de .
+
+:bri83 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/2825>;
+  skos:broader :bri8;
+  skos:inScheme :bri;
+  skos:notation "83"@de;
+  skos:prefLabel "Natur- und Umweltschutz"@de .
+
+:bri86 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/1598>;
+  skos:broader :bri8;
+  skos:inScheme :bri;
+  skos:narrower :bri8601, :bri8602;
+  skos:notation "86"@de;
+  skos:prefLabel "Veterinärrecht"@de .
+
+:bri8601 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/1598>;
+  skos:broader :bri86;
+  skos:inScheme :bri;
+  skos:notation "8601"@de;
+  skos:prefLabel "Veterinärrecht allgemein"@de .
+
+:bri8602 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3595>;
+  skos:broader :bri86;
+  skos:inScheme :bri;
+  skos:notation "8602"@de;
+  skos:prefLabel "Tierärzte"@de .
+
+:bri89 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3461>;
+  skos:broader :bri8;
+  skos:inScheme :bri;
+  skos:narrower :bri8901, :bri8902, :bri8903, :bri8904, :bri8905, :bri8906, :bri8907,
+    :bri8908, :bri8909;
+  skos:notation "89"@de;
+  skos:prefLabel "Völkerrechtliche Verträge"@de .
+
+:bri8901 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/4352>, <http://eurovoc.europa.eu/5886>;
+  skos:broader :bri89;
+  skos:inScheme :bri;
+  skos:notation "8901"@de;
+  skos:prefLabel "Land- und Forstwirtschaft"@de .
+
+:bri8902 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/4352>, <http://eurovoc.europa.eu/5886>;
+  skos:broader :bri89;
+  skos:inScheme :bri;
+  skos:notation "8902"@de;
+  skos:prefLabel "Wasserwirtschaft in Grenzgebieten"@de .
+
+:bri8903 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/4352>, <http://eurovoc.europa.eu/5886>;
+  skos:broader :bri89;
+  skos:inScheme :bri;
+  skos:notation "8903"@de;
+  skos:prefLabel "Gesundheit"@de .
+
+:bri8904 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3813>;
+  skos:broader :bri89;
+  skos:inScheme :bri;
+  skos:notation "8904"@de;
+  skos:prefLabel "Arzneimittel"@de .
+
+:bri8905 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/4306>;
+  skos:broader :bri89;
+  skos:inScheme :bri;
+  skos:notation "8905"@de;
+  skos:prefLabel "Suchtgifte"@de .
+
+:bri8906 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/2735>;
+  skos:broader :bri89;
+  skos:inScheme :bri;
+  skos:notation "8906"@de;
+  skos:prefLabel "Lebensmittel"@de .
+
+:bri8907 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/2825>;
+  skos:broader :bri89;
+  skos:inScheme :bri;
+  skos:notation "8907"@de;
+  skos:prefLabel "Umweltschutz"@de .
+
+:bri8908 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/2827>, <http://eurovoc.europa.eu/2830>;
+  skos:broader :bri89;
+  skos:inScheme :bri;
+  skos:notation "8908"@de;
+  skos:prefLabel "Tier- und Pflanzenschutz"@de .
+
+:bri8909 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/1598>;
+  skos:broader :bri89;
+  skos:inScheme :bri;
+  skos:notation "8909"@de;
+  skos:prefLabel "Veterinärrecht"@de .
+
+:bri9 a skos:Concept;
+  dct:modified "2020-03-25T14:52:07.639+01:00"^^xsd:dateTime;
+  skos:inScheme :bri;
+  skos:narrower :bri90, :bri91, :bri92, :bri93, :bri94, :bri95, :bri96, :bri97, :bri98,
+    :bri99;
+  skos:notation "9"@de;
+  skos:prefLabel "Verkehr, Technik, Straßenbau, Wohnbau, Vergabewesen"@de;
+  skos:topConceptOf <https://data.wu.ac.at/legal/austrovoc> .
+
+:bri90 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3131>;
+  skos:broader :bri9;
+  skos:inScheme :bri;
+  skos:narrower :bri9001, :bri9002, :bri9003;
+  skos:notation "90"@de;
+  skos:prefLabel "Straßenverkehrsrecht, Kraftfahrrecht"@de .
+
+:bri9001 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3131>;
+  skos:broader :bri90;
+  skos:inScheme :bri;
+  skos:notation "9001"@de;
+  skos:prefLabel "Straßenverkehrsrecht"@de .
+
+:bri9002 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3131>;
+  skos:broader :bri90;
+  skos:inScheme :bri;
+  skos:notation "9002"@de;
+  skos:prefLabel "Kraftfahrrecht"@de .
+
+:bri9003 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3131>;
+  skos:broader :bri90;
+  skos:inScheme :bri;
+  skos:notation "9003"@de;
+  skos:prefLabel "Sonstiges"@de .
+
+:bri91 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/2566>;
+  skos:broader :bri9;
+  skos:inScheme :bri;
+  skos:narrower :bri9101, :bri9102;
+  skos:notation "91"@de;
+  skos:prefLabel "Post- und Fernmeldewesen"@de .
+
+:bri9101 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/4424>;
+  skos:broader :bri91;
+  skos:inScheme :bri;
+  skos:notation "9101"@de;
+  skos:prefLabel "Fernmeldewesen"@de .
+
+:bri9102 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/4133>;
+  skos:broader :bri91;
+  skos:inScheme :bri;
+  skos:notation "9102"@de;
+  skos:prefLabel "Post"@de .
+
+:bri92 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/4505>;
+  skos:broader :bri9;
+  skos:inScheme :bri;
+  skos:notation "92"@de;
+  skos:prefLabel "Luft- und Weltraumfahrt"@de .
+
+:bri93 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/4514>;
+  skos:broader :bri9;
+  skos:inScheme :bri;
+  skos:narrower :bri9301, :bri9302;
+  skos:notation "93"@de;
+  skos:prefLabel "Eisenbahn, Passagier- und Fluggastrechte"@de .
+
+:bri9301 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/4514>;
+  skos:broader :bri93;
+  skos:inScheme :bri;
+  skos:notation "9301"@de;
+  skos:prefLabel "Eisenbahn"@de .
+
+:bri9302 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/4514>;
+  skos:broader :bri93;
+  skos:inScheme :bri;
+  skos:notation "9302"@de;
+  skos:prefLabel "Passagier- und Fahrgastrechte"@de .
+
+:bri94 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3129>;
+  skos:broader :bri9;
+  skos:inScheme :bri;
+  skos:narrower :bri9401, :bri9402, :bri9403;
+  skos:notation "94"@de;
+  skos:prefLabel "Schifffahrt"@de .
+
+:bri9401 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3129>;
+  skos:broader :bri94;
+  skos:inScheme :bri;
+  skos:notation "9401"@de;
+  skos:prefLabel "Schiffsverkehr"@de .
+
+:bri9402 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3129>;
+  skos:broader :bri94;
+  skos:inScheme :bri;
+  skos:notation "9402"@de;
+  skos:prefLabel "Schiffsregister, Zivilrecht"@de .
+
+:bri9403 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3129>;
+  skos:broader :bri94;
+  skos:inScheme :bri;
+  skos:notation "9403"@de;
+  skos:prefLabel "Sonstiges"@de .
+
+:bri95 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3131>;
+  skos:broader :bri9;
+  skos:inScheme :bri;
+  skos:narrower :bri9501, :bri9502, :bri9503, :bri9504, :bri9505, :bri9506, :bri9507,
+    :bri9508;
+  skos:notation "95"@de;
+  skos:prefLabel "Technik"@de .
+
+:bri9501 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/710>;
+  skos:broader :bri95;
+  skos:inScheme :bri;
+  skos:notation "9501"@de;
+  skos:prefLabel "Elektrotechnik"@de .
+
+:bri9502 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3131>;
+  skos:broader :bri95;
+  skos:inScheme :bri;
+  skos:notation "9502"@de;
+  skos:prefLabel "Maß- und Eichrecht"@de .
+
+:bri9503 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3131>;
+  skos:broader :bri95;
+  skos:inScheme :bri;
+  skos:notation "9503"@de;
+  skos:prefLabel "Vermessungsrecht"@de .
+
+:bri9504 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3131>;
+  skos:broader :bri95;
+  skos:inScheme :bri;
+  skos:notation "9504"@de;
+  skos:prefLabel "Beschussrecht"@de .
+
+:bri9505 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3131>;
+  skos:broader :bri95;
+  skos:inScheme :bri;
+  skos:notation "9505"@de;
+  skos:prefLabel "Normen, Zeitzählung"@de .
+
+:bri9506 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3131>;
+  skos:broader :bri95;
+  skos:inScheme :bri;
+  skos:notation "9506"@de;
+  skos:prefLabel "Ziviltechniker"@de .
+
+:bri9507 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3131>;
+  skos:broader :bri95;
+  skos:inScheme :bri;
+  skos:notation "9507"@de;
+  skos:prefLabel "Dampfkesselrecht"@de .
+
+:bri9508 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3131>;
+  skos:broader :bri95;
+  skos:inScheme :bri;
+  skos:notation "9508"@de;
+  skos:prefLabel "Sonstiges"@de .
+
+:bri96 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/153>;
+  skos:broader :bri9;
+  skos:inScheme :bri;
+  skos:narrower :bri9601, :bri9602;
+  skos:notation "96"@de;
+  skos:prefLabel "Straßenbau"@de .
+
+:bri9601 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/153>;
+  skos:broader :bri96;
+  skos:inScheme :bri;
+  skos:notation "9601"@de;
+  skos:prefLabel "Bundesstraßengesetz 1971"@de .
+
+:bri9602 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/153>;
+  skos:broader :bri96;
+  skos:inScheme :bri;
+  skos:notation "9602"@de;
+  skos:prefLabel "Sonstiges"@de .
+
+:bri97 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/4352>, <http://eurovoc.europa.eu/5886>;
+  skos:broader :bri9;
+  skos:inScheme :bri;
+  skos:notation "97"@de;
+  skos:prefLabel "Öffentliches Auftragswesen"@de .
+
+:bri98 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/4352>, <http://eurovoc.europa.eu/5886>;
+  skos:broader :bri9;
+  skos:inScheme :bri;
+  skos:narrower :bri9801, :bri9802, :bri9803, :bri9804, :bri9805;
+  skos:notation "98"@de;
+  skos:prefLabel "Wohnbau"@de .
+
+:bri9801 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/4352>, <http://eurovoc.europa.eu/5886>;
+  skos:broader :bri98;
+  skos:inScheme :bri;
+  skos:notation "9801"@de;
+  skos:prefLabel "Wohnbauförderung"@de .
+
+:bri9802 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/4352>, <http://eurovoc.europa.eu/5886>;
+  skos:broader :bri98;
+  skos:inScheme :bri;
+  skos:notation "9802"@de;
+  skos:prefLabel "Wohnungsverbesserung, Startwohnungen, Beihilfen"@de .
+
+:bri9803 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/4352>, <http://eurovoc.europa.eu/5886>;
+  skos:broader :bri98;
+  skos:inScheme :bri;
+  skos:notation "9803"@de;
+  skos:prefLabel "Wohnbaufinanzierung"@de .
+
+:bri9804 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/4352>, <http://eurovoc.europa.eu/5886>;
+  skos:broader :bri98;
+  skos:inScheme :bri;
+  skos:notation "9804"@de;
+  skos:prefLabel "Wohnungsgemeinnützigkeit"@de .
+
+:bri9805 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/4352>, <http://eurovoc.europa.eu/5886>;
+  skos:broader :bri98;
+  skos:inScheme :bri;
+  skos:notation "9805"@de;
+  skos:prefLabel "Sonstiges"@de .
+
+:bri99 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3461>;
+  skos:broader :bri9;
+  skos:inScheme :bri;
+  skos:narrower :bri9901, :bri9902, :bri9903, :bri9904, :bri9905, :bri9906, :bri9907,
+    :bri9908, :bri9909, :bri9910;
+  skos:notation "99"@de;
+  skos:prefLabel "Völkerrechtliche Verträge"@de .
+
+:bri9901 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3127>;
+  skos:broader :bri99;
+  skos:inScheme :bri;
+  skos:notation "9901"@de;
+  skos:prefLabel "Straßenverkehr"@de .
+
+:bri9902 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/4352>, <http://eurovoc.europa.eu/5886>;
+  skos:broader :bri99;
+  skos:inScheme :bri;
+  skos:notation "9902"@de;
+  skos:prefLabel "Personen- und Gütertransport auf der Straße"@de .
+
+:bri9903 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/4352>, <http://eurovoc.europa.eu/5886>;
+  skos:broader :bri99;
+  skos:inScheme :bri;
+  skos:notation "9903"@de;
+  skos:prefLabel "Kraftfahrrecht"@de .
+
+:bri9904 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/4505>;
+  skos:broader :bri99;
+  skos:inScheme :bri;
+  skos:notation "9904"@de;
+  skos:prefLabel "Luft- und Weltraumfahrt"@de .
+
+:bri9905 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/4514>;
+  skos:broader :bri99;
+  skos:inScheme :bri;
+  skos:notation "9905"@de;
+  skos:prefLabel "Eisenbahnen"@de .
+
+:bri9906 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/2041>, <http://eurovoc.europa.eu/5210>;
+  skos:broader :bri99;
+  skos:inScheme :bri;
+  skos:notation "9906"@de;
+  skos:prefLabel "See- und Binnenschifffahrt"@de .
+
+:bri9907 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/2566>;
+  skos:broader :bri99;
+  skos:inScheme :bri;
+  skos:notation "9907"@de;
+  skos:prefLabel "Post- und Fernmeldewesen"@de .
+
+:bri9908 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/3461>;
+  skos:broader :bri99;
+  skos:inScheme :bri;
+  skos:notation "9908"@de;
+  skos:prefLabel "Technik (Eichrecht, Vermessungsrecht, Beschussrecht ua.)"@de .
+
+:bri9909 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/1892>;
+  skos:broader :bri99;
+  skos:inScheme :bri;
+  skos:notation "9909"@de;
+  skos:prefLabel "Meteorologie"@de .
+
+:bri9910 a skos:Concept;
+  rdfs:seeAlso <http://eurovoc.europa.eu/1157>;
+  skos:broader :bri99;
+  skos:inScheme :bri;
+  skos:notation "9910"@de;
+  skos:prefLabel "Raumordnung"@de .
+
+<https://data.wu.ac.at/legal/austrovoc#> a owl:Ontology .
+
+:dok_typ dct:created "2020-03-15T09:42:17.490+01:00"^^xsd:dateTime;
+  dct:modified "2020-03-15T09:44:40.859+01:00"^^xsd:dateTime;
+  skos:broader :judikative .
+
+:leg_bvg a skos:Concept;
+  skos:broader :legislative;
+  skos:inScheme :rt;
+  skos:prefLabel "Bundesverfassungsgesetz"@de .
+
+:g a skos:ConceptScheme;
+  dct:created "2020-03-14T10:52:32.337+01:00"^^xsd:dateTime;
+  skos:prefLabel "Gericht"@de .
+
+:lvwg skos:prefLabel "Landesverwaltungsgericht"@de .
+
+:rt a skos:ConceptScheme;
+  dct:created "2020-03-14T10:53:14.410+01:00"^^xsd:dateTime;
+  skos:prefLabel "Resource-typ"@de .
+
+:g1 a skos:Concept;
+  dct:created "2020-03-14T10:55:44.197+01:00"^^xsd:dateTime;
+  dct:modified "2020-03-14T11:03:54.600+01:00"^^xsd:dateTime;
+  skos:inScheme :g;
+  skos:prefLabel "Ordentliches Gericht"@de, "Ordinary Court"@en;
+  skos:topConceptOf :g .
+
+:g2 a skos:Concept;
+  dct:created "2020-03-14T10:56:03.408+01:00"^^xsd:dateTime;
+  dct:modified "2020-03-14T11:03:41.598+01:00"^^xsd:dateTime;
+  skos:inScheme :g;
+  skos:prefLabel "Gericht des öffentlichen Rechts"@de, "Public Tribunal"@en;
+  skos:topConceptOf :g .
+
+:ogh a skos:Concept;
+  dct:created "2020-03-14T10:56:34.570+01:00"^^xsd:dateTime;
+  dct:modified "2020-03-14T11:04:03.171+01:00"^^xsd:dateTime;
+  skos:broader :g1;
+  skos:inScheme :g;
+  skos:prefLabel "Oberster Gerichtshof"@de, "Supreme Court"@en .
+
+:olg a skos:Concept;
+  dct:created "2020-03-14T10:56:58.608+01:00"^^xsd:dateTime;
+  dct:modified "2020-03-14T11:08:06.584+01:00"^^xsd:dateTime;
+  skos:broader :ogh;
+  skos:inScheme :g;
+  skos:prefLabel "Higher Regional Court"@en, "Oberlandesgericht"@de .
+
+:lg a skos:Concept;
+  dct:created "2020-03-14T10:59:30.809+01:00"^^xsd:dateTime;
+  dct:modified "2020-03-14T11:07:44.552+01:00"^^xsd:dateTime;
+  skos:broader :olg;
+  skos:inScheme :g;
+  skos:prefLabel "Landesgericht"@de, "Regional Court"@en .
+
+:bg a skos:Concept;
+  dct:created "2020-03-14T10:59:49.825+01:00"^^xsd:dateTime;
+  dct:modified "2020-03-14T11:06:10.837+01:00"^^xsd:dateTime;
+  skos:broader :lg;
+  skos:inScheme :g;
+  skos:prefLabel "Bezirksgericht"@de, "District Court"@en .
+
+:bghs_wien a skos:Concept;
+  dct:created "2020-03-14T11:00:48.814+01:00"^^xsd:dateTime;
+  skos:broader :lg;
+  skos:inScheme :g;
+  skos:prefLabel "Bezirksgericht für Handelssachen Wien"@de .
+
+:asg_wien a skos:Concept;
+  dct:created "2020-03-14T11:02:17.603+01:00"^^xsd:dateTime;
+  skos:broader :olg;
+  skos:inScheme :g;
+  skos:prefLabel "Arbeits- und Sozialgericht Wien"@de .
+
+:hg_wien a skos:Concept;
+  dct:created "2020-03-14T11:02:42.637+01:00"^^xsd:dateTime;
+  skos:broader :olg;
+  skos:inScheme :g;
+  skos:prefLabel "Handelsgericht Wien"@de .
+
+:vfgh a skos:Concept;
+  dct:created "2020-03-14T11:03:02.566+01:00"^^xsd:dateTime;
+  dct:modified "2020-03-14T11:08:22.070+01:00"^^xsd:dateTime;
+  skos:broader :g2;
+  skos:inScheme :g;
+  skos:prefLabel "Constitutional Court"@en, "Verfassungsgerichtshof"@de .
+
+:vwgh a skos:Concept;
+  dct:created "2020-03-14T11:03:17.861+01:00"^^xsd:dateTime;
+  dct:modified "2020-03-14T11:09:13.099+01:00"^^xsd:dateTime;
+  skos:broader :g2;
+  skos:inScheme :g;
+  skos:prefLabel "Supreme Administrative Court"@en, "Verwaltungsgerichtshof"@de .
+
+:entscheidungsart dct:created "2020-03-15T09:43:35.216+01:00"^^xsd:dateTime;
+  dct:modified "2020-03-15T09:44:29.026+01:00"^^xsd:dateTime;
+  skos:broader :judikative;
+  skos:inScheme :rt;
+  skos:prefLabel "Decision type"@en, "Entscheidungsart"@de .
+
+:jud_ls a skos:Concept;
+  dct:created "2020-03-15T09:45:39.533+01:00"^^xsd:dateTime;
+  dct:modified "2020-03-23T11:09:46.947+01:00"^^xsd:dateTime;
+  skos:broader :dok_typ;
+  skos:inScheme :rt;
+  skos:prefLabel "Guiding principle"@en, "Leitsatz"@de .
+
+:leg_bg a skos:Concept;
+  dct:created "2020-03-14T13:31:14.247+01:00"^^xsd:dateTime;
+  skos:broader :legislative;
+  skos:inScheme :rt;
+  skos:prefLabel "Bundesgesetz"@de .
+
+:leg_sonst a skos:Concept;
+  dct:created "2020-03-14T13:32:17.897+01:00"^^xsd:dateTime;
+  skos:broader :legislative;
+  skos:inScheme :rt;
+  skos:prefLabel "Sonstiges"@de .
+
+:leg_vert_mult a skos:Concept;
+  dct:created "2020-03-14T13:32:53.679+01:00"^^xsd:dateTime;
+  skos:broader :legislative;
+  skos:inScheme :rt;
+  skos:prefLabel "Vertrag - Multilateral"@de .
+
+:leg_kund a skos:Concept;
+  dct:created "2020-03-14T13:31:56.610+01:00"^^xsd:dateTime;
+  skos:broader :legislative;
+  skos:inScheme :rt;
+  skos:prefLabel "Kundmachung"@de .
+
+:leg_geo a skos:Concept;
+  dct:created "2020-03-14T13:33:39.114+01:00"^^xsd:dateTime;
+  skos:broader :legislative;
+  skos:inScheme :rt;
+  skos:prefLabel "Geschäftsordnung"@de .
+
+:ent_urteil a skos:Concept;
+  dct:created "2020-03-15T09:43:52.704+01:00"^^xsd:dateTime;
+  dct:modified "2020-03-23T11:10:42.524+01:00"^^xsd:dateTime;
+  skos:broader :entscheidungsart;
+  skos:inScheme :rt;
+  skos:prefLabel "Judgment"@en, "Urteil"@de .
+
+:legislative a skos:Concept;
+  dct:created "2020-03-14T13:30:36.657+01:00"^^xsd:dateTime;
+  dct:modified "2020-03-14T13:36:26.926+01:00"^^xsd:dateTime;
+  skos:inScheme :rt;
+  skos:prefLabel "Legislation"@en, "Legislative"@de;
+  skos:topConceptOf :rt .
+
+:bfg a skos:Concept;
+  dct:created "2020-03-17T16:13:45.523+01:00"^^xsd:dateTime;
+  skos:broader :g2;
+  skos:inScheme :g;
+  skos:prefLabel "Bundesfinanzgericht"@de .
+
+:jud_te a skos:Concept;
+  dct:created "2020-03-14T13:34:57.173+01:00"^^xsd:dateTime;
+  dct:modified "2020-03-15T09:42:48.974+01:00"^^xsd:dateTime;
+  skos:broader :dok_typ;
+  skos:inScheme :rt;
+  skos:prefLabel "Decision text"@en, "Entscheidungstext"@de .
+
+:leg_15a a skos:Concept;
+  dct:created "2020-03-14T13:34:08.662+01:00"^^xsd:dateTime;
+  skos:broader :legislative;
+  skos:inScheme :rt;
+  skos:prefLabel "Vereinbarung gem. Art. 15a B-VG"@en .
+
+:jud_rs a skos:Concept;
+  dct:created "2020-03-14T13:35:11.637+01:00"^^xsd:dateTime;
+  dct:modified "2020-03-15T09:43:14.458+01:00"^^xsd:dateTime;
+  skos:broader :dok_typ;
+  skos:inScheme :rt;
+  skos:prefLabel "Legal rule"@en, "Rechtssatz"@de .
+
+:asylgh a skos:Concept;
+  dct:created "2020-03-17T16:13:02.687+01:00"^^xsd:dateTime;
+  skos:broader :g2;
+  skos:inScheme :g;
+  skos:prefLabel "Asylgerichtshof"@de .
+
+:judikative a skos:Concept;
+  dct:created "2020-03-14T13:30:49.822+01:00"^^xsd:dateTime;
+  dct:modified "2020-03-14T13:36:16.866+01:00"^^xsd:dateTime;
+  skos:inScheme :rt;
+  skos:prefLabel "Judiciary"@en, "Judikative"@de;
+  skos:topConceptOf :rt .
+
+:leg_vert_bi a skos:Concept;
+  dct:created "2020-03-14T13:33:13.489+01:00"^^xsd:dateTime;
+  skos:broader :legislative;
+  skos:inScheme :rt;
+  skos:prefLabel "Vertrag - Bilateral"@de .
+
+:leg_vo a skos:Concept;
+  dct:created "2020-03-14T13:31:42.626+01:00"^^xsd:dateTime;
+  skos:broader :legislative;
+  skos:inScheme :rt;
+  skos:prefLabel "Verordnung"@de .
+
+:bvwg a skos:Concept;
+  dct:created "2020-03-17T16:13:17.860+01:00"^^xsd:dateTime;
+  skos:broader :g2;
+  skos:inScheme :g;
+  skos:prefLabel "Bundesverwaltungsgericht"@de .
+
+:leg_bvg dct:created "2020-03-14T13:31:29.257+01:00"^^xsd:dateTime .
+
+:lvwg a skos:Concept;
+  dct:created "2020-03-17T16:13:32.169+01:00"^^xsd:dateTime;
+  skos:broader :g2;
+  skos:inScheme :g .
+
+:dok_typ a skos:Concept;
+  skos:inScheme :rt;
+  skos:prefLabel "Document type"@en, "Dokumenttyp"@de .
+
+:ent_beschluss a skos:Concept;
+  dct:created "2020-03-15T09:44:07.920+01:00"^^xsd:dateTime;
+  skos:broader :entscheidungsart .
