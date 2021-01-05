@@ -23,7 +23,7 @@
 	<dc:creator>Erwin Filtz</dc:creator>
         <dc:creator>Axel Polleres</dc:creator>
         <dc:creator>Sabrina Kirrane</dc:creator>
-        <dc:date>01-04-2020</dc:date>
+        <dc:date>14-12-2020</dc:date>
         <terms:title>Legal Knowledge Graph Ontology</terms:title>
         <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.2</owl:versionInfo>
     </owl:Ontology>
@@ -88,7 +88,7 @@
     <!-- https://data.wu.ac.at/legal/lkg#has_previous_court -->
 
     <owl:ObjectProperty rdf:about="https://data.wu.ac.at/legal/lkg#has_previous_court">
-        <rdfs:domain rdf:resource="https://data.wu.ac.at/legal/lkg#Jurisdiction"/>
+        <rdfs:domain rdf:resource="https://data.wu.ac.at/legal/lkg#JudicialResource"/>
         <rdfs:range rdf:resource="https://data.wu.ac.at/legal/lkg#Court"/>
         <rdfs:label xml:lang="en">has previous court</rdfs:label>
     </owl:ObjectProperty>
@@ -252,7 +252,7 @@
     <!-- https://data.wu.ac.at/legal/lkg#has_date -->
 
     <owl:DatatypeProperty rdf:about="https://data.wu.ac.at/legal/lkg#has_date">
-        <rdfs:domain rdf:resource="https://data.wu.ac.at/legal/lkg#Jurisdiction"/>
+        <rdfs:domain rdf:resource="https://data.wu.ac.at/legal/lkg#JudicialResource"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
         <rdfs:comment>Date mentioned in a lkg:Jurisdiction.</rdfs:comment>
         <rdfs:label xml:lang="en">has date</rdfs:label>
@@ -384,9 +384,9 @@
     <!-- https://data.wu.ac.at/legal/lkg#has_text -->
 
     <owl:DatatypeProperty rdf:about="https://data.wu.ac.at/legal/lkg#has_text">
-        <rdfs:domain rdf:resource="https://data.wu.ac.at/legal/lkg#Jurisdiction"/>
+        <rdfs:domain rdf:resource="https://data.wu.ac.at/legal/lkg#JudicialResource"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:comment>Links to the actual document text of a lkg:Jurisdiction.</rdfs:comment>
+        <rdfs:comment>Links to the actual document text of a lkg:JudicialResource.</rdfs:comment>
         <rdfs:label xml:lang="en">has text</rdfs:label>
     </owl:DatatypeProperty>
     
@@ -456,12 +456,12 @@
     
 
 
-    <!-- https://data.wu.ac.at/legal/lkg#Jurisdiction -->
+    <!-- https://data.wu.ac.at/legal/lkg#JudicialResource -->
 
-    <owl:Class rdf:about="https://data.wu.ac.at/legal/lkg#Jurisdiction">
+    <owl:Class rdf:about="https://data.wu.ac.at/legal/lkg#JudicialResource">
         <rdfs:subClassOf rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F1_Work"/>
         <rdfs:comment xml:lang="en">Contains documents from authorities of the judiciary branch such as judgments and legal rules.</rdfs:comment>
-        <rdfs:label xml:lang="en">Jurisdiction</rdfs:label>
+        <rdfs:label xml:lang="en">Judicial Resource</rdfs:label>
         <rdfs:label xml:lang="de">Rechtsprechung</rdfs:label>
     </owl:Class>
     
